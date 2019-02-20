@@ -5,6 +5,18 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Animator Override Controller
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Name: LukaAnimator
+  m_Controller: {fileID: 9100000, guid: 87f9e404c7adda74b9ab60a0c19a1f97, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 97ffd2fed7747544595fccebb0d4e2b9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 47c66a84583da7c439ffd690726d0d48, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 49a557a7c7de7b648b3ac88159696b0f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5abfa4298791945468986a8392231281, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 46b19011d0f28db4dac8dc3d2f03b895, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3d370a1abb4edf748959efa66821b91c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b545cf0e9b28cda4f8fda829bb6f26c9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 441e97d6b33cf5d4db81755b451cce95, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 398083c341aea984b90a2517f2dd0265, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 35f3f54d2694d9f43a985380b0bda687, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f6f70f3193c2d6c4a9d55baca873cf91, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: defbcd891b02de44cb0c187a305f7a4e, type: 2}

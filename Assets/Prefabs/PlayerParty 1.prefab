@@ -185,7 +185,7 @@ MonoBehaviour:
     type: 2}
   magicalAttack: {fileID: 1000011669438468, guid: 6a2c637b17bf5154aa33a6c5d8b753f6,
     type: 2}
-  faceSprite: {fileID: 21300000, guid: e1a36c3cbc0ef42499de627c89d8fc02, type: 3}
+  faceSprite: {fileID: 21300000, guid: 8ac95b1a52b04ef45b7270f4d2830208, type: 3}
 --- !u!114 &114000012167538766
 MonoBehaviour:
   m_ObjectHideFlags: 1
