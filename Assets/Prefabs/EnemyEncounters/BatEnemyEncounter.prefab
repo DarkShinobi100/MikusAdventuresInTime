@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114000013634597476}
   - component: {fileID: 95000010819684230}
   - component: {fileID: 114000011086779722}
-  - component: {fileID: 114000013711904454}
+  - component: {fileID: 114363721554826620}
   m_Layer: 0
   m_Name: Bat1
   m_TagString: EnemyUnit
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 114000010754332326}
   - component: {fileID: 95000013455080268}
   - component: {fileID: 114000012657641966}
-  - component: {fileID: 114000011110086550}
+  - component: {fileID: 114593458272752860}
   m_Layer: 0
   m_Name: Bat2
   m_TagString: EnemyUnit
@@ -171,23 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuItem: {fileID: 0}
---- !u!114 &114000011110086550
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012731917936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad131c0523a421a40979e89bac32c6a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetEnemyUnitPrefab: {fileID: 1000013293133250, guid: 31c99918434b4db49950eb2e12929b07,
-    type: 2}
-  menuItemSprite: {fileID: 21300000, guid: d7374c0ee9b74a843915aee27156ba78, type: 3}
-  initialPosition: {x: -550, y: -360}
-  itemDimensions: {x: 160, y: 160}
-  killEnemyScript: {fileID: 114000012657641966}
 --- !u!114 &114000011862614622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -247,23 +230,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attack: {fileID: 1000010956341920, guid: abac15af220b60947882d768c5ec8403, type: 2}
   targetsTag: PlayerUnit
---- !u!114 &114000013711904454
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011319293446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad131c0523a421a40979e89bac32c6a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetEnemyUnitPrefab: {fileID: 1000013293133250, guid: 31c99918434b4db49950eb2e12929b07,
-    type: 2}
-  menuItemSprite: {fileID: 21300000, guid: d7374c0ee9b74a843915aee27156ba78, type: 3}
-  initialPosition: {x: -550, y: -360}
-  itemDimensions: {x: 160, y: 160}
-  killEnemyScript: {fileID: 114000011086779722}
 --- !u!114 &114000013923260786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -286,6 +252,40 @@ MonoBehaviour:
   defense: 5
   speed: 20
   nextActTurn: 0
+--- !u!114 &114363721554826620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011319293446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eea387661cbea349ac77219b649c80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetEnemyUnitPrefab: {fileID: 1000013293133250, guid: 31c99918434b4db49950eb2e12929b07,
+    type: 2}
+  menuItemSprite: {fileID: 21300000, guid: d7374c0ee9b74a843915aee27156ba78, type: 3}
+  initialPosition: {x: -550, y: -360}
+  itemDimensions: {x: 160, y: 160}
+  killEnemyScript: {fileID: 0}
+--- !u!114 &114593458272752860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012731917936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eea387661cbea349ac77219b649c80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetEnemyUnitPrefab: {fileID: 1000013293133250, guid: 31c99918434b4db49950eb2e12929b07,
+    type: 2}
+  menuItemSprite: {fileID: 21300000, guid: d7374c0ee9b74a843915aee27156ba78, type: 3}
+  initialPosition: {x: -550, y: -360}
+  itemDimensions: {x: 160, y: 160}
+  killEnemyScript: {fileID: 114000012657641966}
 --- !u!212 &212000010971789776
 SpriteRenderer:
   m_ObjectHideFlags: 1
