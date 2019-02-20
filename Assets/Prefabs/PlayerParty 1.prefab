@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114000010500890622}
   - component: {fileID: 95000010350878552}
   m_Layer: 0
-  m_Name: MageUnit
+  m_Name: MikuUnit
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114000010966246506}
   - component: {fileID: 95000012520784880}
   m_Layer: 0
-  m_Name: WarriorUnit
+  m_Name: LukaUnit
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -134,7 +134,7 @@ Animator:
   m_GameObject: {fileID: 1000011258953462}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3970ba36867fedd469652ecc828685aa, type: 2}
+  m_Controller: {fileID: 22100000, guid: 23e3a45d360033e4da46164138074c57, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
     type: 2}
   magicalAttack: {fileID: 1000011669438468, guid: 6a2c637b17bf5154aa33a6c5d8b753f6,
     type: 2}
-  faceSprite: {fileID: 21300000, guid: 9d258fb2b75ba144d9fb6aab5d0cde2e, type: 3}
+  faceSprite: {fileID: 21300000, guid: 52ea7c459a9c71e40b025b2e0cd5761f, type: 3}
 --- !u!114 &114000010966246506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,7 +276,7 @@ SpriteRenderer:
   m_SortingLayerID: 1856143335
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: 866100faa804f4e4ebeaef78c94ffe43, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 28cc7c3cebfa379469e03f0cfcc1a3ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
