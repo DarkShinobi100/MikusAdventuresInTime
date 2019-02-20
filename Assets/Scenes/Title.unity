@@ -297,6 +297,12 @@ Prefab:
       propertyPath: m_Name
       value: 'PlayerParty '
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010500890622, guid: 9903edbbc168ed047b2cad6e6c958fcd,
+        type: 2}
+      propertyPath: faceSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 52ea7c459a9c71e40b025b2e0cd5761f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 2}
   m_IsPrefabAsset: 0
