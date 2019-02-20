@@ -10,9 +10,9 @@ public class RunFromBattle : MonoBehaviour {
 	public void tryRunning() {
 		float randomNumber = Random.value;
 		if (randomNumber < this.runnningChance) {
-			SceneManager.LoadScene ("Town");
+			SceneManager.LoadScene ("Level1");
 		} else {
-			GameObject.Find("TurnSystem").GetComponent<TurnSystem> ().nextTurn ();
+			GameObject.Find("TurnSystem").GetComponent<TurnSystem1> ().nextTurn ();
 		}
 	}
 }

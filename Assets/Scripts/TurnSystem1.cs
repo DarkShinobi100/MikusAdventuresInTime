@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TurnSystem : MonoBehaviour {
+public class TurnSystem1 : MonoBehaviour {
 
 	private List<UnitStats> unitsStats;
 
@@ -42,7 +42,7 @@ public class TurnSystem : MonoBehaviour {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
 		if (remainingEnemyUnits.Length == 0) {
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
-			SceneManager.LoadScene ("Town");
+			SceneManager.LoadScene ("Level1");
 		}
 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");

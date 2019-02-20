@@ -213,6 +213,15 @@ Prefab:
       propertyPath: Right
       value: 
       objectReference: {fileID: 1174232175}
+    - target: {fileID: 65760058199342676, guid: 1b7495b7714d6a145a74c32824d9e8e7,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1771075858562736, guid: 1b7495b7714d6a145a74c32824d9e8e7, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b7495b7714d6a145a74c32824d9e8e7, type: 2}
   m_IsPrefabAsset: 0
@@ -1214,7 +1223,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.03, y: 0.69, z: 4.59}
+  m_Size: {x: 0.59, y: 0.69, z: 0.95}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1909386431
 SpriteRenderer:

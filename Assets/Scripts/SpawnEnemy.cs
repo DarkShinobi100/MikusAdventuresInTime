@@ -16,7 +16,7 @@ public class SpawnEnemy : MonoBehaviour {
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Battle") {
+		if (scene.name == "Battle1") {
 			if (this.spawning) {
 				Instantiate (enemyEncounterPrefab);
 			}
@@ -28,7 +28,7 @@ public class SpawnEnemy : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Player") {
 			this.spawning = true;
-			SceneManager.LoadScene ("Battle");
+			SceneManager.LoadScene ("Battle1");
 		}
 	}
 }

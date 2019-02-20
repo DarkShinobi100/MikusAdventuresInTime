@@ -13,7 +13,7 @@ public class SelectUnit : MonoBehaviour {
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Battle") {
+		if (scene.name == "Battle1") {
 			this.actionsMenu = GameObject.Find ("ActionsMenu");
 			this.enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
 		}
