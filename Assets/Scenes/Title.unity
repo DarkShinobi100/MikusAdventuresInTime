@@ -297,18 +297,6 @@ Prefab:
       propertyPath: m_Name
       value: 'PlayerParty '
       objectReference: {fileID: 0}
-    - target: {fileID: 212000013506790542, guid: 9903edbbc168ed047b2cad6e6c958fcd,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 848c4e14a9a54304cb51a8e617fa8c84,
-        type: 3}
-    - target: {fileID: 212000010216570996, guid: 9903edbbc168ed047b2cad6e6c958fcd,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: fa6f7198de65f5044aedb5d5b37f0bdf,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 2}
   m_IsPrefabAsset: 0
