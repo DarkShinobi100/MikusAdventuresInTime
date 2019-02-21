@@ -18,7 +18,7 @@ public class StartBattle : MonoBehaviour {
 			SceneManager.sceneLoaded -= OnSceneLoaded;
 			Destroy (this.gameObject);
 		} else {
-			this.gameObject.SetActive(scene.name == "Battle");
+			this.gameObject.SetActive(scene.name == "Battle1");
 		}
 	}
 

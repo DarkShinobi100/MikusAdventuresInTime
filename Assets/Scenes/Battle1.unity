@@ -438,6 +438,11 @@ Prefab:
       propertyPath: enemyUnitsMenu
       value: 
       objectReference: {fileID: 960153157}
+    - target: {fileID: 114000012728097094, guid: 7ef869b214e4d7b4894349c8b19958a5,
+        type: 2}
+      propertyPath: enemyEncounter
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ef869b214e4d7b4894349c8b19958a5, type: 2}
   m_IsPrefabAsset: 0
