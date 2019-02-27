@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000011863994726}
   - component: {fileID: 212000012805614378}
   - component: {fileID: 65710796663379772}
+  - component: {fileID: 114386636044970730}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013348627062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.554, y: 0.52, z: -2.83}
+  m_LocalPosition: {x: -2.16, y: 0.904, z: -6.391}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,8 +52,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.03, y: 0.69, z: 4.59}
+  m_Size: {x: 0.49, y: 0.5, z: 0.54}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114386636044970730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013348627062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78cd218e331d57745905252f2e208a71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyEncounterPrefab: {fileID: 1000013970416232, guid: a397b86a945ceb443891b98018cfe675,
+    type: 2}
 --- !u!212 &212000012805614378
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -85,9 +99,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1856143335
+  m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 347a617610f6d7c438a81508baf54984, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
