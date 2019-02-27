@@ -8,7 +8,7 @@ public class CollectReward : MonoBehaviour {
 
 	public void Start() {
 		GameObject turnSystem = GameObject.Find ("TurnSystem");
-		turnSystem.GetComponent<TurnSystem1> ().enemyEncounter = this.gameObject;
+		turnSystem.GetComponent<TurnSystem5> ().enemyEncounter = this.gameObject;
 	}
 
 	public void collectReward() {
