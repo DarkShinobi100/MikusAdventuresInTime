@@ -40,7 +40,13 @@ public class PlayerUnitAction : MonoBehaviour {
 		GameObject playerUnitHealthBar = GameObject.Find ("playerUnitHealthBar") as GameObject;
 		playerUnitHealthBar.GetComponent<ShowUnitHealth> ().changeUnit (this.gameObject);
 
-		GameObject playerUnitManaBar = GameObject.Find ("playerUnitManaBar") as GameObject;
+        GameObject playerUnitHealthTextPercent = GameObject.Find("playerUnitHealthTextPercent") as GameObject;
+        playerUnitHealthBar.GetComponent<ShowUnitHealth>().changeUnit(this.gameObject);
+
+        GameObject playerUnitManaBar = GameObject.Find ("playerUnitManaBar") as GameObject;
 		playerUnitManaBar.GetComponent<ShowUnitMana> ().changeUnit (this.gameObject);
-	}
+
+        GameObject playerUnitManaTextPercent = GameObject.Find("playerUnitManaTextPercent") as GameObject;
+        playerUnitManaBar.GetComponent<ShowUnitMana>().changeUnit(this.gameObject);
+    }
 }
