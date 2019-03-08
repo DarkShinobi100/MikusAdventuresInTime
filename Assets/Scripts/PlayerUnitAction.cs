@@ -42,7 +42,7 @@ public class PlayerUnitAction : MonoBehaviour {
 
         GameObject playerUnitHealthTextPercent = GameObject.Find("playerUnitHealthTextPercent") as GameObject;
         Text playerHealthText= playerUnitHealthTextPercent.GetComponent<Text>();
-        float playerHPValue = this.GetComponent<UnitStats>().health;
+        int playerHPValue = (int)this.GetComponent<UnitStats>().health;
         playerHealthText.text = playerHPValue.ToString();
 
         GameObject playerUnitManaBar = GameObject.Find ("playerUnitManaBar") as GameObject;
@@ -50,7 +50,7 @@ public class PlayerUnitAction : MonoBehaviour {
 
         GameObject playerUnitManaTextPercent = GameObject.Find("playerUnitManaTextPercent") as GameObject;
         Text playerManaText = playerUnitManaTextPercent.GetComponent<Text>();
-        float playerManaValue = this.GetComponent<UnitStats>().mana;
+        int playerManaValue = (int)this.GetComponent<UnitStats>().mana;
         playerManaText.text = playerManaValue.ToString();
 
     }
