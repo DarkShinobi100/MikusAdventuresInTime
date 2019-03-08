@@ -49,7 +49,7 @@ public class PlayerUnitAction : MonoBehaviour {
 		playerUnitManaBar.GetComponent<ShowUnitMana> ().changeUnit (this.gameObject);
 
         GameObject playerUnitManaTextPercent = GameObject.Find("playerUnitManaTextPercent") as GameObject;
-        Text playerManaText = playerUnitHealthTextPercent.GetComponent<Text>();
+        Text playerManaText = playerUnitManaTextPercent.GetComponent<Text>();
         float playerManaValue = this.GetComponent<UnitStats>().mana;
         playerManaText.text = playerManaValue.ToString();
 

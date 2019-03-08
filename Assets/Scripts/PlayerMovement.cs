@@ -87,19 +87,22 @@ public class PlayerMovement : MonoBehaviour {
         float Horizontal = 0;
         float Vertical = 0;
 
-        
+         SimpleTouchArea UpButton = Up.GetComponentInChildren<SimpleTouchArea>();
+         SimpleTouchArea DownButton = Down.GetComponentInChildren<SimpleTouchArea>();
+         SimpleTouchArea LeftButton = Left.GetComponentInChildren<SimpleTouchArea>();
+         SimpleTouchArea RightButton = Right.GetComponentInChildren<SimpleTouchArea>();
 
          Vector3 currentVelocity = gameObject.GetComponent<Rigidbody> ().velocity;
 
 		float newVelocityX = 0f;
-		if (Left.Pressed() && currentVelocity.x <= 0) {
+		if (LeftButton.Pressed() && currentVelocity.x <= 0) {
 			newVelocityX = -speed;
 			animator.SetInteger ("DirectionX", -1);
         
         Up.SetActive(false);
         Down.SetActive(false);
         Right.SetActive(false);
-		} else if (Right.Pressed()  && currentVelocity.x >= 0) {
+		} else if (RightButton.Pressed()  && currentVelocity.x >= 0) {
 			newVelocityX = speed;
 			animator.SetInteger ("DirectionX", 1);
         Up.SetActive(false);
@@ -110,13 +113,13 @@ public class PlayerMovement : MonoBehaviour {
 		}
 
 		float newVelocityY = 0f;
-		if (Down.Pressed()  && currentVelocity.y <= 0) {
+		if (DownButton.Pressed()  && currentVelocity.y <= 0) {
 			newVelocityY = -speed;
 			animator.SetInteger ("DirectionY", -1);
         Up.SetActive(false);
         Left.SetActive(false);
         Right.SetActive(false);
-		} else if (Up.Pressed() && currentVelocity.y >= 0) {
+		} else if (UpButton.Pressed() && currentVelocity.y >= 0) {
 			newVelocityY = speed;
 			animator.SetInteger ("DirectionY", 1);
         Down.SetActive(false);
