@@ -8,20 +8,23 @@ public class PlayerMovement : MonoBehaviour {
 
     [SerializeField]
 	private float speed;
-    public SimpleTouchArea Up;
-    public SimpleTouchArea Down;
-    public SimpleTouchArea Left;
-    public SimpleTouchArea Right;
-    public GameObject canvas;
+    [SerializeField]
+    private GameObject Up;
+    [SerializeField]
+    private GameObject Down;
+    [SerializeField]
+    private GameObject Left;
+    [SerializeField]
+    private GameObject Right;
 
     [SerializeField]
 	private Animator animator;
 
-	void FixedUpdate () {
+    void FixedUpdate () {
 
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
 
-        canvas.SetActive(false);
+        //canvas.SetActive(false);
 
         float Horizontal = Input.GetAxis ("Horizontal");
 		float Vertical = Input.GetAxis ("Vertical");
@@ -32,11 +35,17 @@ public class PlayerMovement : MonoBehaviour {
         {
             newVelocityX = -speed;
             animator.SetInteger("DirectionX", -1);
+            Up.SetActive(false);
+            Down.SetActive(false);
+            Right.SetActive(false);
         }
         else if (Horizontal > 0 && currentVelocity.x >= 0)
         {
             newVelocityX = speed;
             animator.SetInteger("DirectionX", 1);
+            Up.SetActive(false);
+            Down.SetActive(false);
+            Left.SetActive(false);
         }
         else
         {
@@ -48,15 +57,29 @@ public class PlayerMovement : MonoBehaviour {
         {
             newVelocityY = -speed;
             animator.SetInteger("DirectionY", -1);
+            Up.SetActive(false);
+            Left.SetActive(false);
+            Right.SetActive(false);
         }
         else if (Vertical > 0 && currentVelocity.y >= 0)
         {
             newVelocityY = speed;
             animator.SetInteger("DirectionY", 1);
+            Down.SetActive(false);
+            Left.SetActive(false);
+            Right.SetActive(false);
         }
         else
         {
             animator.SetInteger("DirectionY", 0);
+        }
+
+        if(newVelocityX == 0 && newVelocityY == 0)
+        {
+            Up.SetActive(true);
+            Down.SetActive(true);
+            Left.SetActive(true);
+            Right.SetActive(true);
         }
 
         gameObject.GetComponent<Rigidbody>().velocity = new Vector3(newVelocityX,0, newVelocityY);
@@ -72,9 +95,16 @@ public class PlayerMovement : MonoBehaviour {
 		if (Left.Pressed() && currentVelocity.x <= 0) {
 			newVelocityX = -speed;
 			animator.SetInteger ("DirectionX", -1);
+        
+        Up.SetActive(false);
+        Down.SetActive(false);
+        Right.SetActive(false);
 		} else if (Right.Pressed()  && currentVelocity.x >= 0) {
 			newVelocityX = speed;
 			animator.SetInteger ("DirectionX", 1);
+        Up.SetActive(false);
+        Down.SetActive(false);
+        Left.SetActive(false);
 		} else {
 			animator.SetInteger ("DirectionX", 0);
 		}
@@ -83,12 +113,27 @@ public class PlayerMovement : MonoBehaviour {
 		if (Down.Pressed()  && currentVelocity.y <= 0) {
 			newVelocityY = -speed;
 			animator.SetInteger ("DirectionY", -1);
+        Up.SetActive(false);
+        Left.SetActive(false);
+        Right.SetActive(false);
 		} else if (Up.Pressed() && currentVelocity.y >= 0) {
 			newVelocityY = speed;
 			animator.SetInteger ("DirectionY", 1);
+        Down.SetActive(false);
+        Left.SetActive(false);
+        Right.SetActive(false);
 		} else {
 			animator.SetInteger ("DirectionY", 0);
 		}
+
+        
+        if(newVelocityX == 0 && newVelocityY == 0)
+        {
+            Up.SetActive(true);
+            Down.SetActive(true);
+            Left.SetActive(true);
+            Right.SetActive(true);
+        }
 
 		gameObject.GetComponent<Rigidbody> ().velocity = new Vector3 (newVelocityX,0, newVelocityY);
 
