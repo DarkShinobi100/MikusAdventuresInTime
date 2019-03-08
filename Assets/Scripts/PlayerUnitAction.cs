@@ -37,16 +37,21 @@ public class PlayerUnitAction : MonoBehaviour {
 		GameObject playerUnitFace = GameObject.Find ("playerUnitFace") as GameObject;
 		playerUnitFace.GetComponent<Image> ().sprite = this.faceSprite;
 
-		GameObject playerUnitHealthBar = GameObject.Find ("playerUnitHealthBar") as GameObject;
+		GameObject playerUnitHealthBar = GameObject.Find("playerUnitHealthBar") as GameObject;
 		playerUnitHealthBar.GetComponent<ShowUnitHealth> ().changeUnit (this.gameObject);
 
         GameObject playerUnitHealthTextPercent = GameObject.Find("playerUnitHealthTextPercent") as GameObject;
-        playerUnitHealthTextPercent.GetComponent<ShowUnitHealth>().changeUnit(this.gameObject);
+        Text playerHealthText= playerUnitHealthTextPercent.GetComponent<Text>();
+        float playerHPValue = this.GetComponent<UnitStats>().health;
+        playerHealthText.text = playerHPValue.ToString();
 
         GameObject playerUnitManaBar = GameObject.Find ("playerUnitManaBar") as GameObject;
 		playerUnitManaBar.GetComponent<ShowUnitMana> ().changeUnit (this.gameObject);
 
         GameObject playerUnitManaTextPercent = GameObject.Find("playerUnitManaTextPercent") as GameObject;
-        playerUnitManaTextPercent.GetComponent<ShowUnitMana>().changeUnit(this.gameObject);
+        Text playerManaText = playerUnitHealthTextPercent.GetComponent<Text>();
+        float playerManaValue = this.GetComponent<UnitStats>().mana;
+        playerManaText.text = playerManaValue.ToString();
+
     }
 }
