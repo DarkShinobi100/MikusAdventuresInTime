@@ -14,7 +14,10 @@ public class TurnSystem1 : MonoBehaviour {
 	[SerializeField]
 	private GameObject actionsMenu, enemyUnitsMenu;
 
-	void Start() {
+    [SerializeField]
+    private AudioSource BGM;
+
+    void Start() {
 		this.playerParty = GameObject.Find ("PlayerParty");
 
 		unitsStats = new List<UnitStats> ();
@@ -30,6 +33,8 @@ public class TurnSystem1 : MonoBehaviour {
 			currentUnitStats.calculateNextActTurn (0);
 			unitsStats.Add (currentUnitStats);
 		}
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
+
 		unitsStats.Sort ();
 
 		this.actionsMenu.SetActive (false);
@@ -42,8 +47,13 @@ public class TurnSystem1 : MonoBehaviour {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
 		if (remainingEnemyUnits.Length == 0) {
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
-			SceneManager.LoadScene ("Level1");
-		}
+            //no enemies left
+            //unload current level
+            BGM.Stop();
+            GameManager gameManager = FindObjectOfType<GameManager>();
+            gameManager.UpdateScene();
+
+        }
 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		if (remainingPlayerUnits.Length == 0) {

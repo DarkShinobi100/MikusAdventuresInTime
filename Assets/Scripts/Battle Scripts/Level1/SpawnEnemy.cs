@@ -7,7 +7,7 @@ public class SpawnEnemy : MonoBehaviour {
 	[SerializeField]
 	private GameObject enemyEncounterPrefab;
 
-	private bool spawning = false;
+    private bool spawning = false;
 
 	void Start() {
 		DontDestroyOnLoad (this.gameObject);
@@ -28,7 +28,9 @@ public class SpawnEnemy : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Player") {
 			this.spawning = true;
-			SceneManager.LoadScene ("Battle1");
+            GameManager gameManager = FindObjectOfType<GameManager>();
+            gameManager.UpdateScene();
+            SceneManager.LoadScene ("Battle1",LoadSceneMode.Additive);
 		}
 	}
 }

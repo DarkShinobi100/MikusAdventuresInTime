@@ -24,7 +24,6 @@ public class PlayerMovement : MonoBehaviour {
 
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
 
-        //canvas.SetActive(false);
 
         float Horizontal = Input.GetAxis ("Horizontal");
 		float Vertical = Input.GetAxis ("Vertical");
