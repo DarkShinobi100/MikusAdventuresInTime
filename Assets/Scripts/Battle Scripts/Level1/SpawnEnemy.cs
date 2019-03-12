@@ -6,7 +6,7 @@ public class SpawnEnemy : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject enemyEncounterPrefab;
-
+    private bool playerTouch = false;
     private bool spawning = false;
 
 	void Start() {
@@ -16,7 +16,7 @@ public class SpawnEnemy : MonoBehaviour {
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Battle1") {
+		if (scene.name == "Battle1" && playerTouch == true) {
 			if (this.spawning) {
 				Instantiate (enemyEncounterPrefab);
 			}
@@ -27,6 +27,7 @@ public class SpawnEnemy : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Player") {
+            playerTouch = true;
 			this.spawning = true;
             GameManager gameManager = FindObjectOfType<GameManager>();
             gameManager.UpdateScene();

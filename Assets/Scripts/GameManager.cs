@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 
     [SerializeField]
-    private GameObject player, environment;
+    private GameObject player, environment,enemy1,enemy2,enemy3;
 
     [SerializeField]
     private AudioSource BGM;
@@ -25,10 +25,36 @@ public class GameManager : MonoBehaviour {
             player.SetActive(true);
             environment.SetActive(true);
             BGM.Play();
+            if(enemy1 !=null)
+            {
+                enemy1.SetActive(true);
+            }
+            if(enemy2 =null)
+            {
+                enemy2.SetActive(true);
+            }
+            if(enemy3 !=null)
+            {
+                enemy3.SetActive(true);
+            }
+
             SceneManager.UnloadSceneAsync("Battle1");
         }
         else if (scene.name == "Level1")
-        { 
+        {
+            if (enemy1 != null)
+            {
+                enemy1.SetActive(false);
+            }
+            if (enemy2 = null)
+            {
+                enemy2.SetActive(false);
+            }
+            if (enemy3 != null)
+            {
+                enemy3.SetActive(false);
+            }
+
             player.SetActive(false);
             environment.SetActive(false);
             BGM.Stop();

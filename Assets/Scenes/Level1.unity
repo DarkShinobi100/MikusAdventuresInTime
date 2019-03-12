@@ -1702,6 +1702,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 901915323}
   environment: {fileID: 62730863}
+  enemy1: {fileID: 2115099355}
+  enemy2: {fileID: 966166211}
+  enemy3: {fileID: 1600258645}
   BGM: {fileID: 1374792643}
 --- !u!4 &1522173492
 Transform:
@@ -1858,6 +1861,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1600258645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1600258644}
 --- !u!1 &1630367510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,6 +2509,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2115099355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b,
+    type: 2}
+  m_PrefabInternal: {fileID: 2115099354}
 --- !u!1 &2115621144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 510b18c189c88ed45b05920fef7fb52c,
