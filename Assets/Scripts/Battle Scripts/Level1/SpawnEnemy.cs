@@ -29,7 +29,7 @@ public class SpawnEnemy : MonoBehaviour {
 		if (other.gameObject.tag == "Player") {
             playerTouch = true;
 			this.spawning = true;
-            GameManager gameManager = FindObjectOfType<GameManager>();
+            GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
             SceneManager.LoadScene ("Battle1",LoadSceneMode.Additive);
 		}

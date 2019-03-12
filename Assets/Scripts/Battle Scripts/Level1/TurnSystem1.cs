@@ -50,7 +50,7 @@ public class TurnSystem1 : MonoBehaviour {
             //no enemies left
             //unload current level
             BGM.Stop();
-            GameManager gameManager = FindObjectOfType<GameManager>();
+            GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
 
         }

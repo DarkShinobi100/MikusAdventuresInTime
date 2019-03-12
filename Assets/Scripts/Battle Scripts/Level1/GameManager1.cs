@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
+public class GameManager1 : MonoBehaviour {
 
     [SerializeField]
     private GameObject player, environment,enemy1,enemy2,enemy3;
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour {
             {
                 enemy1.SetActive(true);
             }
-            if(enemy2 =null)
+            if(enemy2 != null)
             {
                 enemy2.SetActive(true);
             }
@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour {
             {
                 enemy1.SetActive(false);
             }
-            if (enemy2 = null)
+            if (enemy2 != null)
             {
                 enemy2.SetActive(false);
             }
@@ -59,6 +59,10 @@ public class GameManager : MonoBehaviour {
             environment.SetActive(false);
             BGM.Stop();
         }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
-
+    
 }
