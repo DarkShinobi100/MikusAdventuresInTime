@@ -62,7 +62,15 @@ public class TurnSystem1 : MonoBehaviour {
             //no enemies left
             //unload current level
             BGM.Stop();
-            //TODO: re-enable the disabled party members
+
+            //Re-enable the disabled party members
+            GameObject partyMember3 =  GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
+            partyMember3.SetActive(true);
+            GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
+            partyMember4.SetActive(true);
+            GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
+            partyMember5.SetActive(true);
+
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
 

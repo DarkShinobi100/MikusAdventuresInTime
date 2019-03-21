@@ -20,6 +20,7 @@ public class CreateEnemyMenuItems : MonoBehaviour {
 	void Awake () {
 		GameObject enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
 
+        //look for other enemy pictures and move if overlapping
 		GameObject[] existingItems = GameObject.FindGameObjectsWithTag ("TargetEnemyUnit");
 		Vector2 nextPosition = new Vector2 (this.initialPosition.x + (existingItems.Length * this.itemDimensions.x), this.initialPosition.y);
 
