@@ -297,6 +297,14 @@ Prefab:
       propertyPath: m_Name
       value: PlayerParty
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011101196210, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 2}
+      propertyPath: m_TagString
+      value: PlayerUnit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011258953462, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 2}
+      propertyPath: m_TagString
+      value: PlayerUnit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 2}
   m_IsPrefabAsset: 0
@@ -512,16 +520,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &639495785 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000011258953462, guid: 9903edbbc168ed047b2cad6e6c958fcd,
-    type: 2}
-  m_PrefabInternal: {fileID: 195938513}
---- !u!1 &721058170 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000011101196210, guid: 9903edbbc168ed047b2cad6e6c958fcd,
-    type: 2}
-  m_PrefabInternal: {fileID: 195938513}
 --- !u!1 &1160840993
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +884,7 @@ GameObject:
   - component: {fileID: 1504360490}
   - component: {fileID: 1504360489}
   m_Layer: 0
-  m_Name: LukaUnit (3)
+  m_Name: partyMember5
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1012,27 +1010,6 @@ Transform:
   m_Father: {fileID: 1563527494}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1563527490 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000013058508076, guid: 9903edbbc168ed047b2cad6e6c958fcd,
-    type: 2}
-  m_PrefabInternal: {fileID: 195938513}
---- !u!114 &1563527491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1563527490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c078b516ff4b945b5816ddae608272, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1: {fileID: 721058170}
-  player2: {fileID: 639495785}
-  player3: {fileID: 2008486468}
-  player4: {fileID: 1582185870}
-  player5: {fileID: 1504360488}
 --- !u!4 &1563527494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000012658031140, guid: 9903edbbc168ed047b2cad6e6c958fcd,
@@ -1052,7 +1029,7 @@ GameObject:
   - component: {fileID: 1582185872}
   - component: {fileID: 1582185871}
   m_Layer: 0
-  m_Name: LukaUnit (2)
+  m_Name: partyMember4
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1261,7 +1238,7 @@ GameObject:
   - component: {fileID: 2008486470}
   - component: {fileID: 2008486469}
   m_Layer: 0
-  m_Name: LukaUnit (1)
+  m_Name: partyMember3
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -18,10 +18,22 @@ public class TurnSystem1 : MonoBehaviour {
     private AudioSource BGM;
 
     void Start() {
-		this.playerParty = GameObject.Find ("PlayerParty");
+        //make a clone of player party in this scene
+        this.playerParty = GameObject.Find ("PlayerParty");
 
-		unitsStats = new List<UnitStats> ();
-		GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+        //find the unused party members and disable them
+        GameObject partyMember3 = GameObject.Find ("partyMember3");
+        partyMember3.SetActive(false);
+        GameObject partyMember4 = GameObject.Find ("partyMember4");
+        partyMember4.SetActive(false);
+        GameObject partyMember5 = GameObject.Find ("partyMember5");
+        partyMember5.SetActive(false);
+
+        //create a list of ACTIVE player units
+        GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+
+        //use the new list to get the player stats
+        unitsStats = new List<UnitStats> ();
 		foreach (GameObject playerUnit in playerUnits) {
 			UnitStats currentUnitStats = playerUnit.GetComponent<UnitStats> ();
 			currentUnitStats.calculateNextActTurn (0);
@@ -50,6 +62,7 @@ public class TurnSystem1 : MonoBehaviour {
             //no enemies left
             //unload current level
             BGM.Stop();
+            //TODO: re-enable the disabled party members
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
 
