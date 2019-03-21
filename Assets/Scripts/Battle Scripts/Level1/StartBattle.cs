@@ -14,12 +14,31 @@ public class StartBattle : MonoBehaviour {
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Title") {
-			SceneManager.sceneLoaded -= OnSceneLoaded;
-			Destroy (this.gameObject);
-		} else {
-			this.gameObject.SetActive(scene.name == "Battle1");
-		}
-	}
+        if (scene.name == "Title")
+        {
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+            Destroy(this.gameObject);
+        }
+        else if (scene.name == "Battle1")
+        {
+            this.gameObject.SetActive(true);
+        }
+        else if (scene.name == "Battle2")
+        {
+            this.gameObject.SetActive(true);
+        }
+        else if (scene.name == "Battle3")
+        {
+            this.gameObject.SetActive(true);
+        }
+        else if (scene.name == "Battle4")
+        {
+            this.gameObject.SetActive(true);
+        }
+        else if (scene.name == "Battle5")
+        {
+            this.gameObject.SetActive(true);
+        }
+    }
 
 }
