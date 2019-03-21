@@ -42,8 +42,21 @@ public class UnitStats : MonoBehaviour, IComparable {
 
 		if (this.health <= 0) {
 			this.dead = true;
-			this.gameObject.tag = "DeadUnit";
-			Destroy (this.gameObject);
+
+            //check if the current unit is a friend or foe?
+            if (this.tag == "EnemyUnit")
+            {
+                //set tag to "deadUnit" for tracking during testing
+                this.gameObject.tag = "DeadUnit";
+                //destroy this object, removes from scene and prevents new lists finding it
+                Destroy(this.gameObject);
+            }
+            //if friend
+            //change tag to prevents new lists finding it
+            this.gameObject.tag = "DeadUnit";
+            //deactivate it until the end as they are now unconsious
+            this.gameObject.SetActive(false);
+
 		}
 	}
 

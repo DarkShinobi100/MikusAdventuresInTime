@@ -63,7 +63,11 @@ public class TurnSystem1 : MonoBehaviour {
             //unload current level
             BGM.Stop();
 
-            //Re-enable the disabled party members
+            //Re-enable the disabled/unconscious party members
+            GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
+            Miku.SetActive(true);
+            GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
+            Luka.SetActive(true);
             GameObject partyMember3 =  GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
             partyMember3.SetActive(true);
             GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
