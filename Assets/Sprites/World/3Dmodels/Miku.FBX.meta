@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: e70f499dcc6569d47ba42fcf02284a25
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Belt
+    100002: collar
+    100004: headphones
+    100006: microphone
+    100008: //RootNode
+    100010: MikuBody
+    100012: MikuFlick
+    100014: MikuFlick001
+    100016: MikuFrindge
+    100018: MikuHead
+    100020: MikuShirt
+    100022: MikuSkirt
+    100024: MikuSleeve
+    100026: Ribbon
+    100028: Ribbon001
+    100030: Tie
+    400000: Belt
+    400002: collar
+    400004: headphones
+    400006: microphone
+    400008: //RootNode
+    400010: MikuBody
+    400012: MikuFlick
+    400014: MikuFlick001
+    400016: MikuFrindge
+    400018: MikuHead
+    400020: MikuShirt
+    400022: MikuSkirt
+    400024: MikuSleeve
+    400026: Ribbon
+    400028: Ribbon001
+    400030: Tie
+    2100000: 'Material #580'
+    2100002: 'Material #582'
+    2100004: 'Material #581'
+    2100006: 'Material #556'
+    2100008: 'Material #568'
+    2100010: 'Material #597'
+    2100012: 'Material #585'
+    2100014: 'Material #584'
+    2100016: 'Material #541'
+    2100018: 'Material #543'
+    2100020: 'Material #599'
+    2100022: 'Material #598'
+    2100024: 'Material #583'
+    2300000: Belt
+    2300002: collar
+    2300004: headphones
+    2300006: microphone
+    2300008: MikuBody
+    2300010: MikuFlick
+    2300012: MikuFlick001
+    2300014: MikuFrindge
+    2300016: MikuHead
+    2300018: MikuShirt
+    2300020: MikuSkirt
+    2300022: MikuSleeve
+    2300024: Ribbon
+    2300026: Ribbon001
+    2300028: Tie
+    3300000: Belt
+    3300002: collar
+    3300004: headphones
+    3300006: microphone
+    3300008: MikuBody
+    3300010: MikuFlick
+    3300012: MikuFlick001
+    3300014: MikuFrindge
+    3300016: MikuHead
+    3300018: MikuShirt
+    3300020: MikuSkirt
+    3300022: MikuSleeve
+    3300024: Ribbon
+    3300026: Ribbon001
+    3300028: Tie
+    4300000: MikuBody
+    4300002: MikuFrindge
+    4300004: MikuFlick
+    4300006: MikuFlick001
+    4300008: headphones
+    4300010: microphone
+    4300012: MikuSleeve
+    4300014: MikuSkirt
+    4300016: MikuShirt
+    4300018: Belt
+    4300020: collar
+    4300022: Tie
+    4300024: Ribbon
+    4300026: Ribbon001
+    4300028: MikuHead
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #541'
+    second: {fileID: 2100000, guid: e141064e218777c48b206a73db417827, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #543'
+    second: {fileID: 2100000, guid: f2eb5f5e902673546ae7b0fffbe2a7dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #556'
+    second: {fileID: 2100000, guid: 8e6ae11bfececb94db1aedbaf2b03111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #568'
+    second: {fileID: 2100000, guid: 85a91741b53013546bae5ffc32f8faf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #580'
+    second: {fileID: 2100000, guid: 7b633f20991a65e4aa2978d2eaedf89d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #581'
+    second: {fileID: 2100000, guid: 6a5ed68f2ca49fa4b8effcc00c6cf4cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #582'
+    second: {fileID: 2100000, guid: 31a29dfec79c3a7419c1bc9cb5717ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #583'
+    second: {fileID: 2100000, guid: 598e59fbce7ef5543aa73253496c99b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #584'
+    second: {fileID: 2100000, guid: 23eaff142e89ad9478dec6f9617754b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #585'
+    second: {fileID: 2100000, guid: 0d95d7913663dbb4580f1877ed671bb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #597'
+    second: {fileID: 2100000, guid: c2ad8d8eced15964984c3f592e40a4aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #598'
+    second: {fileID: 2100000, guid: c54a23251abfc19428e7345314c1f205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #599'
+    second: {fileID: 2100000, guid: b0c6a1a0fd7a7cf4782c0ae98934ca83, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
