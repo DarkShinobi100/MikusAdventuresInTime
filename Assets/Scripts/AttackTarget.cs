@@ -38,7 +38,7 @@ public class AttackTarget : MonoBehaviour {
 
 			this.owner.GetComponent<Animator> ().Play (this.attackAnimation);
 
-			targetStats.receiveDamage (damage);
+			targetStats.GetComponent<UnitStatFunctions>().receiveDamage (damage);
 
 			ownerStats.mana -= this.manaCost;
 		}

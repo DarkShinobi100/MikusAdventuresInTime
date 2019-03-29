@@ -35,15 +35,15 @@ public class TurnSystem1 : MonoBehaviour {
         //use the new list to get the player stats
         unitsStats = new List<UnitStats> ();
 		foreach (GameObject playerUnit in playerUnits) {
-			UnitStats currentUnitStats = playerUnit.GetComponent<UnitStats> ();
-			currentUnitStats.calculateNextActTurn (0);
+			UnitStats currentUnitStats = playerUnit.GetComponent<UnitStatFunctions> ();
+            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
 			unitsStats.Add (currentUnitStats);
 		}
 		GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
 		foreach (GameObject enemyUnit in enemyUnits) {
-			UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStats> ();
-			currentUnitStats.calculateNextActTurn (0);
-			unitsStats.Add (currentUnitStats);
+			UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions> ();
+            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
+            unitsStats.Add (currentUnitStats);
 		}
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
 
@@ -88,10 +88,10 @@ public class TurnSystem1 : MonoBehaviour {
 		UnitStats currentUnitStats = unitsStats [0];
 		unitsStats.Remove (currentUnitStats);
 
-		if (!currentUnitStats.isDead ()) {
+		if (currentUnitStats != null && !currentUnitStats.GetComponent<UnitStatFunctions>().isDead()) {
 			GameObject currentUnit = currentUnitStats.gameObject;
 
-			currentUnitStats.calculateNextActTurn (currentUnitStats.nextActTurn);
+			currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn (currentUnitStats.nextActTurn);
 			unitsStats.Add (currentUnitStats);
 			unitsStats.Sort ();
 

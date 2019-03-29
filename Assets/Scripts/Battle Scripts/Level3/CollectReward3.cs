@@ -15,7 +15,7 @@ public class CollectReward3 : MonoBehaviour {
 		GameObject[] livingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		float experiencePerUnit = this.experience / (float)livingPlayerUnits.Length;
 		foreach (GameObject playerUnit in livingPlayerUnits) {
-			playerUnit.GetComponent<UnitStats> ().receiveExperience (experiencePerUnit);
+			playerUnit.GetComponent<UnitStatFunctions> ().receiveExperience (experiencePerUnit);
 		}
 
 		Destroy (this.gameObject);

@@ -18,6 +18,7 @@ public class CreateEnemyMenuItems : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake () {
+        itemDimensions = Vector2.zero;
 		GameObject enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
 
         //look for other enemy pictures and move if overlapping

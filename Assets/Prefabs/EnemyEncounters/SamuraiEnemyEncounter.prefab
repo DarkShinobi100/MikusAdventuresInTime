@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4709476011498678}
   - component: {fileID: 212667111470190354}
   - component: {fileID: 114677485861365694}
+  - component: {fileID: 114244634442895534}
   - component: {fileID: 114502567031556856}
   - component: {fileID: 95047840332474842}
   - component: {fileID: 114398866941852294}
@@ -58,6 +59,7 @@ GameObject:
   - component: {fileID: 4808028831731262}
   - component: {fileID: 212045105513856788}
   - component: {fileID: 114986791169068016}
+  - component: {fileID: 114045160656277992}
   - component: {fileID: 114518312352164770}
   - component: {fileID: 95883183547394304}
   - component: {fileID: 114517900121289568}
@@ -146,6 +148,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114045160656277992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721005995285010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd80d21838cb5ed4eae804723d3f056b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 95883183547394304}
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+    type: 2}
+  damageTextPosition: {x: 0, y: 0}
+  health: 0
+  mana: 0
+  attack: 0
+  magic: 0
+  defense: 0
+  speed: 0
+  nextActTurn: 0
 --- !u!114 &114165469852211662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -163,6 +187,28 @@ MonoBehaviour:
   initialPosition: {x: -550, y: -360}
   itemDimensions: {x: 160, y: 160}
   killEnemyScript: {fileID: 114398866941852294}
+--- !u!114 &114244634442895534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1399458363044434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd80d21838cb5ed4eae804723d3f056b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 95047840332474842}
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+    type: 2}
+  damageTextPosition: {x: 0, y: 0}
+  health: 0
+  mana: 0
+  attack: 0
+  magic: 0
+  defense: 0
+  speed: 0
+  nextActTurn: 0
 --- !u!114 &114247359807661204
 MonoBehaviour:
   m_ObjectHideFlags: 1
