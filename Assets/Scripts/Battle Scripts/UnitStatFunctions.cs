@@ -72,14 +72,4 @@ public class UnitStatFunctions : UnitStats, IComparable
         mana = MP;
     }
 
-    public void setHealth(float HP)
-    {
-        health = +HP;
-
-        //if health is greater than 100 cap at 100
-        if(health >= 100)
-        {
-            health = 100;
-        }
-    }
 }

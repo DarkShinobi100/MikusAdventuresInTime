@@ -43,4 +43,10 @@ public class SelectUnit : MonoBehaviour {
 
 		this.currentUnit.GetComponent<PlayerUnitAction>().act (target);
 	}
+    
+    public void setMenus()
+    {
+        this.actionsMenu.SetActive(false);
+        this.enemyUnitsMenu.SetActive(false);
+    }
 }
