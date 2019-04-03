@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114740862771954082}
   - component: {fileID: 114566257352315446}
   m_Layer: 0
-  m_Name: Samurai1
+  m_Name: SamuraiBOSS
   m_TagString: EnemyBOSS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,6 +116,7 @@ MonoBehaviour:
   defense: 5
   speed: 10
   nextActTurn: 0
+  playerLevel: 0
 --- !u!114 &114566257352315446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -192,6 +193,7 @@ MonoBehaviour:
   defense: 0
   speed: 0
   nextActTurn: 0
+  playerLevel: 0
 --- !u!212 &212869740279600826
 SpriteRenderer:
   m_ObjectHideFlags: 1

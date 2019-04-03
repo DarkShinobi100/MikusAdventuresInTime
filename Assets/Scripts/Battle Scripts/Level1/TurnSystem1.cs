@@ -7,9 +7,10 @@ public class TurnSystem1 : MonoBehaviour {
 
 	private List<UnitStats> unitsStats;
 
-	private GameObject playerParty;
+	private GameObject playerParty,CurrentPlayer;
 
 	public GameObject enemyEncounter;
+
 
 	[SerializeField]
 	private GameObject actionsMenu, enemyUnitsMenu;
@@ -45,6 +46,19 @@ public class TurnSystem1 : MonoBehaviour {
             currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
             unitsStats.Add (currentUnitStats);
 		}
+        if (enemyUnits.Length == 0)
+        {
+            //if there are no fodder enemies make a list with the BOSS
+            enemyUnits = GameObject.FindGameObjectsWithTag("EnemyBOSS");
+            foreach (GameObject enemyUnit in enemyUnits)
+            {
+                UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions>();
+                currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
+                unitsStats.Add(currentUnitStats);
+            }
+        }
+
+        //sets active scene to the currently overlayed level
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
 
 		unitsStats.Sort ();
@@ -57,7 +71,9 @@ public class TurnSystem1 : MonoBehaviour {
 
 	public void nextTurn() {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
-		if (remainingEnemyUnits.Length == 0) {
+        GameObject[] remainingBossUnits = GameObject.FindGameObjectsWithTag("EnemyBOSS");
+		if (remainingEnemyUnits.Length == 0 && remainingBossUnits.Length ==0)
+        {
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
             //no enemies left
             //unload current level
@@ -93,10 +109,13 @@ public class TurnSystem1 : MonoBehaviour {
 		UnitStats currentUnitStats = unitsStats [0];
 		unitsStats.Remove (currentUnitStats);
 
+        //if the current unit has stats and isn't dead
 		if (currentUnitStats != null && !currentUnitStats.GetComponent<UnitStatFunctions>().isDead()) {
 			GameObject currentUnit = currentUnitStats.gameObject;
+            //set the current unit Here
+            CurrentPlayer = currentUnit;
 
-			currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn (currentUnitStats.nextActTurn);
+            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn (currentUnitStats.nextActTurn);
 			unitsStats.Add (currentUnitStats);
 			unitsStats.Sort ();
 
@@ -123,5 +142,9 @@ public class TurnSystem1 : MonoBehaviour {
         partyMember4.GetComponent<UnitStatFunctions>().setStats(100, 100);
         GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
         partyMember5.GetComponent<UnitStatFunctions>().setStats(100, 100);
+    }
+    public GameObject GetCurrentPlayer()
+    {
+        return CurrentPlayer;
     }
 }
