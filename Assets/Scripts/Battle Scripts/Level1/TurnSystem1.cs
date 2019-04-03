@@ -22,11 +22,11 @@ public class TurnSystem1 : MonoBehaviour {
         this.playerParty = GameObject.Find ("PlayerParty");
 
         //find the unused party members and disable them
-        GameObject partyMember3 = GameObject.Find ("partyMember3");
+        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
         partyMember3.SetActive(false);
-        GameObject partyMember4 = GameObject.Find ("partyMember4");
+        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
         partyMember4.SetActive(false);
-        GameObject partyMember5 = GameObject.Find ("partyMember5");
+        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
         partyMember5.SetActive(false);
 
         //create a list of ACTIVE player units
@@ -82,7 +82,12 @@ public class TurnSystem1 : MonoBehaviour {
 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		if (remainingPlayerUnits.Length == 0) {
-			SceneManager.LoadScene("Title");
+
+            revivePlayers();
+
+            //reload the level
+            SceneManager.LoadScene("Level1");
+
 		}
 
 		UnitStats currentUnitStats = unitsStats [0];
@@ -104,4 +109,19 @@ public class TurnSystem1 : MonoBehaviour {
 			this.nextTurn ();
 		}
 	}
+
+    public void revivePlayers()
+    {
+        //Revive the disabled/unconscious party members
+        GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
+        Miku.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
+        Luka.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
+        partyMember3.GetComponent<UnitStatFunctions>().setStats(100, 100); ;
+        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
+        partyMember4.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
+        partyMember5.GetComponent<UnitStatFunctions>().setStats(100, 100);
+    }
 }

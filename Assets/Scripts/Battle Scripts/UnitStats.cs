@@ -23,7 +23,7 @@ public class UnitStats : MonoBehaviour
 	public float speed;
 
 	public int nextActTurn;
-
+    public int playerLevel;
     protected bool dead = false;
 
     protected float currentExperience;

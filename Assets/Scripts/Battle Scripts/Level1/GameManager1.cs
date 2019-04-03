@@ -6,7 +6,9 @@ using UnityEngine;
 public class GameManager1 : MonoBehaviour {
 
     [SerializeField]
-    private GameObject player, environment,enemy1,enemy2,enemy3;
+    private GameObject player, environment;
+    [SerializeField]
+    private GameObject[] enemy;
 
     [SerializeField]
     private AudioSource BGM;
@@ -22,42 +24,52 @@ public class GameManager1 : MonoBehaviour {
         Scene scene = SceneManager.GetActiveScene();
         if (scene.name == "Battle1")
         {
-            player.SetActive(true);
-            environment.SetActive(true);
-            BGM.Play();
-            if(enemy1 !=null)
+            if (player != null)
             {
-                enemy1.SetActive(true);
+                player.SetActive(true);
             }
-            if(enemy2 != null)
+            if(environment != null)
             {
-                enemy2.SetActive(true);
+                environment.SetActive(true);
             }
-            if(enemy3 !=null)
+            if(BGM != null)
             {
-                enemy3.SetActive(true);
+                BGM.Play();
             }
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                if (enemy[i] != null)
+                {
+                    enemy[i].SetActive(true);
+                }
 
+            }
+            
+            //if currently in the battle scene unload it
             SceneManager.UnloadSceneAsync("Battle1");
         }
         else if (scene.name == "Level1")
         {
-            if (enemy1 != null)
-            {
-                enemy1.SetActive(false);
-            }
-            if (enemy2 != null)
-            {
-                enemy2.SetActive(false);
-            }
-            if (enemy3 != null)
-            {
-                enemy3.SetActive(false);
-            }
 
-            player.SetActive(false);
-            environment.SetActive(false);
-            BGM.Stop();
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                if (enemy[i] != null)
+                {
+                    enemy[i].SetActive(false);
+                }
+            }
+            if (player != null)
+            {
+                player.SetActive(false);
+            }
+            if (environment != null)
+            {
+                environment.SetActive(false);
+            }
+            if (BGM != null)
+            {
+                BGM.Stop();
+            }
         }
         else
         {

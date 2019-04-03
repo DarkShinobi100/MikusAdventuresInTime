@@ -21,9 +21,10 @@ public class SelectUnit : MonoBehaviour {
 
 	public void selectCurrentUnit(GameObject unit) {
 		this.currentUnit = unit;
-
-		this.actionsMenu.SetActive (true);
-
+        if (actionsMenu != null)
+        {
+            this.actionsMenu.SetActive(true);
+        }
 		this.currentUnit.GetComponent<PlayerUnitAction> ().updateHUD ();
 	}
 

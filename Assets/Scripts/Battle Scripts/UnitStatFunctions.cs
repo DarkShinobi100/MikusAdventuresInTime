@@ -55,5 +55,31 @@ public class UnitStatFunctions : UnitStats, IComparable
     public void receiveExperience(float experience)
     {
         this.currentExperience += experience;
+        levelUp();
+    }
+
+    public void levelUp()
+    {
+        if(this.currentExperience >= 100)
+        {
+            playerLevel += 1;
+        }
+    }
+
+    public void setStats(float HP, float MP)
+    {
+        health = HP;
+        mana = MP;
+    }
+
+    public void setHealth(float HP)
+    {
+        health = +HP;
+
+        //if health is greater than 100 cap at 100
+        if(health >= 100)
+        {
+            health = 100;
+        }
     }
 }
