@@ -12,25 +12,14 @@ public class SelectUnit : MonoBehaviour {
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
-	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Battle1") {
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("EnemyUnit"); //find any enemies in the scene
-            GameObject[] Bosses = GameObject.FindGameObjectsWithTag("EnemyBOSS"); // find any BOSSES in the scene
-            if (enemies.Length == 0 && Bosses.Length >= 0)
-            { // there are no fodder but there is bosses turn on the BOSS menu
-                this.actionsMenu = GameObject.Find("BOSSActionsMenu");
-                GameObject tempMenu = GameObject.Find("ActionsMenu");
-                tempMenu.SetActive(false);
-            }
-            else if(enemies.Length >= 0 && Bosses.Length == 0)
-            { // there are no bosses but there is fodder turn on the generic menu
-                this.actionsMenu = GameObject.Find("ActionsMenu");
-                GameObject tempMenu = GameObject.Find("BOSSActionsMenu");
-                tempMenu.SetActive(false);
-            }
-                this.enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
-		}
-	}
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Battle1")
+        {
+            this.actionsMenu = GameObject.Find("ActionsMenu");
+            this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+        }
+    }
 
 	public void selectCurrentUnit(GameObject unit) {
 		this.currentUnit = unit;

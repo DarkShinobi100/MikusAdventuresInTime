@@ -9,7 +9,10 @@ public class RunFromBattle : MonoBehaviour {
 
 	public void tryRunning() {
 		float randomNumber = Random.value;
-		if (randomNumber < this.runnningChance) {
+
+        GameObject[] BossUnits = GameObject.FindGameObjectsWithTag("EnemyBOSS");
+
+        if (BossUnits.Length == 0 && randomNumber < this.runnningChance) {
 
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
@@ -34,5 +37,6 @@ public class RunFromBattle : MonoBehaviour {
         } else {
 			GameObject.Find("TurnSystem").GetComponent<TurnSystem1> ().nextTurn ();
 		}
-	}
+
+    }
 }
