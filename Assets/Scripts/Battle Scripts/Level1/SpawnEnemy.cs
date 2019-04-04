@@ -23,7 +23,12 @@ public class SpawnEnemy : MonoBehaviour {
 			SceneManager.sceneLoaded -= OnSceneLoaded;
 			Destroy (this.gameObject);
 		}
-	}
+        if (scene.name == "Title")
+        {
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+            Destroy(this.gameObject);
+        }
+    }
 
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Player") {

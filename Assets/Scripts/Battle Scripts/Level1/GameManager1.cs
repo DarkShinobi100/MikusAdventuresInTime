@@ -16,10 +16,21 @@ public class GameManager1 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
         DontDestroyOnLoad(this.gameObject);
     }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Level1")
+        {
+            player = GameObject.Find("--------------Player---------");
+            environment = GameObject.Find("--------------Environment-----------------");
+            BGM = GameObject.Find("BackGroundMusic").GetComponent<AudioSource>();
+            enemy = GameObject.FindGameObjectsWithTag("enemy");
+        }
+    }
 
-     public void UpdateScene()
+    public void UpdateScene()
     {
         Scene scene = SceneManager.GetActiveScene();
         if (scene.name == "Battle1")
