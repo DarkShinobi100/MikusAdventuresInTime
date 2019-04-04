@@ -46,18 +46,7 @@ public class TurnSystem1 : MonoBehaviour {
             currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
             unitsStats.Add (currentUnitStats);
 		}
-        if (enemyUnits.Length == 0)
-        {
-            //if there are no fodder enemies make a list with the BOSS
-            enemyUnits = GameObject.FindGameObjectsWithTag("EnemyBOSS");
-            foreach (GameObject enemyUnit in enemyUnits)
-            {
-                UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions>();
-                currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
-                unitsStats.Add(currentUnitStats);
-            }
-        }
-
+       
         //sets active scene to the currently overlayed level
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
 
@@ -71,8 +60,7 @@ public class TurnSystem1 : MonoBehaviour {
 
 	public void nextTurn() {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
-        GameObject[] remainingBossUnits = GameObject.FindGameObjectsWithTag("EnemyBOSS");
-		if (remainingEnemyUnits.Length == 0 && remainingBossUnits.Length ==0)
+       if (remainingEnemyUnits.Length == 0)
         {
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
             //no enemies left

@@ -6,19 +6,33 @@ public class RunFromBattle : MonoBehaviour {
 
 	[SerializeField]
 	private float runnningChance;
+    private bool boss;
+    private GameObject[] enemyUnits;
 
-	public void tryRunning() {
+    private void Start()
+    {
+        boss = false; //set false as default
+       enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+        foreach (GameObject enemyUnit in enemyUnits)
+        { //check if boss is present
+            if (enemyUnit.name.Contains("BOSS"))
+            {//BOSS found!
+                boss = true;
+                Debug.Log("BOSS Found");
+            }
+        }
+    }
+    public void tryRunning() {
 		float randomNumber = Random.value;
 
-        GameObject[] BossUnits = GameObject.FindGameObjectsWithTag("EnemyBOSS");
-
-        if (BossUnits.Length == 0 && randomNumber < this.runnningChance) {
+        //if there is a boss you cannot escape
+        if (boss== false && randomNumber < this.runnningChance) {
 
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
 
             //delete the enemies
-            GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+            enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
             foreach (GameObject enemyUnit in enemyUnits)
             {
                 Destroy(enemyUnit);

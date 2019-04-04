@@ -1027,7 +1027,7 @@ Prefab:
         type: 2}
       propertyPath: enemyEncounterPrefab
       value: 
-      objectReference: {fileID: 1921963169775120, guid: e9154026fcc27bc47a94358d0f9793a7,
+      objectReference: {fileID: 1909093908715246, guid: b0cfd408822ea8741b03b2b739c63804,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
