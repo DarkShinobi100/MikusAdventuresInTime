@@ -8,7 +8,7 @@ TagManager:
   - PlayerUnit
   - DeadUnit
   - TargetEnemyUnit
-  - EnemyBOSS
+  - enemy
   layers:
   - Default
   - TransparentFX

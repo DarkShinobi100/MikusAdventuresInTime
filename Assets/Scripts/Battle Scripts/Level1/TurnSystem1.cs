@@ -73,14 +73,19 @@ public class TurnSystem1 : MonoBehaviour {
             //Re-enable the disabled/unconscious party members
             GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
             Miku.SetActive(true);
+            Miku.GetComponent<UnitStatFunctions>().setStats();
             GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
             Luka.SetActive(true);
+            Luka.GetComponent<UnitStatFunctions>().setStats();
             GameObject partyMember3 =  GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
             partyMember3.SetActive(true);
+            partyMember3.GetComponent<UnitStatFunctions>().setStats();
             GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
             partyMember4.SetActive(true);
+            partyMember4.GetComponent<UnitStatFunctions>().setStats();
             GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
             partyMember5.SetActive(true);
+            partyMember5.GetComponent<UnitStatFunctions>().setStats();
 
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
             gameManager.UpdateScene();
