@@ -49,7 +49,8 @@ public class RunFromBattle : MonoBehaviour {
             }
 
         } else {
-			GameObject.Find("TurnSystem").GetComponent<TurnSystem1> ().nextTurn ();
+            GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
+            GameObject.Find("TurnSystem").GetComponent<TurnSystem1> ().nextTurn ();
 		}
 
     }

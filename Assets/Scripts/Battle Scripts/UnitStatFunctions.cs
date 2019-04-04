@@ -63,13 +63,46 @@ public class UnitStatFunctions : UnitStats, IComparable
         if(this.currentExperience >= 100)
         {
             playerLevel += 1;
+            updateStats();
         }
     }
 
-    public void setStats(float HP, float MP)
+    public void setStats()
     {
-        health = HP;
-        mana = MP;
+        health = maxHealth;
+        mana = maxMana;
+    }
+
+    public void updateStats()
+    {
+        health = health * 1.05f;
+        mana = mana * 1.05f;
+        maxHealth = maxHealth * 1.05f;
+        maxMana = maxMana * 1.05f;
+        attack = attack * 1.05f;
+        magic = magic * 1.05f;
+        defense = defense * 1.05f;
+        speed = speed * 1.05f;
+
+    }
+    public void UpdateEnemyStats()
+    {
+        //find a player unit
+        GameObject player = GameObject.Find("PlayerParty");
+        playerLevel = player.GetComponent<UnitStats>().playerLevel;
+
+        if (player != null)
+        {
+            //scale stats based on players level
+            health = health * (1.05f * playerLevel);
+            mana = mana * (1.05f * playerLevel);
+            maxHealth = maxHealth * (1.05f * playerLevel);
+            maxMana = maxMana * (1.05f * playerLevel);
+            attack = attack * (1.05f * playerLevel);
+            magic = magic * (1.05f * playerLevel);
+            defense = defense * (1.05f * playerLevel);
+            speed = speed * (1.05f * playerLevel);
+        }
     }
 
 }

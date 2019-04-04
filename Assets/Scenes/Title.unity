@@ -719,13 +719,15 @@ MonoBehaviour:
     type: 2}
   damageTextPosition: {x: 0, y: 0}
   health: 100
-  mana: 0
+  mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 0
   magic: 0
   defense: 0
   speed: 0
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!114 &1080737175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,12 +746,14 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: 180}
   health: 100
   mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 100
   magic: 10
   defense: 0
   speed: 10
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!212 &1080737176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1272,13 +1276,15 @@ MonoBehaviour:
     type: 2}
   damageTextPosition: {x: 0, y: 0}
   health: 100
-  mana: 0
+  mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 0
   magic: 0
   defense: 0
   speed: 0
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!114 &1469121534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1297,12 +1303,14 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 100
   magic: 10
   defense: 10
   speed: 10
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!212 &1469121535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1487,12 +1495,14 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
+  maxHealth: 0
+  maxMana: 0
   attack: 100
   magic: 10
   defense: 10
   speed: 10
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!212 &1504360492
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1570,12 +1580,14 @@ MonoBehaviour:
   damageTextPosition: {x: 0, y: 0}
   health: 0
   mana: 0
+  maxHealth: 0
+  maxMana: 0
   attack: 0
   magic: 0
   defense: 0
   speed: 0
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!1 &1561490345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,12 +1724,14 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
+  maxHealth: 0
+  maxMana: 0
   attack: 100
   magic: 10
   defense: 10
   speed: 10
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!212 &1582185874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1795,12 +1809,14 @@ MonoBehaviour:
   damageTextPosition: {x: 0, y: 0}
   health: 0
   mana: 0
+  maxHealth: 0
+  maxMana: 0
   attack: 0
   magic: 0
   defense: 0
   speed: 0
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!1 &1645776499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,12 +2027,14 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
+  maxHealth: 0
+  maxMana: 0
   attack: 100
   magic: 10
   defense: 10
   speed: 10
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!212 &2008486472
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2094,12 +2112,14 @@ MonoBehaviour:
   damageTextPosition: {x: 0, y: 0}
   health: 0
   mana: 0
+  maxHealth: 0
+  maxMana: 0
   attack: 0
   magic: 0
   defense: 0
   speed: 0
   nextActTurn: 0
-  playerLevel: 0
+  playerLevel: 1
 --- !u!1 &2029446966
 GameObject:
   m_ObjectHideFlags: 0

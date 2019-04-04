@@ -21,10 +21,10 @@ public class Heal : MonoBehaviour
         //get the current player
         GameObject currentPlayer = turnSystem.GetComponent<TurnSystem1>().GetCurrentPlayer();
         //heal that player
-        currentPlayer.GetComponent<UnitStats>().health += HP;
+        currentPlayer.GetComponent<UnitStats>().health +=(currentPlayer.GetComponent<UnitStats>().maxHealth /100) * HP;
 
         //if health is greater than 100 cap at 100
-        if (currentPlayer.GetComponent<UnitStats>().health >= 1000)
+        if (currentPlayer.GetComponent<UnitStats>().health >= currentPlayer.GetComponent<UnitStats>().maxHealth)
         {
             currentPlayer.GetComponent<UnitStats>().health = 100;
         }

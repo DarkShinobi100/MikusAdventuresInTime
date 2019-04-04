@@ -180,7 +180,7 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: -60}
-  health: 2000
+  health: 100
   mana: 10
   attack: 15
   magic: 5
@@ -288,7 +288,7 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 2000
+  health: 100
   mana: 0
   attack: 0
   magic: 0

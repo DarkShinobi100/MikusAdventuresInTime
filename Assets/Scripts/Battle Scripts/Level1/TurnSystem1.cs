@@ -42,6 +42,8 @@ public class TurnSystem1 : MonoBehaviour {
 		}
 		GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
 		foreach (GameObject enemyUnit in enemyUnits) {
+            //update enemy stats before battle starts
+            enemyUnit.GetComponent<UnitStatFunctions>().updateStats();
 			UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions> ();
             currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
             unitsStats.Add (currentUnitStats);
@@ -121,15 +123,15 @@ public class TurnSystem1 : MonoBehaviour {
     {
         //Revive the disabled/unconscious party members
         GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
-        Miku.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        Miku.GetComponent<UnitStatFunctions>().setStats();
         GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
-        Luka.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        Luka.GetComponent<UnitStatFunctions>().setStats();
         GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
-        partyMember3.GetComponent<UnitStatFunctions>().setStats(100, 100); ;
+        partyMember3.GetComponent<UnitStatFunctions>().setStats(); ;
         GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
-        partyMember4.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        partyMember4.GetComponent<UnitStatFunctions>().setStats();
         GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
-        partyMember5.GetComponent<UnitStatFunctions>().setStats(100, 100);
+        partyMember5.GetComponent<UnitStatFunctions>().setStats();
     }
     public GameObject GetCurrentPlayer()
     {
