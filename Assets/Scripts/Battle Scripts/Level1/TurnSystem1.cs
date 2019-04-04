@@ -13,7 +13,7 @@ public class TurnSystem1 : MonoBehaviour {
 
 
 	[SerializeField]
-	private GameObject actionsMenu, enemyUnitsMenu;
+	private GameObject actionsMenu, enemyUnitsMenu, gameOverMenu;
 
     [SerializeField]
     private AudioSource BGM;
@@ -56,6 +56,7 @@ public class TurnSystem1 : MonoBehaviour {
 
 		this.actionsMenu.SetActive (false);
 		this.enemyUnitsMenu.SetActive (false);
+        this.gameOverMenu.SetActive(false);
 
 		this.nextTurn ();
 	}
@@ -89,11 +90,12 @@ public class TurnSystem1 : MonoBehaviour {
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		if (remainingPlayerUnits.Length == 0) {
 
-            revivePlayers();
-
-            //reload the level
-            SceneManager.LoadScene("Level1");
-
+            //TODO game Over
+            if (gameOverMenu != null)
+            {
+                gameOverMenu.SetActive(true);
+            }
+           
 		}
 
 		UnitStats currentUnitStats = unitsStats [0];

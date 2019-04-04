@@ -12,7 +12,7 @@ public class RunFromBattle : MonoBehaviour {
     private void Start()
     {
         boss = false; //set false as default
-       enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+        enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
         foreach (GameObject enemyUnit in enemyUnits)
         { //check if boss is present
             if (enemyUnit.name.Contains("BOSS"))
