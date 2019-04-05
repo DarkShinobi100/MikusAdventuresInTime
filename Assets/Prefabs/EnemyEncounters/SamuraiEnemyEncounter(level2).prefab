@@ -63,7 +63,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4835233724984032}
-  - component: {fileID: 114372624194397164}
+  - component: {fileID: 114494709269333110}
   m_Layer: 0
   m_Name: SamuraiEnemyEncounter(level2)
   m_TagString: Untagged
@@ -202,18 +202,6 @@ MonoBehaviour:
   speed: 0
   nextActTurn: 0
   playerLevel: 0
---- !u!114 &114372624194397164
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1452763019712232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc6d2d0c5f5976d429bd1994661a4273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  experience: 100
 --- !u!114 &114383572771293262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -226,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95882342685478928}
-  damageTextPrefab: {fileID: 1845569617089112, guid: d60803898f27e834ab05e23ed4b683c5,
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: 95}
   health: 20000
@@ -252,6 +240,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attack: {fileID: 1000010956341920, guid: abac15af220b60947882d768c5ec8403, type: 2}
   targetsTag: PlayerUnit
+--- !u!114 &114494709269333110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452763019712232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8d81eb60666f14fa51f8fc3b5e7919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experience: 100
 --- !u!114 &114520397031214006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95444613784941684}
-  damageTextPrefab: {fileID: 1845569617089112, guid: d60803898f27e834ab05e23ed4b683c5,
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: -60}
   health: 2000

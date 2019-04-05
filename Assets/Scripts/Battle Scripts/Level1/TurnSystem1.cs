@@ -3,106 +3,109 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TurnSystem1 : MonoBehaviour {
+public class TurnSystem1 : MonoBehaviour
+{
 
-	private List<UnitStats> unitsStats;
+    private List<UnitStats> unitsStats;
 
-	private GameObject playerParty,CurrentPlayer;
+    private GameObject playerParty, CurrentPlayer;
 
-	public GameObject enemyEncounter;
+    public GameObject enemyEncounter;
 
 
-	[SerializeField]
-	private GameObject actionsMenu, enemyUnitsMenu, gameOverMenu;
+    [SerializeField]
+    private GameObject actionsMenu, enemyUnitsMenu, gameOverMenu;
 
     [SerializeField]
     private AudioSource BGM;
 
-    void Start() {
+    void Start()
+    {
         //make a clone of player party in this scene
-        this.playerParty = GameObject.Find ("PlayerParty");
+        this.playerParty = GameObject.Find("PlayerParty");
 
-        //find the unused party members and disable them
-        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
-        partyMember3.SetActive(false);
-        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
-        partyMember4.SetActive(false);
-        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
-        partyMember5.SetActive(false);
+        StartParty();
 
         //create a list of ACTIVE player units
         GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
 
         //use the new list to get the player stats
-        unitsStats = new List<UnitStats> ();
-		foreach (GameObject playerUnit in playerUnits) {
-			UnitStats currentUnitStats = playerUnit.GetComponent<UnitStatFunctions> ();
+        unitsStats = new List<UnitStats>();
+        foreach (GameObject playerUnit in playerUnits)
+        {
+            UnitStats currentUnitStats = playerUnit.GetComponent<UnitStatFunctions>();
             currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
-			unitsStats.Add (currentUnitStats);
-		}
-		GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
-		foreach (GameObject enemyUnit in enemyUnits) {
+            unitsStats.Add(currentUnitStats);
+        }
+        GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+        foreach (GameObject enemyUnit in enemyUnits)
+        {
             //update enemy stats before battle starts
             enemyUnit.GetComponent<UnitStatFunctions>().updateStats();
-			UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions> ();
+            UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions>();
             currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
-            unitsStats.Add (currentUnitStats);
-		}
-       
+            unitsStats.Add(currentUnitStats);
+        }
+
         //sets active scene to the currently overlayed level
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
+        //   SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
 
-		unitsStats.Sort ();
+        unitsStats.Sort();
 
-		this.actionsMenu.SetActive (false);
-		this.enemyUnitsMenu.SetActive (false);
+        this.actionsMenu.SetActive(false);
+        this.enemyUnitsMenu.SetActive(false);
         this.gameOverMenu.SetActive(false);
 
-		this.nextTurn ();
-	}
+        this.nextTurn();
+    }
 
-	public void nextTurn() {
-		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
-       if (remainingEnemyUnits.Length == 0)
+    public void nextTurn()
+    {
+        GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+        if (remainingEnemyUnits.Length == 0)
         {
-			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
+            this.enemyEncounter.GetComponent<CollectReward>().collectReward();
             //no enemies left
             //unload current level
             BGM.Stop();
 
             //Re-enable the disabled/unconscious party members
             revivePlayers();
-
+            controlPlayers();
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
-            gameManager.UpdateScene();
+            gameManager.UpdateBattleScene();
 
         }
 
-		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
-		if (remainingPlayerUnits.Length == 0) {
+        GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+        if (remainingPlayerUnits.Length == 0)
+        {
 
-            //TODO game Over
+            // game Over
             if (gameOverMenu != null)
             {
                 gameOverMenu.SetActive(true);
             }
-           
-		}
 
-		UnitStats currentUnitStats = unitsStats [0];
-		unitsStats.Remove (currentUnitStats);
+        }
+
+        UnitStats currentUnitStats = unitsStats[0];
+        unitsStats.Remove(currentUnitStats);
 
         //if the current unit has stats and isn't dead
-		if (currentUnitStats != null && !currentUnitStats.GetComponent<UnitStatFunctions>().isDead()) {
-			GameObject currentUnit = currentUnitStats.gameObject;
+        if (currentUnitStats != null && !currentUnitStats.GetComponent<UnitStatFunctions>().isDead())
+        {
+            GameObject currentUnit = currentUnitStats.gameObject;
             //set the current unit Here
             CurrentPlayer = currentUnit;
 
-            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn (currentUnitStats.nextActTurn);
-			unitsStats.Add (currentUnitStats);
-			unitsStats.Sort ();
+            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(currentUnitStats.nextActTurn);
+            unitsStats.Add(currentUnitStats);
+            unitsStats.Sort();
 
-			if (currentUnit.tag == "PlayerUnit") {
+            if (currentUnit.tag == "PlayerUnit")
+            {
+                //regen Mana + 5% each player turn
                 currentUnit.GetComponent<UnitStats>().mana += (currentUnit.GetComponent<UnitStats>().maxMana / 100) * 5;
                 currentUnit.GetComponent<UnitStatFunctions>().mana += (currentUnit.GetComponent<UnitStatFunctions>().maxMana / 100) * 5;
                 if (currentUnit.GetComponent<UnitStats>().mana > currentUnit.GetComponent<UnitStats>().maxMana)
@@ -114,14 +117,82 @@ public class TurnSystem1 : MonoBehaviour {
                     currentUnit.GetComponent<UnitStatFunctions>().mana = currentUnit.GetComponent<UnitStatFunctions>().maxMana;
                 }
 
-                this.playerParty.GetComponent<SelectUnit> ().selectCurrentUnit (currentUnit.gameObject);
-			} else {
-				currentUnit.GetComponent<EnemyUnitAction> ().act ();
-			}
-		} else {
-			this.nextTurn ();
-		}
-	}
+                this.playerParty.GetComponent<SelectUnit>().selectCurrentUnit(currentUnit.gameObject);
+            }
+            else
+            {
+                currentUnit.GetComponent<EnemyUnitAction>().act();
+            }
+        }
+        else
+        {
+            this.nextTurn();
+        }
+    }
+
+    private void StartParty()
+    {
+        //find the party members
+        GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
+        GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
+        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
+        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
+        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
+
+        //check the current scene
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Level1")
+        {
+            //find the unused party members and disable them
+
+            Miku.SetActive(true);
+            Luka.SetActive(true);
+            partyMember3.SetActive(false);
+            partyMember4.SetActive(false);
+            partyMember5.SetActive(false);
+
+        }
+        else if (scene.name == "Level2")
+        {
+            //find the unused party members and disable them
+
+            Miku.SetActive(true);
+            Luka.SetActive(false);
+            partyMember3.SetActive(true);
+            partyMember4.SetActive(false);
+            partyMember5.SetActive(false);
+
+
+        }
+        else if (scene.name == "Level3")
+        {
+            //find the unused party members and disable them
+            Miku.SetActive(true);
+            Luka.SetActive(false);
+            partyMember3.SetActive(false);
+            partyMember4.SetActive(true);
+            partyMember5.SetActive(false);
+
+        }
+        else if (scene.name == "Level4")
+        {
+            //find the unused party members and disable them
+            Miku.SetActive(true);
+            Luka.SetActive(false);
+            partyMember3.SetActive(false);
+            partyMember4.SetActive(false);
+            partyMember5.SetActive(true);
+        }
+        else if (scene.name == "Level5")
+        {
+            //find the unused party members and disable them
+            Miku.SetActive(true);
+            Luka.SetActive(false);
+            partyMember3.SetActive(false);
+            partyMember4.SetActive(false);
+            partyMember5.SetActive(true);
+        }
+    }
 
     public void revivePlayers()
     {
@@ -166,6 +237,22 @@ public class TurnSystem1 : MonoBehaviour {
             partyMember5.gameObject.tag = "PlayerUnit";
         }
     }
+    public void controlPlayers()
+    {
+        //find the party members
+        GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
+        GameObject Luka = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
+        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
+        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
+        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
+
+        Miku.SetActive(false);
+        Luka.SetActive(false);
+        partyMember3.SetActive(false);
+        partyMember4.SetActive(false);
+        partyMember5.SetActive(false);
+    }
+
     public GameObject GetCurrentPlayer()
     {
         return CurrentPlayer;

@@ -1495,8 +1495,8 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
-  maxHealth: 0
-  maxMana: 0
+  maxHealth: 100
+  maxMana: 100
   attack: 100
   magic: 10
   defense: 10
@@ -1575,13 +1575,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd80d21838cb5ed4eae804723d3f056b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  damageTextPrefab: {fileID: 0}
+  animator: {fileID: 1504360489}
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+    type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 0
-  mana: 0
-  maxHealth: 0
-  maxMana: 0
+  health: 100
+  mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 0
   magic: 0
   defense: 0
@@ -1724,8 +1725,8 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
-  maxHealth: 0
-  maxMana: 0
+  maxHealth: 100
+  maxMana: 100
   attack: 100
   magic: 10
   defense: 10
@@ -1804,13 +1805,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd80d21838cb5ed4eae804723d3f056b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  damageTextPrefab: {fileID: 0}
+  animator: {fileID: 1582185871}
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+    type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 0
-  mana: 0
-  maxHealth: 0
-  maxMana: 0
+  health: 100
+  mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 0
   magic: 0
   defense: 0
@@ -2027,8 +2029,8 @@ MonoBehaviour:
   damageTextPosition: {x: 460, y: -40}
   health: 100
   mana: 100
-  maxHealth: 0
-  maxMana: 0
+  maxHealth: 100
+  maxMana: 100
   attack: 100
   magic: 10
   defense: 10
@@ -2107,13 +2109,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd80d21838cb5ed4eae804723d3f056b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  damageTextPrefab: {fileID: 0}
+  animator: {fileID: 2008486469}
+  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+    type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 0
-  mana: 0
-  maxHealth: 0
-  maxMana: 0
+  health: 100
+  mana: 100
+  maxHealth: 100
+  maxMana: 100
   attack: 0
   magic: 0
   defense: 0

@@ -10,7 +10,6 @@ public class UnitStatFunctions : UnitStats, IComparable
         this.health -= damage;
         animator.Play("Hit");
 
-        //CHECK FOR PARTY MEMBER THEN SET DAMAGE TEXT TO CORRECT PREFAB
 
         GameObject HUDCanvas = GameObject.Find("HUDCanvas");
         GameObject damageText = Instantiate(this.damageTextPrefab, HUDCanvas.transform) as GameObject;

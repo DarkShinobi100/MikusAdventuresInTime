@@ -78,8 +78,8 @@ public class TurnSystem2 : MonoBehaviour
             //Re-enable the disabled/unconscious party members
             revivePlayers();
 
-            GameManager1 gameManager = FindObjectOfType<GameManager1>();
-            gameManager.UpdateScene();
+         //   GameManager1 gameManager = FindObjectOfType<GameManager1>();
+           // gameManager.UpdateScene();
 
         }
 

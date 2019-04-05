@@ -2,18 +2,21 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class StartBattle : MonoBehaviour {
+public class StartBattle : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		DontDestroyOnLoad (this.gameObject);
+    // Use this for initialization
+    void Start()
+    {
+        DontDestroyOnLoad(this.gameObject);
 
-		SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneLoaded += OnSceneLoaded;
 
-		this.gameObject.SetActive (false);
-	}
+        this.gameObject.SetActive(false);
+    }
 
-	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
         if (scene.name == "Title")
         {
             SceneManager.sceneLoaded -= OnSceneLoaded;
