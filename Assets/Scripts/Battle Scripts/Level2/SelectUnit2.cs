@@ -2,42 +2,56 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class SelectUnit2 : MonoBehaviour {
+public class SelectUnit2 : MonoBehaviour
+{
 
-	private GameObject currentUnit;
+    private GameObject currentUnit;
 
-	private GameObject actionsMenu, enemyUnitsMenu;
+    private GameObject actionsMenu, enemyUnitsMenu;
 
-	void Awake() {
-		SceneManager.sceneLoaded += OnSceneLoaded;
-	}
+    void Awake()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
 
-	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Battle2") {
-			this.actionsMenu = GameObject.Find ("ActionsMenu");
-			this.enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
-		}
-	}
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Battle2")
+        {
+            this.actionsMenu = GameObject.Find("ActionsMenu");
+            this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+        }
+    }
 
-	public void selectCurrentUnit(GameObject unit) {
-		this.currentUnit = unit;
+    public void selectCurrentUnit(GameObject unit)
+    {
+        this.currentUnit = unit;
+        if (actionsMenu != null)
+        {
+            this.actionsMenu.SetActive(true);
+        }
+        this.currentUnit.GetComponent<PlayerUnitAction>().updateHUD();
+    }
 
-		this.actionsMenu.SetActive (true);
+    public void selectAttack(bool physical)
+    {
+        this.currentUnit.GetComponent<PlayerUnitAction>().selectAttack(physical);
 
-		this.currentUnit.GetComponent<PlayerUnitAction> ().updateHUD ();
-	}
+        this.actionsMenu.SetActive(false);
+        this.enemyUnitsMenu.SetActive(true);
+    }
 
-	public void selectAttack(bool physical) {
-		this.currentUnit.GetComponent<PlayerUnitAction> ().selectAttack (physical);
+    public void attackEnemyTarget(GameObject target)
+    {
+        this.actionsMenu.SetActive(false);
+        this.enemyUnitsMenu.SetActive(false);
 
-		this.actionsMenu.SetActive (false);
-		this.enemyUnitsMenu.SetActive (true);
-	}
+        this.currentUnit.GetComponent<PlayerUnitAction>().act(target);
+    }
 
-	public void attackEnemyTarget(GameObject target) {
-		this.actionsMenu.SetActive (false);
-		this.enemyUnitsMenu.SetActive (false);
-
-		this.currentUnit.GetComponent<PlayerUnitAction>().act (target);
-	}
+    public void setMenus()
+    {
+        this.actionsMenu.SetActive(false);
+        this.enemyUnitsMenu.SetActive(false);
+    }
 }

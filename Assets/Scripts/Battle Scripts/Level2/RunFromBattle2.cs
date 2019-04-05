@@ -2,17 +2,61 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class RunFromBattle2 : MonoBehaviour {
+public class RunFromBattle2 : MonoBehaviour
+{
 
-	[SerializeField]
-	private float runnningChance;
+    [SerializeField]
+    private float runnningChance;
+    private bool boss;
+    private GameObject[] enemyUnits;
 
-	public void tryRunning() {
-		float randomNumber = Random.value;
-		if (randomNumber < this.runnningChance) {
-			SceneManager.LoadScene ("Level2");
-		} else {
-			GameObject.Find("TurnSystem").GetComponent<TurnSystem2> ().nextTurn ();
-		}
-	}
+    private void Start()
+    {
+        boss = false; //set false as default
+        enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+        foreach (GameObject enemyUnit in enemyUnits)
+        { //check if boss is present
+            if (enemyUnit.name.Contains("BOSS"))
+            {//BOSS found!
+                boss = true;
+                Debug.Log("BOSS Found");
+            }
+        }
+    }
+    public void tryRunning()
+    {
+        float randomNumber = Random.value;
+
+        //if there is a boss you cannot escape
+        if (boss == false && randomNumber < this.runnningChance)
+        {
+
+            GameManager2 gameManager = FindObjectOfType<GameManager2>();
+            gameManager.UpdateScene();
+
+            //delete the enemies
+            enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+            foreach (GameObject enemyUnit in enemyUnits)
+            {
+                Destroy(enemyUnit);
+            }
+
+            //if you escape delete the battle camera
+            GameObject gameCamera = GameObject.Find("Main Camera");
+            Destroy(gameCamera);
+
+            GameObject turnSystem = GameObject.Find("TurnSystem");
+            if (turnSystem != null)
+            {
+                turnSystem.GetComponent<TurnSystem2>().revivePlayers();
+            }
+
+        }
+        else
+        {
+            GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
+            GameObject.Find("TurnSystem").GetComponent<TurnSystem2>().nextTurn();
+        }
+
+    }
 }
