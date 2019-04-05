@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95444613784941684}
-  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+  damageTextPrefab: {fileID: 1845569617089112, guid: d60803898f27e834ab05e23ed4b683c5,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
   health: 2000
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95882342685478928}
-  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+  damageTextPrefab: {fileID: 1845569617089112, guid: d60803898f27e834ab05e23ed4b683c5,
     type: 2}
   damageTextPosition: {x: -460, y: 95}
   health: 20000
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95444613784941684}
-  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+  damageTextPrefab: {fileID: 1845569617089112, guid: d60803898f27e834ab05e23ed4b683c5,
     type: 2}
   damageTextPosition: {x: -460, y: -60}
   health: 2000
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95882342685478928}
-  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
+  damageTextPrefab: {fileID: 1845569617089112, guid: d60803898f27e834ab05e23ed4b683c5,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
   health: 20000
