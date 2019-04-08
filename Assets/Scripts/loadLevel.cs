@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class loadLevel : MonoBehaviour {
-
+    [SerializeField]
+    private int level;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Level2", LoadSceneMode.Single);
+            SceneManager.LoadScene("Level"+ level, LoadSceneMode.Single);
         }
     }
 }

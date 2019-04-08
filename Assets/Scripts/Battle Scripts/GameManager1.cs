@@ -127,4 +127,10 @@ public class GameManager1 : MonoBehaviour
 
         }
     }
+
+    public void UpdateEnemyList()
+    {
+        //find enemies again
+        enemy = GameObject.FindGameObjectsWithTag("enemy");
+    }
 }

@@ -43,7 +43,10 @@ public class SpawnEnemy : MonoBehaviour
         {
             playerTouch = true;
             this.spawning = true;
+            //set tag to "BattleTarget" to prevent adding it to the active enemy list again
+            this.gameObject.tag = "BattleTarget";
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
+            gameManager.UpdateEnemyList();
             gameManager.UpdateBattleScene();
             SceneManager.LoadScene("Battle1", LoadSceneMode.Additive);
         }
