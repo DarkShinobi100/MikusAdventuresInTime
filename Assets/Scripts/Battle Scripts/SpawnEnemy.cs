@@ -10,6 +10,8 @@ public class SpawnEnemy : MonoBehaviour
     private bool playerTouch = false;
     private bool spawning = false;
 
+    [SerializeField]
+
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
