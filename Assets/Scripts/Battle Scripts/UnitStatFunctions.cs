@@ -26,12 +26,14 @@ public class UnitStatFunctions : UnitStats, IComparable
             {
                 //set tag to "deadUnit" for tracking during testing
                 this.gameObject.tag = "DeadUnit";
+                //TODO: play Dead SFX
                 //destroy this object, removes from scene and prevents new lists finding it
                 Destroy(this.gameObject);
             }
             //if friend
             //change tag to prevents new lists finding it
             this.gameObject.tag = "DeadUnit";
+            //TODO: play K'o SFX
             //deactivate it until the end as they are now unconsious
             this.gameObject.SetActive(false);
 

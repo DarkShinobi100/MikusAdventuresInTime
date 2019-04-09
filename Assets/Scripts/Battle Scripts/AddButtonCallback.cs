@@ -14,6 +14,7 @@ public class AddButtonCallback : MonoBehaviour {
 
 	private void addCallback() {
 		GameObject playerParty = GameObject.Find ("PlayerParty");
+        //TODO: play sword SFX OR magic SFX
 		playerParty.GetComponent<SelectUnit> ().selectAttack (this.physical);
 	}
 

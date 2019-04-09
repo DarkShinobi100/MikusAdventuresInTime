@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour {
 
     [SerializeField]
 	private Animator animator;
+    //[SerializeField]
+    //private AudioSource audio;
 
     private float newVelocityX;
     private float newVelocityY;
@@ -45,6 +47,7 @@ public class PlayerMovement : MonoBehaviour {
             Up.SetActive(false);
             Down.SetActive(false);
             Right.SetActive(false);
+            //TODO play walk sound
         }
         else if (Horizontal > 0 && currentVelocity.x >= 0)
         {
@@ -53,6 +56,7 @@ public class PlayerMovement : MonoBehaviour {
             Up.SetActive(false);
             Down.SetActive(false);
             Left.SetActive(false);
+            //TODO play walk sound
         }
         else
         {
@@ -67,6 +71,7 @@ public class PlayerMovement : MonoBehaviour {
             Up.SetActive(false);
             Left.SetActive(false);
             Right.SetActive(false);
+            //TODO play walk sound
         }
         else if (Vertical > 0 && currentVelocity.y >= 0)
         {
@@ -75,6 +80,7 @@ public class PlayerMovement : MonoBehaviour {
             Down.SetActive(false);
             Left.SetActive(false);
             Right.SetActive(false);
+            //TODO play walk sound
         }
         else
         {
@@ -87,6 +93,8 @@ public class PlayerMovement : MonoBehaviour {
             Down.SetActive(true);
             Left.SetActive(true);
             Right.SetActive(true);
+
+            //TODO stop walk sound
         }
 
         gameObject.GetComponent<Rigidbody>().velocity = new Vector3(newVelocityX,0, newVelocityY);

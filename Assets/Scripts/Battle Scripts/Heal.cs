@@ -30,6 +30,7 @@ public class Heal : MonoBehaviour
             currentPlayer.GetComponent<UnitStats>().health = currentPlayer.GetComponent<UnitStats>().maxHealth;
             currentPlayer.GetComponent<UnitStatFunctions>().health = currentPlayer.GetComponent<UnitStats>().maxHealth;
         }
+        //TODO: play heal SFX
 
         GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
         currentPlayer.GetComponent<PlayerUnitAction>().updateHUD();
