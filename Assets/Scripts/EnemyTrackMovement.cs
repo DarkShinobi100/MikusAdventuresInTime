@@ -8,6 +8,7 @@ public class EnemyTrackMovement : MonoBehaviour {
     float moveSpeed;
     [SerializeField]
     private GameObject enemy;
+    [SerializeField]
     private GameObject player;
     private Vector3 orignalPosition;
     private bool playerNearby = false;

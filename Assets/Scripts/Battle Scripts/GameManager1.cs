@@ -29,43 +29,102 @@ public class GameManager1 : MonoBehaviour
         }
         else if (scene.name == "Level1")
         {
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                //delete all enemies from previous level
+                if (enemy[i] != null)
+                {
+                    Destroy(enemy[i]);
+                }
+
+            }
+            //reset list to null
             enemy = null;
+            //find the new enemies for this level
+            enemy = GameObject.FindGameObjectsWithTag("enemy");
             player = GameObject.Find("--------------Player---------");
             environment = GameObject.Find("--------------Environment-----------------");
             BGM = GameObject.Find("BackGroundMusic");
-            enemy = GameObject.FindGameObjectsWithTag("enemy");
+            
         }
         else if (scene.name == "Level2")
         {
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                //delete all enemies from previous level
+                if (enemy[i] != null)
+                {
+                    Destroy(enemy[i]);
+                }
+
+            }
+            //reset list to null
             enemy = null;
+            //find the new enemies for this level
+            enemy = GameObject.FindGameObjectsWithTag("enemy");
             player = GameObject.Find("--------------Player---------");
             environment = GameObject.Find("--------------Environment-----------------");
             BGM = GameObject.Find("BackGroundMusic");
-            enemy = GameObject.FindGameObjectsWithTag("enemy");
         }
         else if (scene.name == "Level3")
         {
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                //delete all enemies from previous level
+                if (enemy[i] != null)
+                {
+                    Destroy(enemy[i]);
+                }
+
+            }
+            //reset list to null
             enemy = null;
+            //find the new enemies for this level
+            enemy = GameObject.FindGameObjectsWithTag("enemy");
+
             player = GameObject.Find("--------------Player---------");
             environment = GameObject.Find("--------------Environment-----------------");
             BGM = GameObject.Find("BackGroundMusic");
-            enemy = GameObject.FindGameObjectsWithTag("enemy");
         }
         else if (scene.name == "Level4")
         {
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                //delete all enemies from previous level
+                if (enemy[i] != null)
+                {
+                    Destroy(enemy[i]);
+                }
+
+            }
+            //reset list to null
             enemy = null;
+            //find the new enemies for this level
+            enemy = GameObject.FindGameObjectsWithTag("enemy");
+
             player = GameObject.Find("--------------Player---------");
             environment = GameObject.Find("--------------Environment-----------------");
             BGM = GameObject.Find("BackGroundMusic");
-            enemy = GameObject.FindGameObjectsWithTag("enemy");
         }
         else if (scene.name == "Level5")
         {
+            for (int i = 0; i < enemy.Length; i++)
+            {
+                //delete all enemies from previous level
+                if (enemy[i] != null)
+                {
+                    Destroy(enemy[i]);
+                }
+
+            }
+            //reset list to null
             enemy = null;
+            //find the new enemies for this level
+            enemy = GameObject.FindGameObjectsWithTag("enemy");
+
             player = GameObject.Find("--------------Player---------");
             environment = GameObject.Find("--------------Environment-----------------");
             BGM = GameObject.Find("BackGroundMusic");
-            enemy = GameObject.FindGameObjectsWithTag("enemy");
         }
     }
 

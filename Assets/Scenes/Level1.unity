@@ -2484,7 +2484,7 @@ Prefab:
     - target: {fileID: 224288476145393676, guid: 727f5bee6656107498538e055b53eb83,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224872452255947856, guid: 727f5bee6656107498538e055b53eb83,
         type: 2}
@@ -4324,6 +4324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   enemy: {fileID: 1600258645}
+  player: {fileID: 901915323}
   animator: {fileID: 1600258647}
 --- !u!95 &1600258647
 Animator:
@@ -6193,7 +6194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f72872f0561c848bafc8e14c3e5263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 2
 --- !u!4 &2072288610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011863994726, guid: fdfb3abcd7207af44b0aeb7bbd335b2b,
