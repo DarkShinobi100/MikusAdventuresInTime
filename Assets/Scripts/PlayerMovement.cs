@@ -94,37 +94,44 @@ public class PlayerMovement : MonoBehaviour {
          Vector3 currentVelocity = gameObject.GetComponent<Rigidbody> ().velocity;
 
 		float newVelocityX = 0f;
-		if (LeftButton.Pressed() && currentVelocity.x <= 0) {
-			newVelocityX = -speed;
-			animator.SetInteger ("DirectionX", -1);
-        
-        Up.SetActive(false);
-        Down.SetActive(false);
-        Right.SetActive(false);
-		} else if (RightButton.Pressed()  && currentVelocity.x >= 0) {
-			newVelocityX = speed;
-			animator.SetInteger ("DirectionX", 1);
-        Up.SetActive(false);
-        Down.SetActive(false);
-        Left.SetActive(false);
-		} else {
+		if (LeftButton.Pressed() && currentVelocity.x <= 0) 
+        {
+		    newVelocityX = -speed;
+		    animator.SetInteger ("DirectionX", -1);
+            Up.SetActive(false);
+            Down.SetActive(false);
+            Right.SetActive(false);
+		} else if (RightButton.Pressed()  && currentVelocity.x >= 0) 
+        {
+		    newVelocityX = speed;
+		    animator.SetInteger ("DirectionX", 1);
+            Up.SetActive(false);
+            Down.SetActive(false);
+            Left.SetActive(false);
+		} else
+        {
 			animator.SetInteger ("DirectionX", 0);
 		}
 
 		float newVelocityY = 0f;
-		if (DownButton.Pressed()  && currentVelocity.y <= 0) {
-			newVelocityY = -speed;
-			animator.SetInteger ("DirectionY", -1);
-        Up.SetActive(false);
-        Left.SetActive(false);
-        Right.SetActive(false);
-		} else if (UpButton.Pressed() && currentVelocity.y >= 0) {
-			newVelocityY = speed;
-			animator.SetInteger ("DirectionY", 1);
-        Down.SetActive(false);
-        Left.SetActive(false);
-        Right.SetActive(false);
-		} else {
+		if (DownButton.Pressed()  && currentVelocity.y <= 0)
+        {
+		    newVelocityY = -speed;
+		    animator.SetInteger ("DirectionY", -1);
+            Up.SetActive(false);
+            Left.SetActive(false);
+            Right.SetActive(false);
+		} 
+        else if (UpButton.Pressed() && currentVelocity.y >= 0)
+        {
+		    newVelocityY = speed;
+		    animator.SetInteger ("DirectionY", 1);
+            Down.SetActive(false);
+            Left.SetActive(false);
+            Right.SetActive(false);
+		} 
+        else
+        {
 			animator.SetInteger ("DirectionY", 0);
 		}
 
