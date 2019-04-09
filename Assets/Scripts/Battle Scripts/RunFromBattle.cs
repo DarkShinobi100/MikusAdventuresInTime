@@ -44,17 +44,18 @@ public class RunFromBattle : MonoBehaviour
             {
                 Destroy(enemyUnit);
             }
-
-            //if you escape delete the battle camera
-            GameObject gameCamera = GameObject.Find("Main Camera");
-            Destroy(gameCamera);
-
+            
             GameObject turnSystem = GameObject.Find("TurnSystem");
             if (turnSystem != null)
             {
                 turnSystem.GetComponent<TurnSystem1>().revivePlayers();
                 turnSystem.GetComponent<TurnSystem1>().controlPlayers();
             }
+
+            //if you escape delete the battle camera
+            GameObject gameCamera = GameObject.Find("Main Camera");
+            Destroy(gameCamera);
+
 
         }
         else

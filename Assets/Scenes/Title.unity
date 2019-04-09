@@ -2712,7 +2712,7 @@ GameObject:
   - component: {fileID: 1504360490}
   - component: {fileID: 1504360489}
   m_Layer: 0
-  m_Name: partyMember5
+  m_Name: DarkUnit
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2942,7 +2942,7 @@ GameObject:
   - component: {fileID: 1582185872}
   - component: {fileID: 1582185871}
   m_Layer: 0
-  m_Name: partyMember4
+  m_Name: LenUnit
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3829,7 +3829,7 @@ GameObject:
   - component: {fileID: 2008486470}
   - component: {fileID: 2008486469}
   m_Layer: 0
-  m_Name: partyMember3
+  m_Name: RinUnit
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

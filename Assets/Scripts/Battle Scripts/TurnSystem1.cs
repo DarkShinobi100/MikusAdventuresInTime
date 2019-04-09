@@ -136,9 +136,9 @@ public class TurnSystem1 : MonoBehaviour
         //find the party members
         GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
         GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
-        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
-        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
-        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
+        GameObject Rin = GameObject.Find("PlayerParty").transform.Find("RinUnit").gameObject;
+        GameObject Len = GameObject.Find("PlayerParty").transform.Find("LenUnit").gameObject;
+        GameObject Dark = GameObject.Find("PlayerParty").transform.Find("DarkUnit").gameObject;
 
         //check the current scene
         Scene scene = SceneManager.GetActiveScene();
@@ -148,9 +148,9 @@ public class TurnSystem1 : MonoBehaviour
 
             Miku.SetActive(true);
             Luka.SetActive(true);
-            partyMember3.SetActive(false);
-            partyMember4.SetActive(false);
-            partyMember5.SetActive(false);
+            Rin.SetActive(false);
+            Len.SetActive(false);
+            Dark.SetActive(false);
 
         }
         else if (scene.name == "Level2")
@@ -159,9 +159,9 @@ public class TurnSystem1 : MonoBehaviour
 
             Miku.SetActive(true);
             Luka.SetActive(false);
-            partyMember3.SetActive(true);
-            partyMember4.SetActive(false);
-            partyMember5.SetActive(false);
+            Rin.SetActive(true);
+            Len.SetActive(false);
+            Dark.SetActive(false);
 
 
         }
@@ -170,9 +170,9 @@ public class TurnSystem1 : MonoBehaviour
             //find the unused party members and disable them
             Miku.SetActive(true);
             Luka.SetActive(false);
-            partyMember3.SetActive(false);
-            partyMember4.SetActive(true);
-            partyMember5.SetActive(false);
+            Rin.SetActive(false);
+            Len.SetActive(true);
+            Dark.SetActive(false);
 
         }
         else if (scene.name == "Level4")
@@ -180,18 +180,18 @@ public class TurnSystem1 : MonoBehaviour
             //find the unused party members and disable them
             Miku.SetActive(true);
             Luka.SetActive(false);
-            partyMember3.SetActive(false);
-            partyMember4.SetActive(false);
-            partyMember5.SetActive(true);
+            Rin.SetActive(false);
+            Len.SetActive(false);
+            Dark.SetActive(true);
         }
         else if (scene.name == "Level5")
         {
             //find the unused party members and disable them
             Miku.SetActive(true);
             Luka.SetActive(false);
-            partyMember3.SetActive(false);
-            partyMember4.SetActive(false);
-            partyMember5.SetActive(true);
+            Rin.SetActive(false);
+            Len.SetActive(false);
+            Dark.SetActive(true);
         }
     }
 
@@ -214,44 +214,44 @@ public class TurnSystem1 : MonoBehaviour
             Luka.gameObject.tag = "PlayerUnit";
         }
 
-        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
-        if (partyMember3 != null)
+        GameObject Rin = GameObject.Find("PlayerParty").transform.Find("RinUnit").gameObject;
+        if (Rin != null)
         {
-            partyMember3.SetActive(true);
-            partyMember3.GetComponent<UnitStatFunctions>().setStats();
-            partyMember3.gameObject.tag = "PlayerUnit";
+            Rin.SetActive(true);
+            Rin.GetComponent<UnitStatFunctions>().setStats();
+            Rin.gameObject.tag = "PlayerUnit";
         }
 
-        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
-        if (partyMember4 != null)
+        GameObject Len = GameObject.Find("PlayerParty").transform.Find("LenUnit").gameObject;
+        if (Len != null)
         {
-            partyMember4.SetActive(true);
-            partyMember4.GetComponent<UnitStatFunctions>().setStats();
-            partyMember4.gameObject.tag = "PlayerUnit";
+            Len.SetActive(true);
+            Len.GetComponent<UnitStatFunctions>().setStats();
+            Len.gameObject.tag = "PlayerUnit";
         }
 
-        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
-        if (partyMember5 != null)
+        GameObject Dark = GameObject.Find("PlayerParty").transform.Find("DarkUnit").gameObject;
+        if (Dark != null)
         {
-            partyMember5.SetActive(true);
-            partyMember5.GetComponent<UnitStatFunctions>().setStats();
-            partyMember5.gameObject.tag = "PlayerUnit";
+            Dark.SetActive(true);
+            Dark.GetComponent<UnitStatFunctions>().setStats();
+            Dark.gameObject.tag = "PlayerUnit";
         }
     }
     public void controlPlayers()
     {
         //find the party members
         GameObject Miku = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
-        GameObject Luka = GameObject.Find("PlayerParty").transform.Find("MikuUnit").gameObject;
-        GameObject partyMember3 = GameObject.Find("PlayerParty").transform.Find("partyMember3").gameObject;
-        GameObject partyMember4 = GameObject.Find("PlayerParty").transform.Find("partyMember4").gameObject;
-        GameObject partyMember5 = GameObject.Find("PlayerParty").transform.Find("partyMember5").gameObject;
+        GameObject Luka = GameObject.Find("PlayerParty").transform.Find("LukaUnit").gameObject;
+        GameObject Rin = GameObject.Find("PlayerParty").transform.Find("RinUnit").gameObject;
+        GameObject Len = GameObject.Find("PlayerParty").transform.Find("LenUnit").gameObject;
+        GameObject Dark = GameObject.Find("PlayerParty").transform.Find("DarkUnit").gameObject;
 
         Miku.SetActive(false);
         Luka.SetActive(false);
-        partyMember3.SetActive(false);
-        partyMember4.SetActive(false);
-        partyMember5.SetActive(false);
+        Rin.SetActive(false);
+        Len.SetActive(false);
+        Dark.SetActive(false);
     }
 
     public GameObject GetCurrentPlayer()
