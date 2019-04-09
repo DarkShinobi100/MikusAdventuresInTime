@@ -15,7 +15,9 @@ public class DialogueActivator : MonoBehaviour {
     private SimpleTouchArea ConfirmButton;
 
     [SerializeField]
-    private bool BossWarning;
+    private bool BossWarning = false;
+    [SerializeField]
+    private bool isPerson = true;
 
     // Use this for initialization
     void Start () {
@@ -28,7 +30,7 @@ public class DialogueActivator : MonoBehaviour {
             (playerNearby && Input.GetButtonDown("Fire1") && !DialogueManager.instance.dialogueBox.activeInHierarchy))
         {
             //send this persons lines to the dialogue manager
-            DialogueManager.instance.ShowDialogue(lines);
+            DialogueManager.instance.ShowDialogue(lines,isPerson);
             DialogueManager.instance.SetBossWarning(BossWarning);
             DialogueManager.instance.SetTargetNPC(this.gameObject);
         }

@@ -88,7 +88,7 @@ public class DialogueManager : MonoBehaviour {
         }
 	}
 
-    public void ShowDialogue(string[] newLines)
+    public void ShowDialogue(string[] newLines, bool isPerson)
     {
         //overwrite current array of dialogue with the new values
         dialogueLines = newLines;
@@ -99,6 +99,8 @@ public class DialogueManager : MonoBehaviour {
         dialogueText.text = dialogueLines[currentLine];
         dialogueBox.SetActive(true);
         justStarted = true;
+
+        nameBox.gameObject.SetActive(isPerson);
 
         player.GetComponent<PlayerMovement>().SetCanMove(false); //stop the player moving
         player.GetComponent<PlayerMovement>().DeactivateAllButtons();
