@@ -125,69 +125,79 @@ public class PlayerMovement : MonoBehaviour {
             DeactivateAllButtons();
         }
 #else
-        float Horizontal = 0;
-        float Vertical = 0;
+        if (canMove)
+        {
+            Horizontal = 0;
+            Vertical = 0;
 
-         UpButton = Up.GetComponentInChildren<SimpleTouchArea>();
-         DownButton = Down.GetComponentInChildren<SimpleTouchArea>();
-         LeftButton = Left.GetComponentInChildren<SimpleTouchArea>();
-         RightButton = Right.GetComponentInChildren<SimpleTouchArea>();        
+             UpButton = Up.GetComponentInChildren<SimpleTouchArea>();
+             DownButton = Down.GetComponentInChildren<SimpleTouchArea>();
+             LeftButton = Left.GetComponentInChildren<SimpleTouchArea>();
+             RightButton = Right.GetComponentInChildren<SimpleTouchArea>();        
 
-         Vector3 currentVelocity = gameObject.GetComponent<Rigidbody> ().velocity;
+             Vector3 currentVelocity = gameObject.GetComponent<Rigidbody> ().velocity;
 
-		newVelocityX = 0f;
-		if (LeftButton.Pressed() && currentVelocity.x <= 0) 
-        {
-		    newVelocityX = -speed;
-		    animator.SetInteger ("DirectionX", -1);
-            Up.SetActive(false);
-            Down.SetActive(false);
-            Right.SetActive(false);
-		} else if (RightButton.Pressed()  && currentVelocity.x >= 0) 
-        {
-		    newVelocityX = speed;
-		    animator.SetInteger ("DirectionX", 1);
-            Up.SetActive(false);
-            Down.SetActive(false);
-            Left.SetActive(false);
-		} else
-        {
-			animator.SetInteger ("DirectionX", 0);
-		}
+		    newVelocityX = 0f;
+		    if (LeftButton.Pressed() && currentVelocity.x <= 0) 
+            {
+		        newVelocityX = -speed;
+		        animator.SetInteger ("DirectionX", -1);
+                Up.SetActive(false);
+                Down.SetActive(false);
+                Right.SetActive(false);
+		    } 
+            else if (RightButton.Pressed()  && currentVelocity.x >= 0) 
+            {
+		        newVelocityX = speed;
+		        animator.SetInteger ("DirectionX", 1);
+                Up.SetActive(false);
+                Down.SetActive(false);
+                Left.SetActive(false);
+		    } 
+            else
+            {
+			    animator.SetInteger ("DirectionX", 0);
+		    }
 
-		newVelocityY = 0f;
-		if (DownButton.Pressed()  && currentVelocity.y <= 0)
-        {
-		    newVelocityY = -speed;
-		    animator.SetInteger ("DirectionY", -1);
-            Up.SetActive(false);
-            Left.SetActive(false);
-            Right.SetActive(false);
-		} 
-        else if (UpButton.Pressed() && currentVelocity.y >= 0)
-        {
-		    newVelocityY = speed;
-		    animator.SetInteger ("DirectionY", 1);
-            Down.SetActive(false);
-            Left.SetActive(false);
-            Right.SetActive(false);
-		} 
-        else
-        {
-			animator.SetInteger ("DirectionY", 0);
-		}
+		    newVelocityY = 0f;
+		    if (DownButton.Pressed()  && currentVelocity.y <= 0)
+            {
+		        newVelocityY = -speed;
+		        animator.SetInteger ("DirectionY", -1);
+                Up.SetActive(false);
+                Left.SetActive(false);
+                Right.SetActive(false);
+		    } 
+            else if (UpButton.Pressed() && currentVelocity.y >= 0)
+            {
+		        newVelocityY = speed;
+		        animator.SetInteger ("DirectionY", 1);
+                Down.SetActive(false);
+                Left.SetActive(false);
+                Right.SetActive(false);
+		    } 
+            else
+            {
+			    animator.SetInteger ("DirectionY", 0);
+		    }
 
         
-        if(newVelocityX == 0 && newVelocityY == 0)
-        {
-            Up.SetActive(true);
-            Down.SetActive(true);
-            Left.SetActive(true);
-            Right.SetActive(true);
+            if(newVelocityX == 0 && newVelocityY == 0)
+            {
+                Up.SetActive(true);
+                Down.SetActive(true);
+                Left.SetActive(true);
+                Right.SetActive(true);
+            }
+        
+		    gameObject.GetComponent<Rigidbody> ().velocity = new Vector3 (newVelocityX,0, newVelocityY);
+        
         }
-        if(canMove) //if you can move update the player
+        else
         {
-		gameObject.GetComponent<Rigidbody> ().velocity = new Vector3 (newVelocityX,0, newVelocityY);
+            Horizontal = 0;
+            Vertical = 0;
+            DeactivateAllButtons();
         }
 
 #endif

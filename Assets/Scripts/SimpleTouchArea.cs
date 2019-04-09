@@ -7,12 +7,9 @@ using UnityEngine.UI;
 public class SimpleTouchArea : MonoBehaviour, IPointerDownHandler,IPointerUpHandler
 {
     private bool pressed;
-    private int PointerID;
-    private bool canFire;
 
     void Awake()
-    {
-       
+    {      
         pressed = false;
     }
 
