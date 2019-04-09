@@ -20,6 +20,14 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
 	private Animator animator;
 
+    private float newVelocityX;
+    private float newVelocityY;
+
+    private SimpleTouchArea UpButton;
+    private SimpleTouchArea DownButton;
+    private SimpleTouchArea LeftButton;
+    private SimpleTouchArea RightButton;
+
     void FixedUpdate () {
 
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
@@ -29,7 +37,7 @@ public class PlayerMovement : MonoBehaviour {
 		float Vertical = Input.GetAxis ("Vertical");
         Vector3 currentVelocity = gameObject.GetComponent<Rigidbody>().velocity;
 
-        float newVelocityX = 0f;
+        newVelocityX = 0f;
         if (Horizontal < 0 && currentVelocity.x <= 0)
         {
             newVelocityX = -speed;
@@ -51,7 +59,7 @@ public class PlayerMovement : MonoBehaviour {
             animator.SetInteger("DirectionX", 0);
         }
 
-        float newVelocityY = 0f;
+        newVelocityY = 0f;
         if (Vertical < 0 && currentVelocity.y <= 0)
         {
             newVelocityY = -speed;
@@ -86,14 +94,14 @@ public class PlayerMovement : MonoBehaviour {
         float Horizontal = 0;
         float Vertical = 0;
 
-         SimpleTouchArea UpButton = Up.GetComponentInChildren<SimpleTouchArea>();
-         SimpleTouchArea DownButton = Down.GetComponentInChildren<SimpleTouchArea>();
-         SimpleTouchArea LeftButton = Left.GetComponentInChildren<SimpleTouchArea>();
-         SimpleTouchArea RightButton = Right.GetComponentInChildren<SimpleTouchArea>();
+         UpButton = Up.GetComponentInChildren<SimpleTouchArea>();
+         DownButton = Down.GetComponentInChildren<SimpleTouchArea>();
+         LeftButton = Left.GetComponentInChildren<SimpleTouchArea>();
+         RightButton = Right.GetComponentInChildren<SimpleTouchArea>();
 
          Vector3 currentVelocity = gameObject.GetComponent<Rigidbody> ().velocity;
 
-		float newVelocityX = 0f;
+		newVelocityX = 0f;
 		if (LeftButton.Pressed() && currentVelocity.x <= 0) 
         {
 		    newVelocityX = -speed;
@@ -113,7 +121,7 @@ public class PlayerMovement : MonoBehaviour {
 			animator.SetInteger ("DirectionX", 0);
 		}
 
-		float newVelocityY = 0f;
+		newVelocityY = 0f;
 		if (DownButton.Pressed()  && currentVelocity.y <= 0)
         {
 		    newVelocityY = -speed;
@@ -149,4 +157,17 @@ public class PlayerMovement : MonoBehaviour {
 #endif
 
     }
+    private void OnEnable()
+    {
+        //stop movement
+        newVelocityX = 0f;
+        newVelocityY = 0f;
+
+        //turn on the buttons
+        Up.SetActive(true);
+        Down.SetActive(true);
+        Left.SetActive(true);
+        Right.SetActive(true);
+    }
+
 }
