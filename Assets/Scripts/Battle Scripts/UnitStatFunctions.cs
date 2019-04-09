@@ -63,9 +63,25 @@ public class UnitStatFunctions : UnitStats, IComparable
 
     public void levelUp()
     {
-        if(this.currentExperience >= 100)
+        if (playerLevel <= 10)
         {
-            playerLevel += 1;
+            //Calculate EXP needed for next level 
+            //Using a quadratic function
+            // y = a * X ^ 2 + b * X + C
+            EXPToNextLevel = 40 * (int)Math.Pow(playerLevel, 2) + 360 * playerLevel + 0;
+        }
+        else
+        {
+            //new function Y = a * X^3 + b * X^2 + c * X + d
+            //a = -0.4 b=40.4 c=396.0 d=0
+            EXPToNextLevel = (int)(-0.4 * Math.Pow(playerLevel, 3) + 40.4 * Math.Pow(playerLevel, 2) + 396.0 * (double)playerLevel + 0);
+
+        }
+
+        if (currentExperience >= EXPToNextLevel)
+        {
+            //level up!
+            ++playerLevel;
             updateStats();
         }
     }

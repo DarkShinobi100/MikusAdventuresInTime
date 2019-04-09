@@ -1735,6 +1735,7 @@ MonoBehaviour:
   speed: 0
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!114 &1080737175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1761,6 +1762,7 @@ MonoBehaviour:
   speed: 10
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!212 &1080737176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2562,6 +2564,7 @@ MonoBehaviour:
   speed: 0
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!114 &1469121534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,6 +2591,7 @@ MonoBehaviour:
   speed: 10
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!212 &1469121535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2780,6 +2784,7 @@ MonoBehaviour:
   speed: 10
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!212 &1504360492
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2866,6 +2871,7 @@ MonoBehaviour:
   speed: 0
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!1 &1561490345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,6 +3016,7 @@ MonoBehaviour:
   speed: 10
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!212 &1582185874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3096,6 +3103,7 @@ MonoBehaviour:
   speed: 0
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!1 &1625299443
 GameObject:
   m_ObjectHideFlags: 0
@@ -3897,6 +3905,7 @@ MonoBehaviour:
   speed: 10
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!212 &2008486472
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3983,6 +3992,7 @@ MonoBehaviour:
   speed: 0
   nextActTurn: 0
   playerLevel: 1
+  EXPToNextLevel: 100
 --- !u!1 &2029446966
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,5 +29,6 @@ public class UnitStats : MonoBehaviour
     protected bool dead = false;
 
     protected float currentExperience;
-
+    [SerializeField]
+    protected float EXPToNextLevel;
 }
