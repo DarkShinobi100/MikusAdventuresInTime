@@ -3548,7 +3548,7 @@ GameObject:
   - component: {fileID: 1579781821}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3648,10 +3648,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - it works
-  - or
-  - not?
+  - n-Dark
+  - please help me
+  - n-Miku
+  - what with?
+  - n-Dark
+  - killing monsters
+  - n-Miku
+  - no
+  - thats mean
+  - I'm leaving
   confirm: {fileID: 1002214108}
+  BossWarning: 1
 --- !u!1001 &1600258644
 Prefab:
   m_ObjectHideFlags: 0

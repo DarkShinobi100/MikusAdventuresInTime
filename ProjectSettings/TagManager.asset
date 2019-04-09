@@ -10,6 +10,7 @@ TagManager:
   - TargetEnemyUnit
   - enemy
   - BattleTarget
+  - NPC
   layers:
   - Default
   - TransparentFX

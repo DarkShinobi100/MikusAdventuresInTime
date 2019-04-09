@@ -14,6 +14,9 @@ public class DialogueActivator : MonoBehaviour {
     private GameObject confirm;
     private SimpleTouchArea ConfirmButton;
 
+    [SerializeField]
+    private bool BossWarning;
+
     // Use this for initialization
     void Start () {
         ConfirmButton = confirm.GetComponentInChildren<SimpleTouchArea>();
@@ -26,6 +29,8 @@ public class DialogueActivator : MonoBehaviour {
         {
             //send this persons lines to the dialogue manager
             DialogueManager.instance.ShowDialogue(lines);
+            DialogueManager.instance.SetBossWarning(BossWarning);
+            DialogueManager.instance.SetTargetNPC(this.gameObject);
         }
 	}
 

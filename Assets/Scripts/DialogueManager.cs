@@ -9,7 +9,10 @@ public class DialogueManager : MonoBehaviour {
     [SerializeField]
     private Text nameText;
     
+    //has to be public for activator to check if it is active in the scene
     public GameObject dialogueBox;
+
+    private GameObject TargetNPC;
 
     [SerializeField]
     private GameObject nameBox;
@@ -18,6 +21,7 @@ public class DialogueManager : MonoBehaviour {
     [SerializeField]
     private int currentLine;
     private bool justStarted;
+    private bool BossWarning;
 
     //confirm button
     [SerializeField]
@@ -50,16 +54,27 @@ public class DialogueManager : MonoBehaviour {
 
                     if (currentLine >= dialogueLines.Length)
                     {
-                        //end of the array
-                        dialogueBox.SetActive(false);
+                        if (BossWarning)
+                        {
+                            //end of the array
+                            dialogueBox.SetActive(false);
+                            player.GetComponent<PlayerMovement>().SetCanMove(true); //let the player move
+                            player.GetComponent<PlayerMovement>().ReactivateAllButtons();
 
-
-                        player.GetComponent<PlayerMovement>().SetCanMove(true); //let the player move
-                        player.GetComponent<PlayerMovement>().ReactivateAllButtons();
-
+                            //remove the person warning you about the boss
+                            Destroy(TargetNPC);
+                        }
+                        else
+                        {
+                            //end of the array
+                            dialogueBox.SetActive(false);
+                            player.GetComponent<PlayerMovement>().SetCanMove(true); //let the player move
+                            player.GetComponent<PlayerMovement>().ReactivateAllButtons();
+                        }
                     }
                     else
                     {
+                        CheckIfName(); //is this line a character name?
                         dialogueText.text = dialogueLines[currentLine];
                     }
                 }
@@ -79,12 +94,34 @@ public class DialogueManager : MonoBehaviour {
         dialogueLines = newLines;
 
         currentLine = 0;
+        CheckIfName(); 
 
-        dialogueText.text = dialogueLines[0];
+        dialogueText.text = dialogueLines[currentLine];
         dialogueBox.SetActive(true);
         justStarted = true;
 
         player.GetComponent<PlayerMovement>().SetCanMove(false); //stop the player moving
         player.GetComponent<PlayerMovement>().DeactivateAllButtons();
+    }
+
+    public void SetBossWarning(bool value)
+    {
+        //overwrite current value for BossWarning
+        BossWarning = value;
+    }
+
+    public void SetTargetNPC(GameObject Speaker)
+    {
+        //overwrite current value for BossWarning
+        TargetNPC = Speaker;
+    }
+
+    public void CheckIfName()
+    {
+        if(dialogueLines[currentLine].StartsWith("n-")) //does this line contain a character name?
+        {
+            nameText.text = dialogueLines[currentLine].Replace("n-",""); //yeah, so set it in the box
+            currentLine++; //skip this line in the main box
+        }
     }
 }
