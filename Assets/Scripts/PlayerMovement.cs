@@ -16,11 +16,18 @@ public class PlayerMovement : MonoBehaviour {
     private GameObject Left;
     [SerializeField]
     private GameObject Right;
+    [SerializeField]
+    private GameObject DeactivateButtons;
+
+    private bool canMove;
 
     [SerializeField]
 	private Animator animator;
     //[SerializeField]
     //private AudioSource audio;
+
+    private float Horizontal;
+    private float Vertical;
 
     private float newVelocityX;
     private float newVelocityY;
@@ -30,75 +37,93 @@ public class PlayerMovement : MonoBehaviour {
     private SimpleTouchArea LeftButton;
     private SimpleTouchArea RightButton;
 
-
+    private void Start()
+    {
+        canMove = true;
+    }
     void FixedUpdate () {
 
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
-
-
-        float Horizontal = Input.GetAxis ("Horizontal");
-		float Vertical = Input.GetAxis ("Vertical");
-        Vector3 currentVelocity = gameObject.GetComponent<Rigidbody>().velocity;
-
-        newVelocityX = 0f;
-        if (Horizontal < 0 && currentVelocity.x <= 0)
+        if (canMove)
         {
-            newVelocityX = -speed;
-            animator.SetInteger("DirectionX", -1);
-            Up.SetActive(false);
-            Down.SetActive(false);
-            Right.SetActive(false);
-            //TODO play walk sound
-        }
-        else if (Horizontal > 0 && currentVelocity.x >= 0)
-        {
-            newVelocityX = speed;
-            animator.SetInteger("DirectionX", 1);
-            Up.SetActive(false);
-            Down.SetActive(false);
-            Left.SetActive(false);
-            //TODO play walk sound
+            Horizontal = Input.GetAxis("Horizontal");
+            Vertical = Input.GetAxis("Vertical");
+       
+            Vector3 currentVelocity = gameObject.GetComponent<Rigidbody>().velocity;
+
+            newVelocityX = 0f;
+            if (Horizontal < 0 && currentVelocity.x <= 0)
+            {
+                newVelocityX = -speed;
+                animator.SetInteger("DirectionX", -1);
+                Up.SetActive(false);
+                Down.SetActive(false);
+                Right.SetActive(false);
+                //TODO play walk sound
+            }
+            else if (Horizontal > 0 && currentVelocity.x >= 0)
+            {
+                newVelocityX = speed;
+                animator.SetInteger("DirectionX", 1);
+                Up.SetActive(false);
+                Down.SetActive(false);
+                Left.SetActive(false);
+                //TODO play walk sound
+            }
+            else
+            {
+                animator.SetInteger("DirectionX", 0);
+            }
+
+            newVelocityY = 0f;
+            if (Vertical < 0 && currentVelocity.y <= 0)
+            {
+                newVelocityY = -speed;
+                animator.SetInteger("DirectionY", -1);
+                Up.SetActive(false);
+                Left.SetActive(false);
+                Right.SetActive(false);
+                //TODO play walk sound
+            }
+            else if (Vertical > 0 && currentVelocity.y >= 0)
+            {
+                newVelocityY = speed;
+                animator.SetInteger("DirectionY", 1);
+                Down.SetActive(false);
+                Left.SetActive(false);
+                Right.SetActive(false);
+                //TODO play walk sound
+            }
+            else
+            {
+                animator.SetInteger("DirectionY", 0);
+            }
+
+            if(newVelocityX == 0 && newVelocityY == 0)
+            {
+                Up.SetActive(true);
+                Down.SetActive(true);
+                Left.SetActive(true);
+                Right.SetActive(true);
+
+                //TODO stop walk sound
+            }
+
+            if (canMove) //if you can move update the player
+            {
+                gameObject.GetComponent<Rigidbody>().velocity = new Vector3(newVelocityX, 0, newVelocityY);
+            }
+            else
+            {
+                gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                }
         }
         else
         {
-            animator.SetInteger("DirectionX", 0);
+            Horizontal = 0;
+            Vertical = 0;
+            DeactivateAllButtons();
         }
-
-        newVelocityY = 0f;
-        if (Vertical < 0 && currentVelocity.y <= 0)
-        {
-            newVelocityY = -speed;
-            animator.SetInteger("DirectionY", -1);
-            Up.SetActive(false);
-            Left.SetActive(false);
-            Right.SetActive(false);
-            //TODO play walk sound
-        }
-        else if (Vertical > 0 && currentVelocity.y >= 0)
-        {
-            newVelocityY = speed;
-            animator.SetInteger("DirectionY", 1);
-            Down.SetActive(false);
-            Left.SetActive(false);
-            Right.SetActive(false);
-            //TODO play walk sound
-        }
-        else
-        {
-            animator.SetInteger("DirectionY", 0);
-        }
-
-        if(newVelocityX == 0 && newVelocityY == 0)
-        {
-            Up.SetActive(true);
-            Down.SetActive(true);
-            Left.SetActive(true);
-            Right.SetActive(true);
-
-            //TODO stop walk sound
-        }
-
-        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(newVelocityX,0, newVelocityY);
 #else
         float Horizontal = 0;
         float Vertical = 0;
@@ -160,8 +185,10 @@ public class PlayerMovement : MonoBehaviour {
             Left.SetActive(true);
             Right.SetActive(true);
         }
-
+        if(canMove) //if you can move update the player
+        {
 		gameObject.GetComponent<Rigidbody> ().velocity = new Vector3 (newVelocityX,0, newVelocityY);
+        }
 
 #endif
 
@@ -179,4 +206,32 @@ public class PlayerMovement : MonoBehaviour {
         Right.SetActive(true);
     }
 
+    public void DeactivateAllButtons()
+    {
+        //stop movement
+        newVelocityX = 0f;
+        newVelocityY = 0f;
+
+        //turn off the buttons
+        Up.SetActive(false);
+        Down.SetActive(false);
+        Left.SetActive(false);
+        Right.SetActive(false);
+        DeactivateButtons.SetActive(false);
+    }
+
+    public void ReactivateAllButtons()
+    {
+        //turn off the buttons
+        Up.SetActive(true);
+        Down.SetActive(true);
+        Left.SetActive(true);
+        Right.SetActive(true);
+        DeactivateButtons.SetActive(true);
+    }
+
+    public void SetCanMove(bool value)
+    {
+        canMove = value;
+    }
 }

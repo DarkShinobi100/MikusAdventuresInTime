@@ -1778,9 +1778,19 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114334743396221578, guid: 727f5bee6656107498538e055b53eb83,
+        type: 2}
+      propertyPath: DeactivateButtons
+      value: 
+      objectReference: {fileID: 598734776}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727f5bee6656107498538e055b53eb83, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &598734776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1181213707380100, guid: 727f5bee6656107498538e055b53eb83,
+    type: 2}
+  m_PrefabInternal: {fileID: 520315447}
 --- !u!1 &630668607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +1976,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011863994726, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.391
+      value: -14.652
       objectReference: {fileID: 0}
     - target: {fileID: 4000011863994726, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2651,6 +2661,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.61, y: 1, z: 1}
   m_Center: {x: 0.24, y: 0, z: 0.11}
+--- !u!1 &1259588579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083599749406594, guid: 727f5bee6656107498538e055b53eb83,
+    type: 2}
+  m_PrefabInternal: {fileID: 520315447}
 --- !u!1 &1271898226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3528,8 +3543,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1579781820}
   - component: {fileID: 1579781819}
+  - component: {fileID: 1579781823}
+  - component: {fileID: 1579781822}
+  - component: {fileID: 1579781821}
   m_Layer: 0
-  m_Name: DarkWalk_2
+  m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3588,12 +3606,52 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1579781818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.64, y: 0, z: -9.58}
+  m_LocalPosition: {x: 1.78, y: 0, z: -0.94}
   m_LocalScale: {x: 5, y: 5, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1579781821
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1579781818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.45, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1579781822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1579781818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 0.45, z: 1.71}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1579781823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1579781818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76713271d78253439523377d254a83e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - it works
+  - or
+  - not?
+  confirm: {fileID: 1002214108}
 --- !u!1001 &1600258644
 Prefab:
   m_ObjectHideFlags: 0
@@ -4648,7 +4706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1864174539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5537,6 +5595,7 @@ MonoBehaviour:
   - array
   currentLine: 0
   confirm: {fileID: 1002214108}
+  player: {fileID: 1259588579}
 --- !u!1001 &2115099354
 Prefab:
   m_ObjectHideFlags: 0
