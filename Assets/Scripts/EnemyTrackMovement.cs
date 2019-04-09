@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyTrackMovement : MonoBehaviour {
 
     [SerializeField]
-    float moveSpeed;
+    private float moveSpeed;
     [SerializeField]
     private GameObject enemy;
     [SerializeField]

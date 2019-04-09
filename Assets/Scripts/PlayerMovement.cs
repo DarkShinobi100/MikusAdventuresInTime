@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour {
     private SimpleTouchArea LeftButton;
     private SimpleTouchArea RightButton;
 
+
     void FixedUpdate () {
 
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
@@ -105,7 +106,7 @@ public class PlayerMovement : MonoBehaviour {
          UpButton = Up.GetComponentInChildren<SimpleTouchArea>();
          DownButton = Down.GetComponentInChildren<SimpleTouchArea>();
          LeftButton = Left.GetComponentInChildren<SimpleTouchArea>();
-         RightButton = Right.GetComponentInChildren<SimpleTouchArea>();
+         RightButton = Right.GetComponentInChildren<SimpleTouchArea>();        
 
          Vector3 currentVelocity = gameObject.GetComponent<Rigidbody> ().velocity;
 
