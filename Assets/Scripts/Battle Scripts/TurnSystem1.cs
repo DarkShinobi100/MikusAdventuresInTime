@@ -73,7 +73,7 @@ public class TurnSystem1 : MonoBehaviour
             revivePlayers();
             controlPlayers();
             GameManager1 gameManager = FindObjectOfType<GameManager1>();
-            gameManager.UpdateBattleScene();
+            gameManager.UpdateLevelScene();
 
         }
 
