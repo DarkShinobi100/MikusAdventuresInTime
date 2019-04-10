@@ -185,18 +185,18 @@ TextureImporter:
       name: Oda nobunaga_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 320
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ec620377e04ab48b754d4fe671e79c
+      spriteID: 39a384d0605f49d46b649d5a829502cb
       vertices: []
       indices: 
       edges: []
@@ -205,18 +205,18 @@ TextureImporter:
       name: Oda nobunaga_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 320
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 929aa434d7d94c2468577ab232dda28f
+      spriteID: de3a781331b697342bf3f139b51e27e4
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: Oda nobunaga_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 320
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcf3b5fee7ad3c84daf6f977ad9c7086
+      spriteID: cff1fd6b98fd2574984f62cd11ee6a0d
       vertices: []
       indices: 
       edges: []
@@ -245,18 +245,18 @@ TextureImporter:
       name: Oda nobunaga_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 320
-        width: 64
+        width: 67
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e5a20f6eba140c4a9acd579f57ff573
+      spriteID: 12f829005611dd840b014a0c3673c7be
       vertices: []
       indices: 
       edges: []
@@ -265,18 +265,18 @@ TextureImporter:
       name: Oda nobunaga_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 270
         y: 320
-        width: 64
+        width: 61
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4dfa7aed7e0dd447a06f77d0b9cf5c4
+      spriteID: 55363656f8fdf9044a3d33f45aecea8d
       vertices: []
       indices: 
       edges: []
@@ -285,18 +285,18 @@ TextureImporter:
       name: Oda nobunaga_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 320
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1facc433400bd547b5806efa5fa70f6
+      spriteID: bf02adba2bb475541a20523b45fd50e6
       vertices: []
       indices: 
       edges: []
@@ -307,16 +307,16 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 320
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 461daccee5dd4a642912a3a47696bd93
+      spriteID: 8e318ac5d8d45aa4c9f4010929303f76
       vertices: []
       indices: 
       edges: []
@@ -325,18 +325,18 @@ TextureImporter:
       name: Oda nobunaga_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 446
         y: 320
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981b463d55284cd43b40aeef5d930231
+      spriteID: f64f8616a40a99c40bf2bbe5f4490953
       vertices: []
       indices: 
       edges: []
@@ -345,18 +345,18 @@ TextureImporter:
       name: Oda nobunaga_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 517
         y: 320
-        width: 64
+        width: 59
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61e2599ec6bf01f4a91b88b7899e2efc
+      spriteID: 3a8a61997dbdbe94eaf21297adcb6d07
       vertices: []
       indices: 
       edges: []
@@ -365,18 +365,18 @@ TextureImporter:
       name: Oda nobunaga_9
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96191bd3c773a0f429fdbef13389d832
+      spriteID: dc2792183dee3e54eaea65ad6af6a5b7
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
       name: Oda nobunaga_10
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 942f3a417930b6c4fae1f245bf9abdea
+      spriteID: 9051a7cda4fc89c4bba5a98ca4494e91
       vertices: []
       indices: 
       edges: []
@@ -405,18 +405,18 @@ TextureImporter:
       name: Oda nobunaga_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1151c0f79c724d5459c0b6c4bba928ee
+      spriteID: 6f197bfeca8ce104f8e88a58561db851
       vertices: []
       indices: 
       edges: []
@@ -425,18 +425,18 @@ TextureImporter:
       name: Oda nobunaga_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 743d801c81028104c99dfc5788cc3d2a
+      spriteID: 531ac868f3d531142b105287162cd789
       vertices: []
       indices: 
       edges: []
@@ -445,18 +445,18 @@ TextureImporter:
       name: Oda nobunaga_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 427d28adf5abe704585e1838f71b7847
+      spriteID: 697be5db094777046aef4b3159932287
       vertices: []
       indices: 
       edges: []
@@ -465,18 +465,18 @@ TextureImporter:
       name: Oda nobunaga_14
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca8e8e91ddfd0649a196289195139e3
+      spriteID: c2758a0ec064e3b459299ad8095d2109
       vertices: []
       indices: 
       edges: []
@@ -487,16 +487,16 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f1f1125c3d47842a0464af702f3525
+      spriteID: 810b276b509e43d4e9489b1c5cf4a4d1
       vertices: []
       indices: 
       edges: []
@@ -505,18 +505,18 @@ TextureImporter:
       name: Oda nobunaga_16
       rect:
         serializedVersion: 2
-        x: 448
+        x: 446
         y: 256
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 222ca146d214af846b44140d54cc8b8f
+      spriteID: 2f62a283c0072464ca61f78fbd0bafcf
       vertices: []
       indices: 
       edges: []
@@ -525,18 +525,18 @@ TextureImporter:
       name: Oda nobunaga_17
       rect:
         serializedVersion: 2
-        x: 512
+        x: 508
         y: 256
-        width: 64
+        width: 68
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84e5cd470c3b77b4fba465c21d668eee
+      spriteID: cb39aae7addaef3418e7ea7b1fba5700
       vertices: []
       indices: 
       edges: []
@@ -545,18 +545,18 @@ TextureImporter:
       name: Oda nobunaga_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 192
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fae783b387c8774494951ce0b4931dd
+      spriteID: 012101d5297a945478fa69f52ef3c667
       vertices: []
       indices: 
       edges: []
@@ -565,18 +565,18 @@ TextureImporter:
       name: Oda nobunaga_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 192
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da158a8bc66311f4bbe2d509f5df4647
+      spriteID: 90a9886c1bdd0f344aaedbf522915cc5
       vertices: []
       indices: 
       edges: []
@@ -585,18 +585,18 @@ TextureImporter:
       name: Oda nobunaga_20
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 192
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41c5e00382b10ad418bc8d20965d1656
+      spriteID: d37fb1969686ffa4d911b3e3ecf0e754
       vertices: []
       indices: 
       edges: []
@@ -605,18 +605,18 @@ TextureImporter:
       name: Oda nobunaga_21
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 192
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afaf0a6440b278e4ea63bf93a8f87f6d
+      spriteID: b08f311149de85f4a933b46f0c99d68a
       vertices: []
       indices: 
       edges: []
@@ -625,18 +625,18 @@ TextureImporter:
       name: Oda nobunaga_22
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 192
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0bddbc5bd2746d4b93caa1b331175c9
+      spriteID: c51db387acfff3f479ad0619ff26038d
       vertices: []
       indices: 
       edges: []
@@ -645,18 +645,18 @@ TextureImporter:
       name: Oda nobunaga_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 192
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4ea9765e7dfb4e4e98b0ec01ed49060
+      spriteID: fb6d15258915b9c479f895bc6171f813
       vertices: []
       indices: 
       edges: []
@@ -667,16 +667,16 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 192
-        width: 64
+        width: 65
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aede2a0044952394da9cf09072713935
+      spriteID: 17113c667adc94842bc866a9d4aa5346
       vertices: []
       indices: 
       edges: []
@@ -685,18 +685,18 @@ TextureImporter:
       name: Oda nobunaga_25
       rect:
         serializedVersion: 2
-        x: 448
+        x: 453
         y: 192
-        width: 64
+        width: 62
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91024787e46f1e40aad03b8f797e6d9
+      spriteID: 5e498b8f8646ea04a840d803c9755724
       vertices: []
       indices: 
       edges: []
@@ -705,18 +705,18 @@ TextureImporter:
       name: Oda nobunaga_26
       rect:
         serializedVersion: 2
-        x: 512
+        x: 516
         y: 192
-        width: 64
+        width: 60
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 612a9f5e9d0698243ac28848f5bc6136
+      spriteID: 160d92e7942d56d4babe24d4999db7d7
       vertices: []
       indices: 
       edges: []
@@ -725,18 +725,18 @@ TextureImporter:
       name: Oda nobunaga_27
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27915f075e4f58346bc27eb7c02dc92f
+      spriteID: 9240e8f6c2fbf4b458ab70bd0a6ed152
       vertices: []
       indices: 
       edges: []
@@ -745,18 +745,18 @@ TextureImporter:
       name: Oda nobunaga_28
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f4df9f10e5cd6b44a2c50f25b03f6d3
+      spriteID: 951ff495ab01d154c8108245c493f2a6
       vertices: []
       indices: 
       edges: []
@@ -765,18 +765,18 @@ TextureImporter:
       name: Oda nobunaga_29
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8487705bd727d4fa5e943aae6bf10c
+      spriteID: 3571957278d6fa241ac065f6a34b87dc
       vertices: []
       indices: 
       edges: []
@@ -785,18 +785,18 @@ TextureImporter:
       name: Oda nobunaga_30
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec855f16d05414843a72f7b2a2810f32
+      spriteID: 402278b111b118744b2dfa9efbdec022
       vertices: []
       indices: 
       edges: []
@@ -805,18 +805,18 @@ TextureImporter:
       name: Oda nobunaga_31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 008f63d034aa72d4394832546aa89de5
+      spriteID: c0faa556112e7f8429395f3a4874dda5
       vertices: []
       indices: 
       edges: []
@@ -825,18 +825,18 @@ TextureImporter:
       name: Oda nobunaga_32
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c79db506e964b4479ac92248f0f93c0
+      spriteID: 43b7adb4c24ee0c4099e4016524556f0
       vertices: []
       indices: 
       edges: []
@@ -847,16 +847,16 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6016840e05e7f04f86edd5fb9ac3898
+      spriteID: aafe616c53d776541adc09d69e6abd60
       vertices: []
       indices: 
       edges: []
@@ -865,18 +865,18 @@ TextureImporter:
       name: Oda nobunaga_34
       rect:
         serializedVersion: 2
-        x: 448
+        x: 446
         y: 128
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 913fdf2b1cc669a4f99ff64bdf9f26be
+      spriteID: 7a00ee266834a0c40bad8da77cbd33de
       vertices: []
       indices: 
       edges: []
@@ -885,18 +885,18 @@ TextureImporter:
       name: Oda nobunaga_35
       rect:
         serializedVersion: 2
-        x: 512
+        x: 521
         y: 128
-        width: 64
+        width: 55
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4031bab94fd759b47ac8354db1c7132c
+      spriteID: bf4d47db873078041af9e8105ed0f533
       vertices: []
       indices: 
       edges: []
@@ -905,18 +905,18 @@ TextureImporter:
       name: Oda nobunaga_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca94e4bf93ae6dc4b95b702369f3b1eb
+      spriteID: 38dc614fcabef264084aceb54c7d853d
       vertices: []
       indices: 
       edges: []
@@ -925,18 +925,18 @@ TextureImporter:
       name: Oda nobunaga_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bcb880bc08d89648a876d478d465d29
+      spriteID: 5a591f54980a98e44bfe07df2de54051
       vertices: []
       indices: 
       edges: []
@@ -945,18 +945,18 @@ TextureImporter:
       name: Oda nobunaga_38
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f083f8414796d4e81f451457e22fa8
+      spriteID: 925495390f812214389d2578afc92ad8
       vertices: []
       indices: 
       edges: []
@@ -965,18 +965,18 @@ TextureImporter:
       name: Oda nobunaga_39
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8299347852cbd24f9a7b7b9eb9b0be3
+      spriteID: 1e7a1ad4f1e291b488fbf4c1fa15677c
       vertices: []
       indices: 
       edges: []
@@ -985,18 +985,18 @@ TextureImporter:
       name: Oda nobunaga_40
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d9f777e48fff3c4bb81c31e3e7ace5c
+      spriteID: d2bfaa520bff602449097f3408b8f703
       vertices: []
       indices: 
       edges: []
@@ -1005,18 +1005,18 @@ TextureImporter:
       name: Oda nobunaga_41
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12d4e9fcdd304cf43beb8e09466dcfee
+      spriteID: 4295894f88710e04393133c6cd44660a
       vertices: []
       indices: 
       edges: []
@@ -1027,16 +1027,16 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 766e4096f5686db468a799dd05e44788
+      spriteID: 4441c8cf7ab97da4aab75b559a3e08db
       vertices: []
       indices: 
       edges: []
@@ -1045,18 +1045,18 @@ TextureImporter:
       name: Oda nobunaga_43
       rect:
         serializedVersion: 2
-        x: 448
+        x: 446
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f023b64afd4b84d8332be3cbb19af0
+      spriteID: b1ac2d1bb6be2e0428caebeb6c2f3628
       vertices: []
       indices: 
       edges: []
@@ -1065,18 +1065,18 @@ TextureImporter:
       name: Oda nobunaga_44
       rect:
         serializedVersion: 2
-        x: 512
+        x: 508
         y: 64
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba5e1e6dd16616499fa87abc9d81689
+      spriteID: 8f456cd7615bbf4408753dafbad42c05
       vertices: []
       indices: 
       edges: []
@@ -1085,18 +1085,18 @@ TextureImporter:
       name: Oda nobunaga_45
       rect:
         serializedVersion: 2
-        x: 0
+        x: 12
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c72513a146687a4aa1fa97ac800805b
+      spriteID: 8bd78c18e3ffce14f8038fbfc39d7d14
       vertices: []
       indices: 
       edges: []
@@ -1105,18 +1105,18 @@ TextureImporter:
       name: Oda nobunaga_46
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f32ae6529db53a4e85fb69677a86667
+      spriteID: 47043c9e4c2030e4195ae9b21789ad90
       vertices: []
       indices: 
       edges: []
@@ -1125,18 +1125,18 @@ TextureImporter:
       name: Oda nobunaga_47
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720f311fe63a487499493994741101a9
+      spriteID: 2758654fa0f9f5d49bfab8c8e616391a
       vertices: []
       indices: 
       edges: []
@@ -1145,18 +1145,18 @@ TextureImporter:
       name: Oda nobunaga_48
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5cc82edb9894f241905e27f2ad9c651
+      spriteID: 7ed821b33f9de1a459c2ee37a98e77b3
       vertices: []
       indices: 
       edges: []
@@ -1165,18 +1165,18 @@ TextureImporter:
       name: Oda nobunaga_49
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85ee6e08b62c6574fac26acb2965e12a
+      spriteID: c31c0aea15603bb4dadc6338becbc150
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1185,18 @@ TextureImporter:
       name: Oda nobunaga_50
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 879251ffb7f894e4694cd5d9df74dc54
+      spriteID: 56989907e79b86f44885277840f2f937
       vertices: []
       indices: 
       edges: []
@@ -1207,16 +1207,16 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78a53f83611df094c9d8fa6ac18c6d7f
+      spriteID: df5fbc302aac2e44ab87991a67489a89
       vertices: []
       indices: 
       edges: []
@@ -1225,18 +1225,18 @@ TextureImporter:
       name: Oda nobunaga_52
       rect:
         serializedVersion: 2
-        x: 448
+        x: 446
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beeabd1160cee414399def6e6f44883c
+      spriteID: 20e4d582db99beb4ebb5f0d5fdf529f1
       vertices: []
       indices: 
       edges: []
@@ -1245,18 +1245,18 @@ TextureImporter:
       name: Oda nobunaga_53
       rect:
         serializedVersion: 2
-        x: 512
+        x: 508
         y: 0
-        width: 64
+        width: 62.666668
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e074e331d778ccb4295f21d65128acf5
+      spriteID: c2eae238dfc21cf42ae8291d50d2e3f8
       vertices: []
       indices: 
       edges: []

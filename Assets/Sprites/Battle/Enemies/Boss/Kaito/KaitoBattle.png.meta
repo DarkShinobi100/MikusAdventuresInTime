@@ -187,8 +187,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 320
-        width: 64
-        height: 64
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b04181c23510ef04b894bb5a35c60bf4
+      spriteID: 188549605e75e9941bbf80f0e2063e91
       vertices: []
       indices: 
       edges: []
@@ -207,8 +207,8 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 320
-        width: 64
-        height: 64
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,7 +216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 224837727bc0b3c4a93b88cf2da96eb4
+      spriteID: f0891b657e8248342a5de5b27ace23fe
       vertices: []
       indices: 
       edges: []
@@ -227,8 +227,8 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 320
-        width: 64
-        height: 64
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,7 +236,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3189568fa702e664eb1de0b35fafddb7
+      spriteID: d5216496f269f5a48acf4c507b23efc1
       vertices: []
       indices: 
       edges: []
@@ -245,10 +245,10 @@ TextureImporter:
       name: KaitoBattle_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 200
         y: 320
-        width: 64
-        height: 64
+        width: 55
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,7 +256,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c39331aa0a736f479c72ed0c51d7352
+      spriteID: 1445ef49cef204948bd8843754703b3f
       vertices: []
       indices: 
       edges: []
@@ -265,10 +265,10 @@ TextureImporter:
       name: KaitoBattle_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 264
         y: 320
-        width: 64
-        height: 64
+        width: 55
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,7 +276,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaf00fd3faf7c1d4bbfd6e54189eacc4
+      spriteID: 1a9cba9bc0667ee4db2d503a4e57fb02
       vertices: []
       indices: 
       edges: []
@@ -285,10 +285,10 @@ TextureImporter:
       name: KaitoBattle_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 327
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,7 +296,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d2eea354b0932c4eafe09fcb01b1a56
+      spriteID: 43fb8543612f7ac4fb1b0fa1067baf36
       vertices: []
       indices: 
       edges: []
@@ -305,10 +305,10 @@ TextureImporter:
       name: KaitoBattle_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 392
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,7 +316,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a74a35ccde365a48b3a175d633d0f10
+      spriteID: 1b7c95ec2cb773545bfc0d413556ace0
       vertices: []
       indices: 
       edges: []
@@ -325,10 +325,10 @@ TextureImporter:
       name: KaitoBattle_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 456
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,7 +336,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d38d8d7a8a1c9647ad8014b53f4d810
+      spriteID: cc4b7036826a23f4abb9a2c439afec3a
       vertices: []
       indices: 
       edges: []
@@ -345,10 +345,10 @@ TextureImporter:
       name: KaitoBattle_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 520
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,7 +356,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114868daa4d8cd04f9e9f5b14ee63a96
+      spriteID: 08aa2dbe068109445a1ec2c1c240bc34
       vertices: []
       indices: 
       edges: []
@@ -365,10 +365,10 @@ TextureImporter:
       name: KaitoBattle_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
+        x: 8
+        y: 258
+        width: 49
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,7 +376,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7e66115b75322a44bfb8cec383379dc
+      spriteID: 44f759acbcc039244a150914ab053243
       vertices: []
       indices: 
       edges: []
@@ -385,10 +385,10 @@ TextureImporter:
       name: KaitoBattle_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
+        x: 72
+        y: 257
+        width: 49
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,7 +396,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc09225afbfde9459fedcd9b134b359
+      spriteID: bee0ee03e12448c419b1bb728a570189
       vertices: []
       indices: 
       edges: []
@@ -405,10 +405,10 @@ TextureImporter:
       name: KaitoBattle_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,7 +416,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e142e20d940f441a8f86e5ed86df08
+      spriteID: eede036a96c0a5845ad7e6aea98047b5
       vertices: []
       indices: 
       edges: []
@@ -425,10 +425,10 @@ TextureImporter:
       name: KaitoBattle_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 200
         y: 256
-        width: 64
-        height: 64
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,7 +436,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a428eb09dffa5544b8d5fed1f70b8ee6
+      spriteID: d9b7574e17f66544b8721db9ff7ed573
       vertices: []
       indices: 
       edges: []
@@ -445,10 +445,10 @@ TextureImporter:
       name: KaitoBattle_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 264
         y: 256
-        width: 64
-        height: 64
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,7 +456,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d471407bbcfe3f46a34fa95e7bf9f01
+      spriteID: 2becc0c198d4ceb4396af808f63becd0
       vertices: []
       indices: 
       edges: []
@@ -465,10 +465,10 @@ TextureImporter:
       name: KaitoBattle_14
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,7 +476,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8165972472a4214aa5cd5f5dc4dbaa5
+      spriteID: 9274e495f2131de49aab671294af37d3
       vertices: []
       indices: 
       edges: []
@@ -485,10 +485,10 @@ TextureImporter:
       name: KaitoBattle_15
       rect:
         serializedVersion: 2
-        x: 384
+        x: 394
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,7 +496,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d81a540300c5c847b08eb2bcfd1d1d1
+      spriteID: 2d50f8f58e994d549a7cc038ebb016bd
       vertices: []
       indices: 
       edges: []
@@ -505,10 +505,10 @@ TextureImporter:
       name: KaitoBattle_16
       rect:
         serializedVersion: 2
-        x: 448
+        x: 458
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,7 +516,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c868c4d88644774191a508ea03c8eaa
+      spriteID: 2d55a03afdde784489c2c8caf237a428
       vertices: []
       indices: 
       edges: []
@@ -525,10 +525,10 @@ TextureImporter:
       name: KaitoBattle_17
       rect:
         serializedVersion: 2
-        x: 512
+        x: 522
         y: 256
-        width: 64
-        height: 64
+        width: 45
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,7 +536,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfebfbdb08b2edf4bb52bd68769ffc8a
+      spriteID: b5f81f6353e965148bdf23338359bcc3
       vertices: []
       indices: 
       edges: []
@@ -545,10 +545,10 @@ TextureImporter:
       name: KaitoBattle_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 192
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,7 +556,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81a29099c1d12d44fa34a5011344ab79
+      spriteID: bf9b82d595fcaf546a5ab717837757e0
       vertices: []
       indices: 
       edges: []
@@ -565,10 +565,10 @@ TextureImporter:
       name: KaitoBattle_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 73
         y: 192
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,7 +576,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63dccf187a260d241b455b1461d69f21
+      spriteID: 8d0efe658b5b4d345bc4af6fb4e910b9
       vertices: []
       indices: 
       edges: []
@@ -585,10 +585,10 @@ TextureImporter:
       name: KaitoBattle_20
       rect:
         serializedVersion: 2
-        x: 128
+        x: 137
         y: 192
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,7 +596,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4adb4997438361a458a84ad51fe516a6
+      spriteID: d9ec8870b9a2cbd4aa5a4c1d92d5e39e
       vertices: []
       indices: 
       edges: []
@@ -605,10 +605,10 @@ TextureImporter:
       name: KaitoBattle_21
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,7 +616,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e83675991a47a54ab0663ae0354ed8f
+      spriteID: 84e0e037bd9b7eb44bf79e42c3fa5ac9
       vertices: []
       indices: 
       edges: []
@@ -625,10 +625,10 @@ TextureImporter:
       name: KaitoBattle_22
       rect:
         serializedVersion: 2
-        x: 256
+        x: 262
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,7 +636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe98e11c25b38742a93c8d64d56da5a
+      spriteID: acf8164feeb045f4ea141e54e8c47b3a
       vertices: []
       indices: 
       edges: []
@@ -645,10 +645,10 @@ TextureImporter:
       name: KaitoBattle_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,7 +656,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ca9667204a1521428a8acf2c816c07a
+      spriteID: b3b15546105226345b6b55d3f9aeed13
       vertices: []
       indices: 
       edges: []
@@ -665,10 +665,10 @@ TextureImporter:
       name: KaitoBattle_24
       rect:
         serializedVersion: 2
-        x: 384
+        x: 392
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,7 +676,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5329d5611e741834da10743f1cbddee6
+      spriteID: 4d7b9a2152c569b43acdd65dfc7c9976
       vertices: []
       indices: 
       edges: []
@@ -685,10 +685,10 @@ TextureImporter:
       name: KaitoBattle_25
       rect:
         serializedVersion: 2
-        x: 448
+        x: 456
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,7 +696,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8754a4c4aecba814da8ba835aea943d7
+      spriteID: 4445a025be7c5d04c8ec0888e1d6653a
       vertices: []
       indices: 
       edges: []
@@ -705,10 +705,10 @@ TextureImporter:
       name: KaitoBattle_26
       rect:
         serializedVersion: 2
-        x: 512
+        x: 520
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,7 +716,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5fe8bc6634ef84689daba68db4e02c
+      spriteID: fd1b9dafc6cce1f4f94e0ed1a8b5179d
       vertices: []
       indices: 
       edges: []
@@ -725,10 +725,10 @@ TextureImporter:
       name: KaitoBattle_27
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 128
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,7 +736,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3932b6e2fc7bcb64faf2de5ccec46421
+      spriteID: 882d67fe139310840805c381ab17d580
       vertices: []
       indices: 
       edges: []
@@ -745,10 +745,10 @@ TextureImporter:
       name: KaitoBattle_28
       rect:
         serializedVersion: 2
-        x: 64
+        x: 73
         y: 128
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,7 +756,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bc5ab48002b854798fa3cd777b5fed
+      spriteID: 552251a41b041b5439f586f46f8644d5
       vertices: []
       indices: 
       edges: []
@@ -765,10 +765,10 @@ TextureImporter:
       name: KaitoBattle_29
       rect:
         serializedVersion: 2
-        x: 128
+        x: 137
         y: 128
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,7 +776,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0e9b91271fb6d54d9638edf32080dad
+      spriteID: 43553a99b413e184b88dad5da541b4e3
       vertices: []
       indices: 
       edges: []
@@ -785,10 +785,10 @@ TextureImporter:
       name: KaitoBattle_30
       rect:
         serializedVersion: 2
-        x: 192
+        x: 199
         y: 128
-        width: 64
-        height: 64
+        width: 47
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,7 +796,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6179ff50742940940852834bb817a8a8
+      spriteID: 6d8d6cadaf3d1e44ead00c3bba41cb2e
       vertices: []
       indices: 
       edges: []
@@ -805,10 +805,10 @@ TextureImporter:
       name: KaitoBattle_31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 263
         y: 128
-        width: 64
-        height: 64
+        width: 47
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,7 +816,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53bd69aa0dcc4f54c911e72ad4600058
+      spriteID: 6a29e597b72846d4dabada233c69d227
       vertices: []
       indices: 
       edges: []
@@ -825,10 +825,10 @@ TextureImporter:
       name: KaitoBattle_32
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,7 +836,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b728d39b6a122f4690a060887064f4f
+      spriteID: 60a54a4c1d835e8478f57f560819234c
       vertices: []
       indices: 
       edges: []
@@ -845,10 +845,10 @@ TextureImporter:
       name: KaitoBattle_33
       rect:
         serializedVersion: 2
-        x: 384
+        x: 391
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,7 +856,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d380c4a602ed324baec4add9d9635c8
+      spriteID: aeb7d6024a1ca924c90e08be4fd2b506
       vertices: []
       indices: 
       edges: []
@@ -865,10 +865,10 @@ TextureImporter:
       name: KaitoBattle_34
       rect:
         serializedVersion: 2
-        x: 448
+        x: 455
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,7 +876,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1c79a728ea2524c909fc25a67bcdeb
+      spriteID: 5fedd6a9556d7da48b319afe53f91417
       vertices: []
       indices: 
       edges: []
@@ -885,10 +885,10 @@ TextureImporter:
       name: KaitoBattle_35
       rect:
         serializedVersion: 2
-        x: 512
+        x: 519
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,7 +896,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 858c53f14f7555e42937782c319f3b54
+      spriteID: 7c85eaceb246ced43bf31e07a5824ac1
       vertices: []
       indices: 
       edges: []
@@ -905,10 +905,10 @@ TextureImporter:
       name: KaitoBattle_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 64
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,7 +916,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9403dc6cde53e2a4cb74150dd7c5b309
+      spriteID: 1fdc9265b98b143478ffb044c03dfe29
       vertices: []
       indices: 
       edges: []
@@ -925,10 +925,10 @@ TextureImporter:
       name: KaitoBattle_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 73
         y: 64
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -936,7 +936,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1e17b7b79da7754481e2e6771fcb554
+      spriteID: 155ae7103d225674a8be1375ba06c1a4
       vertices: []
       indices: 
       edges: []
@@ -945,10 +945,10 @@ TextureImporter:
       name: KaitoBattle_38
       rect:
         serializedVersion: 2
-        x: 128
+        x: 137
         y: 64
-        width: 64
-        height: 64
+        width: 47
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,7 +956,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ab9a12812a16a341906d189bd614c49
+      spriteID: b293690bdfb65a04cbcfbd87cfeb9dec
       vertices: []
       indices: 
       edges: []
@@ -965,10 +965,10 @@ TextureImporter:
       name: KaitoBattle_39
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 198
+        y: 0
+        width: 49
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -976,7 +976,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a47b504101a02458e612f7acafb02d
+      spriteID: c5b05f75fc45a534e8d50c91cc6fb601
       vertices: []
       indices: 
       edges: []
@@ -985,10 +985,10 @@ TextureImporter:
       name: KaitoBattle_40
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 262
+        y: 0
+        width: 49
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,7 +996,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5ca3a6eb4433f54abb05d4c180761ec
+      spriteID: e6ea9cba3f9edfe49bb1b4242b034b14
       vertices: []
       indices: 
       edges: []
@@ -1005,10 +1005,10 @@ TextureImporter:
       name: KaitoBattle_41
       rect:
         serializedVersion: 2
-        x: 320
+        x: 327
         y: 64
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,7 +1016,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68aa152b48e9e6842b59c1b400f5f878
+      spriteID: 22221fd4a72d51c43a2561b47efb4b47
       vertices: []
       indices: 
       edges: []
@@ -1025,10 +1025,10 @@ TextureImporter:
       name: KaitoBattle_42
       rect:
         serializedVersion: 2
-        x: 384
+        x: 386
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1036,7 +1036,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b06974cdae9adac418c990abc2f80fb1
+      spriteID: 1dd49c53c8d459644b85aeda4840f46e
       vertices: []
       indices: 
       edges: []
@@ -1045,10 +1045,10 @@ TextureImporter:
       name: KaitoBattle_43
       rect:
         serializedVersion: 2
-        x: 448
+        x: 450
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1056,7 +1056,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d99c9af4da3d542af511e2ce87566c
+      spriteID: 94af6d8137a86404abeb7058eb08d7fa
       vertices: []
       indices: 
       edges: []
@@ -1065,10 +1065,10 @@ TextureImporter:
       name: KaitoBattle_44
       rect:
         serializedVersion: 2
-        x: 512
+        x: 514
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1076,7 +1076,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9d9591e9448bc44bf5c1798632c0c3
+      spriteID: dde739f5973e6304abfff8d483773509
       vertices: []
       indices: 
       edges: []
@@ -1085,10 +1085,10 @@ TextureImporter:
       name: KaitoBattle_45
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 64
-        height: 64
+        width: 63
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,7 +1096,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f99a88798ca3c9449d6651e8d0d0d37
+      spriteID: 4d612758d7a27e54486abb5e29fc809f
       vertices: []
       indices: 
       edges: []
@@ -1105,10 +1105,10 @@ TextureImporter:
       name: KaitoBattle_46
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 0
-        width: 64
-        height: 64
+        width: 63
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1116,7 +1116,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd8862450e1a56a4989c604f82cced64
+      spriteID: e5e57b88ebabdb64aa76b8f856ce217d
       vertices: []
       indices: 
       edges: []
@@ -1125,10 +1125,10 @@ TextureImporter:
       name: KaitoBattle_47
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 0
-        width: 64
-        height: 64
+        width: 63
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,7 +1136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570d42b958e6bcd47a065440bf38d949
+      spriteID: bd1d1a16796102b48b0ff343f2ec7156
       vertices: []
       indices: 
       edges: []
@@ -1145,10 +1145,10 @@ TextureImporter:
       name: KaitoBattle_48
       rect:
         serializedVersion: 2
-        x: 192
+        x: 327
         y: 0
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1156,7 +1156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef021d576e5039f40a30ae8ad832f266
+      spriteID: e66bb76c6bbffdb448918732a007244a
       vertices: []
       indices: 
       edges: []
@@ -1165,10 +1165,10 @@ TextureImporter:
       name: KaitoBattle_49
       rect:
         serializedVersion: 2
-        x: 256
+        x: 387
         y: 0
-        width: 64
-        height: 64
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1176,7 +1176,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6ff12bafd4b9cc489564088b0759594
+      spriteID: 33bfb71a22f096f48b5db06ef6163f81
       vertices: []
       indices: 
       edges: []
@@ -1185,10 +1185,10 @@ TextureImporter:
       name: KaitoBattle_50
       rect:
         serializedVersion: 2
-        x: 320
+        x: 451
         y: 0
-        width: 64
-        height: 64
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1196,7 +1196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97658bf9dfdc4294cb380f3de3a332d2
+      spriteID: 44e4af110399bd241b6acdfb45db4d92
       vertices: []
       indices: 
       edges: []
@@ -1205,10 +1205,10 @@ TextureImporter:
       name: KaitoBattle_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 515
         y: 0
-        width: 64
-        height: 64
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,47 +1216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc7b4365c70299459d5e5eac4b6e2dc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KaitoBattle_52
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69c298073460c2c44ac8e26b72609ab6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KaitoBattle_53
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fc04317b71132d4ab132386368f8fcc
+      spriteID: 8348bf8ed108ef2429016b7d4b18a658
       vertices: []
       indices: 
       edges: []

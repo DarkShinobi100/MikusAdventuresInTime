@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Fairy
+  m_Controller: {fileID: 9100000, guid: 9deff3dfaa6f6294989f65a634cd356f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 58f66a0d36207844589ac6c7445bd0d0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0f5480176e5cdd44f93388e8d9107893, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fd25058781ac6f84bb4bb6cd2d1a3299, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d0e028ed28b115948a97de749aa2cad9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b9dc3cb728fb2b4fb2e4da83c67c20c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4fd3b149c7005dc479023de75c63126f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b22762dfcc1fb234b983dbcefe2d5fef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 963555e09f537cf46930ccbaf9c7edbf, type: 2}

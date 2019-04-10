@@ -185,18 +185,18 @@ TextureImporter:
       name: RinBattle_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 11
         y: 320
-        width: 44
+        width: 48
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b328e880edd0044bb64d1a4d3588548
+      spriteID: 3ef9231360742c642bad620018d84beb
       vertices: []
       indices: 
       edges: []
@@ -205,18 +205,18 @@ TextureImporter:
       name: RinBattle_1
       rect:
         serializedVersion: 2
-        x: 76
+        x: 75
         y: 320
-        width: 44
-        height: 61
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a418d5ada898fc7449d2e7123bb47cf5
+      spriteID: a863c1674b6e3fb4eb458f8029db5bb6
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: RinBattle_2
       rect:
         serializedVersion: 2
-        x: 140
+        x: 139
         y: 320
-        width: 44
-        height: 60
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fd62e9de83d4a445bad1f2bfc106d0b
+      spriteID: 31fe2c1c0d0f97140b8f431c5509be42
       vertices: []
       indices: 
       edges: []
@@ -245,18 +245,18 @@ TextureImporter:
       name: RinBattle_3
       rect:
         serializedVersion: 2
-        x: 205
+        x: 211
         y: 320
-        width: 44
-        height: 62
+        width: 52
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09a37dd1c73c75048b81ef87188a64b6
+      spriteID: 8477b9d8265ec1b49854668795d9ded3
       vertices: []
       indices: 
       edges: []
@@ -265,18 +265,18 @@ TextureImporter:
       name: RinBattle_4
       rect:
         serializedVersion: 2
-        x: 257
+        x: 275
         y: 320
         width: 52
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0556987d80510c04c810e07b0075ca68
+      spriteID: d7df07b5d05418044beeda10b035def8
       vertices: []
       indices: 
       edges: []
@@ -285,18 +285,18 @@ TextureImporter:
       name: RinBattle_5
       rect:
         serializedVersion: 2
-        x: 321
+        x: 335
         y: 320
-        width: 52
-        height: 61
+        width: 44
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95c74329085d9704fb7ca2b1e07b735d
+      spriteID: 7ad0068c421ce1648ab5da2ed5d16a91
       vertices: []
       indices: 
       edges: []
@@ -305,18 +305,18 @@ TextureImporter:
       name: RinBattle_6
       rect:
         serializedVersion: 2
-        x: 397
+        x: 400
         y: 320
-        width: 48
-        height: 62
+        width: 44
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f87b638830fe304ab244ad59392b78d
+      spriteID: 56e096ae52397bb4099745eda9e505cb
       vertices: []
       indices: 
       edges: []
@@ -325,18 +325,18 @@ TextureImporter:
       name: RinBattle_7
       rect:
         serializedVersion: 2
-        x: 461
+        x: 464
         y: 320
-        width: 48
-        height: 62
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d516732989d6c784cac0a06b56d63eaf
+      spriteID: f650d883e8060a74a97bf84a0bf64377
       vertices: []
       indices: 
       edges: []
@@ -345,18 +345,18 @@ TextureImporter:
       name: RinBattle_8
       rect:
         serializedVersion: 2
-        x: 525
+        x: 528
         y: 320
-        width: 48
+        width: 44
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5b30a5adf36bc040982eeb3f405bd25
+      spriteID: 3d0e0652c868bfb4184c0f4fead72270
       vertices: []
       indices: 
       edges: []
@@ -365,18 +365,18 @@ TextureImporter:
       name: RinBattle_9
       rect:
         serializedVersion: 2
-        x: 10
-        y: 256
-        width: 44
-        height: 61
+        x: 18
+        y: 258
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ae0d86d8df055498caf7bb93f3a2b1
+      spriteID: 3fe7e0fc0452e19488e8342dab2e92f9
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
       name: RinBattle_10
       rect:
         serializedVersion: 2
-        x: 74
-        y: 256
-        width: 44
+        x: 82
+        y: 257
+        width: 47
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7ceb7a8bd23288458b7a62f000fa363
+      spriteID: 13779ad78bcfef94489eba8b5cf18c68
       vertices: []
       indices: 
       edges: []
@@ -405,18 +405,18 @@ TextureImporter:
       name: RinBattle_11
       rect:
         serializedVersion: 2
-        x: 138
+        x: 144
         y: 256
         width: 44
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f44a35b703d5944d9dd3ee1385e1f05
+      spriteID: 5326e2021cf2dcc4ea424befa0b098b1
       vertices: []
       indices: 
       edges: []
@@ -425,18 +425,18 @@ TextureImporter:
       name: RinBattle_12
       rect:
         serializedVersion: 2
-        x: 204
+        x: 210
         y: 256
-        width: 44
-        height: 61
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cdab3a781d897b4884a9272581b7729
+      spriteID: 94b1bd2c7712ec247884a88e0a3211df
       vertices: []
       indices: 
       edges: []
@@ -445,18 +445,18 @@ TextureImporter:
       name: RinBattle_13
       rect:
         serializedVersion: 2
-        x: 264
+        x: 274
         y: 256
         width: 46
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a56ac01077df384c95eb4530dfebb30
+      spriteID: dbec6e255ae421b4f9d96def17353c6d
       vertices: []
       indices: 
       edges: []
@@ -465,18 +465,18 @@ TextureImporter:
       name: RinBattle_14
       rect:
         serializedVersion: 2
-        x: 328
+        x: 336
         y: 256
-        width: 46
-        height: 60
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be4dce00017a734c9728a2ab9e708d0
+      spriteID: 4757dd119d88dc94cabb921315e82ebd
       vertices: []
       indices: 
       edges: []
@@ -485,18 +485,18 @@ TextureImporter:
       name: RinBattle_15
       rect:
         serializedVersion: 2
-        x: 396
+        x: 402
         y: 256
         width: 44
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 868d0872a8b138f439c77a484d1f29e0
+      spriteID: e5d2d1f7118af6c4086bce06fd441b79
       vertices: []
       indices: 
       edges: []
@@ -505,18 +505,18 @@ TextureImporter:
       name: RinBattle_16
       rect:
         serializedVersion: 2
-        x: 455
-        y: 257
-        width: 47
+        x: 466
+        y: 256
+        width: 44
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd65869b5e3386a41bdb3fe0918e1db8
+      spriteID: 28378176c8a1b994d93ee7a7b0009534
       vertices: []
       indices: 
       edges: []
@@ -525,18 +525,18 @@ TextureImporter:
       name: RinBattle_17
       rect:
         serializedVersion: 2
-        x: 519
-        y: 258
-        width: 47
-        height: 60
+        x: 530
+        y: 256
+        width: 43
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21b7c24769d4efb42946af45431833f7
+      spriteID: 0875efc5fbcc251449d664d61565207f
       vertices: []
       indices: 
       edges: []
@@ -545,18 +545,18 @@ TextureImporter:
       name: RinBattle_18
       rect:
         serializedVersion: 2
-        x: 11
+        x: 19
         y: 192
-        width: 45
-        height: 62
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eaf196f12c927946a03f509394998ba
+      spriteID: c86a7601fd4ae6f48858b2f642c57e5a
       vertices: []
       indices: 
       edges: []
@@ -565,18 +565,18 @@ TextureImporter:
       name: RinBattle_19
       rect:
         serializedVersion: 2
-        x: 75
+        x: 83
         y: 192
-        width: 45
-        height: 62
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f9de1996d47c6e4e8a11f39b6735ce0
+      spriteID: 05d5f74505ef7e04b9084563fad0999b
       vertices: []
       indices: 
       edges: []
@@ -585,18 +585,18 @@ TextureImporter:
       name: RinBattle_20
       rect:
         serializedVersion: 2
-        x: 139
+        x: 147
         y: 192
-        width: 45
-        height: 62
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0f44212f4de44247a7e3bc1f33739e0
+      spriteID: d74f29762fffd174ababa169dc916872
       vertices: []
       indices: 
       edges: []
@@ -605,18 +605,18 @@ TextureImporter:
       name: RinBattle_21
       rect:
         serializedVersion: 2
-        x: 203
+        x: 206
         y: 192
-        width: 45
+        width: 46
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8544a4c24b1fc214298802032e2d2530
+      spriteID: 6ad6a06afd9fd694ab1ce525e646288b
       vertices: []
       indices: 
       edges: []
@@ -625,18 +625,18 @@ TextureImporter:
       name: RinBattle_22
       rect:
         serializedVersion: 2
-        x: 268
+        x: 270
         y: 192
         width: 46
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f2b2e68de724a449c3e8719fcd3816
+      spriteID: e99b4abe812730949a53a660464be3eb
       vertices: []
       indices: 
       edges: []
@@ -645,18 +645,18 @@ TextureImporter:
       name: RinBattle_23
       rect:
         serializedVersion: 2
-        x: 332
+        x: 336
         y: 192
-        width: 46
+        width: 45
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5ce269d37a3a8e419e1a23744f53ffc
+      spriteID: 50f4657d87af5884981d79c8d8618a6e
       vertices: []
       indices: 
       edges: []
@@ -665,18 +665,18 @@ TextureImporter:
       name: RinBattle_24
       rect:
         serializedVersion: 2
-        x: 396
+        x: 400
         y: 192
-        width: 41
-        height: 55
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b98a777c4f1e3ff41add91df62e32b35
+      spriteID: d31c5ebccd6e4b041a5a2b92e9e04664
       vertices: []
       indices: 
       edges: []
@@ -685,18 +685,18 @@ TextureImporter:
       name: RinBattle_25
       rect:
         serializedVersion: 2
-        x: 460
+        x: 464
         y: 192
-        width: 41
-        height: 55
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 851b4803273defb49aa33ed1e78717e7
+      spriteID: 65426751f1d789b46a158781b3e53b88
       vertices: []
       indices: 
       edges: []
@@ -705,18 +705,18 @@ TextureImporter:
       name: RinBattle_26
       rect:
         serializedVersion: 2
-        x: 524
+        x: 528
         y: 192
-        width: 41
-        height: 55
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02cb11565ea3ceb4fab9a4aa590163f8
+      spriteID: b6383688b97f0c64eb2f6fd6b49bf408
       vertices: []
       indices: 
       edges: []
@@ -725,18 +725,18 @@ TextureImporter:
       name: RinBattle_27
       rect:
         serializedVersion: 2
-        x: 13
+        x: 19
         y: 128
-        width: 44
-        height: 61
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c4dc32f733ba243910ff11c1d13066
+      spriteID: b3dcb87df744edf45bd0ea3dbea1546e
       vertices: []
       indices: 
       edges: []
@@ -745,18 +745,18 @@ TextureImporter:
       name: RinBattle_28
       rect:
         serializedVersion: 2
-        x: 77
+        x: 83
         y: 128
-        width: 44
-        height: 61
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b3a075f1fb35f409c84d906b990201
+      spriteID: c32393acbd393da41b8b320eb6932c8e
       vertices: []
       indices: 
       edges: []
@@ -765,18 +765,18 @@ TextureImporter:
       name: RinBattle_29
       rect:
         serializedVersion: 2
-        x: 141
+        x: 147
         y: 128
-        width: 44
-        height: 61
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 616514f3eb375fe428cd48ebc54e301c
+      spriteID: b239c989577ad2141a56f0106b686077
       vertices: []
       indices: 
       edges: []
@@ -785,18 +785,18 @@ TextureImporter:
       name: RinBattle_30
       rect:
         serializedVersion: 2
-        x: 202
+        x: 207
         y: 128
-        width: 44
-        height: 61
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d668705101e6395479b1f4bc3380fbe4
+      spriteID: 2333301a0f680604bbabdf6ede2d3873
       vertices: []
       indices: 
       edges: []
@@ -805,18 +805,18 @@ TextureImporter:
       name: RinBattle_31
       rect:
         serializedVersion: 2
-        x: 268
+        x: 271
         y: 128
         width: 45
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3c8a17f00a87b4da2ed1442ca690bf
+      spriteID: 5e2169e7e5a781e45abcb88dc8033dde
       vertices: []
       indices: 
       edges: []
@@ -825,18 +825,18 @@ TextureImporter:
       name: RinBattle_32
       rect:
         serializedVersion: 2
-        x: 332
+        x: 338
         y: 128
-        width: 45
-        height: 62
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b9a8b87aaabbda4eb0d42b726d7eea7
+      spriteID: 77df84c5fb9d97c4285cf84b9b9221a1
       vertices: []
       indices: 
       edges: []
@@ -845,18 +845,18 @@ TextureImporter:
       name: RinBattle_33
       rect:
         serializedVersion: 2
-        x: 396
+        x: 399
         y: 128
-        width: 41
-        height: 55
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a0b963bf2829a04797dc0dbe0268a41
+      spriteID: 9d440eba327869f4d82e6119a164e17b
       vertices: []
       indices: 
       edges: []
@@ -865,18 +865,18 @@ TextureImporter:
       name: RinBattle_34
       rect:
         serializedVersion: 2
-        x: 460
+        x: 463
         y: 128
-        width: 41
-        height: 55
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 174b23cbf872d3e4fb59b0e910a56293
+      spriteID: 07a6e2d972344344991670687aa7837c
       vertices: []
       indices: 
       edges: []
@@ -885,18 +885,18 @@ TextureImporter:
       name: RinBattle_35
       rect:
         serializedVersion: 2
-        x: 524
+        x: 527
         y: 128
-        width: 41
-        height: 55
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76decc5936bfe10428aae9fe4fc57b33
+      spriteID: 33c942faec9557d459f5c96fb6d74003
       vertices: []
       indices: 
       edges: []
@@ -905,18 +905,18 @@ TextureImporter:
       name: RinBattle_36
       rect:
         serializedVersion: 2
-        x: 13
+        x: 19
         y: 64
-        width: 49
-        height: 60
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0925e8eaf8e8d58499f8f63618c592c3
+      spriteID: 5c127f0b8dbae1b458767e11507ecd3c
       vertices: []
       indices: 
       edges: []
@@ -925,18 +925,18 @@ TextureImporter:
       name: RinBattle_37
       rect:
         serializedVersion: 2
-        x: 77
+        x: 83
         y: 64
-        width: 49
-        height: 60
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c881393cc8b54f541b96db7d7a7c284c
+      spriteID: ecf8ae5cb16aaa6419b11d224aac2ec0
       vertices: []
       indices: 
       edges: []
@@ -945,18 +945,18 @@ TextureImporter:
       name: RinBattle_38
       rect:
         serializedVersion: 2
-        x: 141
+        x: 147
         y: 64
-        width: 49
-        height: 60
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e44ee94eb82c2cb4aaac5102d62b15d7
+      spriteID: 68f7db0799287e14ca90011d8dd3f2fd
       vertices: []
       indices: 
       edges: []
@@ -965,18 +965,18 @@ TextureImporter:
       name: RinBattle_39
       rect:
         serializedVersion: 2
-        x: 205
+        x: 208
         y: 64
         width: 44
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571f1533e78491f42a4d9375b2dea1ee
+      spriteID: 526a396d3e3cdf04a92deb102f261059
       vertices: []
       indices: 
       edges: []
@@ -985,18 +985,18 @@ TextureImporter:
       name: RinBattle_40
       rect:
         serializedVersion: 2
-        x: 268
+        x: 272
         y: 64
         width: 44
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 314afd61d4719ea44a8d16490fd1ec3a
+      spriteID: e90f7a8d2beb55b41a041d161f73e319
       vertices: []
       indices: 
       edges: []
@@ -1005,18 +1005,18 @@ TextureImporter:
       name: RinBattle_41
       rect:
         serializedVersion: 2
-        x: 332
+        x: 335
         y: 64
         width: 44
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd8d41d32bbe27b4e9b430983bc4c494
+      spriteID: 646957b5d289aac45a26adc17899a8c7
       vertices: []
       indices: 
       edges: []
@@ -1025,18 +1025,18 @@ TextureImporter:
       name: RinBattle_42
       rect:
         serializedVersion: 2
-        x: 396
+        x: 394
         y: 64
-        width: 41
-        height: 55
+        width: 49
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a7c09d411d3df041874550201c15b8c
+      spriteID: 36afab6d270fbea48a08dd27d117f76a
       vertices: []
       indices: 
       edges: []
@@ -1045,18 +1045,18 @@ TextureImporter:
       name: RinBattle_43
       rect:
         serializedVersion: 2
-        x: 460
+        x: 458
         y: 64
-        width: 41
-        height: 55
+        width: 49
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 633148a9fbe190d4d8647d6a6a47d81b
+      spriteID: 1cac0fd3dadc13a4582b45a9399c87ca
       vertices: []
       indices: 
       edges: []
@@ -1065,18 +1065,18 @@ TextureImporter:
       name: RinBattle_44
       rect:
         serializedVersion: 2
-        x: 524
+        x: 522
         y: 64
-        width: 41
-        height: 55
+        width: 49
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8552e954e66081419cb5d2a8f6b25c5
+      spriteID: bc364bf7a5532ac4c99aed80056e38db
       vertices: []
       indices: 
       edges: []
@@ -1085,18 +1085,18 @@ TextureImporter:
       name: RinBattle_45
       rect:
         serializedVersion: 2
-        x: 10
+        x: 11
         y: 0
-        width: 48
-        height: 62
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25edf62fbbd2cdd4a8a81552efec24b9
+      spriteID: 77c2eb11bf7fe3e4aba127b1ef41036f
       vertices: []
       indices: 
       edges: []
@@ -1105,18 +1105,18 @@ TextureImporter:
       name: RinBattle_46
       rect:
         serializedVersion: 2
-        x: 74
+        x: 75
         y: 0
-        width: 48
-        height: 62
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 558092e27d5570548a0052963c83a544
+      spriteID: 3d6f3a88573dd144c8234ca1da521415
       vertices: []
       indices: 
       edges: []
@@ -1125,18 +1125,18 @@ TextureImporter:
       name: RinBattle_47
       rect:
         serializedVersion: 2
-        x: 138
+        x: 139
         y: 0
-        width: 48
-        height: 62
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e57ad478ea239449c9f0270864bee8
+      spriteID: dd8c93fdda130d245816de25460aa64e
       vertices: []
       indices: 
       edges: []
@@ -1145,18 +1145,18 @@ TextureImporter:
       name: RinBattle_48
       rect:
         serializedVersion: 2
-        x: 205
+        x: 209
         y: 0
-        width: 44
-        height: 62
+        width: 46
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 260a9b7fdce4dec4895ac72fc54c184f
+      spriteID: 855b53a54db07a8448305e249b528f24
       vertices: []
       indices: 
       edges: []
@@ -1165,18 +1165,18 @@ TextureImporter:
       name: RinBattle_49
       rect:
         serializedVersion: 2
-        x: 265
+        x: 273
         y: 0
         width: 46
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ad39b68dc2378458eb0b9929c83f2b
+      spriteID: a75835b8db0a43247b2613eebc3146c2
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1185,18 @@ TextureImporter:
       name: RinBattle_50
       rect:
         serializedVersion: 2
-        x: 329
+        x: 335
         y: 0
-        width: 46
-        height: 63
+        width: 44
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9112bed8458599c4788af9d5b783baf6
+      spriteID: 84a036004fb8f094d83d958c31bb9960
       vertices: []
       indices: 
       edges: []
@@ -1205,18 +1205,18 @@ TextureImporter:
       name: RinBattle_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 398
         y: 0
-        width: 61
-        height: 38
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a9039d55652f7f419f5216f84b84042
+      spriteID: 37147b12121f3ce4ebc816a33f71a049
       vertices: []
       indices: 
       edges: []
@@ -1225,18 +1225,18 @@ TextureImporter:
       name: RinBattle_52
       rect:
         serializedVersion: 2
-        x: 448
+        x: 462
         y: 0
-        width: 61
-        height: 38
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca819d2ffb6ffe498ecae8c8817d843
+      spriteID: 1f69675ca6ebb6b42837a9396f91d9ea
       vertices: []
       indices: 
       edges: []
@@ -1245,18 +1245,18 @@ TextureImporter:
       name: RinBattle_53
       rect:
         serializedVersion: 2
-        x: 512
+        x: 526
         y: 0
-        width: 61
-        height: 38
+        width: 47
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01c379433fb16c04c8d60541ab27a448
+      spriteID: 4aecdf2c67e3f074cb85736b89a69d7e
       vertices: []
       indices: 
       edges: []

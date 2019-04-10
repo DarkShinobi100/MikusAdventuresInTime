@@ -185,18 +185,18 @@ TextureImporter:
       name: LukaBattle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63fceed95185daa43ae7b010ebf0830a
+      spriteID: a87cfaea9df2e304c8ffaa3cc85bacb0
       vertices: []
       indices: 
       edges: []
@@ -205,18 +205,18 @@ TextureImporter:
       name: LukaBattle_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 75
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e71789803690ae9418225c871341b379
+      spriteID: 61bc5ae8b46b1fe43b0ca658edae3c78
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: LukaBattle_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 139
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b485c2e1b0891a345a994011c61df968
+      spriteID: 0e07f4366dbab1142a6d8561f654ada6
       vertices: []
       indices: 
       edges: []
@@ -245,18 +245,18 @@ TextureImporter:
       name: LukaBattle_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 214
         y: 320
-        width: 64
-        height: 64
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca698a4fc7cc4c147abbdf3eea15f67e
+      spriteID: 7d23651366ead654fa930b506087c0e0
       vertices: []
       indices: 
       edges: []
@@ -265,18 +265,18 @@ TextureImporter:
       name: LukaBattle_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 278
         y: 320
-        width: 64
-        height: 64
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab9c98b898a545e46a16fbbce552bf83
+      spriteID: d6ab51e93c1878a4ca6b162e10ac1e67
       vertices: []
       indices: 
       edges: []
@@ -285,18 +285,18 @@ TextureImporter:
       name: LukaBattle_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 338
         y: 320
-        width: 64
-        height: 64
+        width: 41
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc3e0fc037942e4eb9c3fc890073e9a
+      spriteID: 2ca465e00bc22554d83c757686012b4d
       vertices: []
       indices: 
       edges: []
@@ -305,18 +305,18 @@ TextureImporter:
       name: LukaBattle_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 403
         y: 320
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d38d588313cf1429780278394ec936
+      spriteID: 09e9d07b7ffc315419ee6c12d9e69557
       vertices: []
       indices: 
       edges: []
@@ -325,18 +325,18 @@ TextureImporter:
       name: LukaBattle_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
         y: 320
-        width: 64
-        height: 64
+        width: 41
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba6be53965129449890539a447932ff
+      spriteID: a1c2fef8ae8172948847279af9ef6dcc
       vertices: []
       indices: 
       edges: []
@@ -345,18 +345,18 @@ TextureImporter:
       name: LukaBattle_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 531
         y: 320
-        width: 64
-        height: 64
+        width: 41
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e30ef2dc2654b04eba8f4ec0ca2595e
+      spriteID: 1606a8caecfd25c4fb30d205be0c8d79
       vertices: []
       indices: 
       edges: []
@@ -365,18 +365,18 @@ TextureImporter:
       name: LukaBattle_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
+        x: 17
+        y: 258
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa0776793b708b64dac37f6229377beb
+      spriteID: 65effcb58e4dd0942855d6147022fefa
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
       name: LukaBattle_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
+        x: 81
+        y: 257
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b231305d230529e4983b1d36893c502d
+      spriteID: 1f435843215012f47b34ad6fbc7eabde
       vertices: []
       indices: 
       edges: []
@@ -405,18 +405,18 @@ TextureImporter:
       name: LukaBattle_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 256
-        width: 64
-        height: 64
+        width: 41
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7185963eb20d0a94699323dae1c5a9a5
+      spriteID: 40e1878557f3d8a45b1fefa946fd4af8
       vertices: []
       indices: 
       edges: []
@@ -425,18 +425,18 @@ TextureImporter:
       name: LukaBattle_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 211
         y: 256
-        width: 64
-        height: 64
+        width: 43
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58d44fdb413575144b0bc7092fdb05e2
+      spriteID: e8344453424000245a25e466f50b6f5c
       vertices: []
       indices: 
       edges: []
@@ -445,18 +445,18 @@ TextureImporter:
       name: LukaBattle_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 275
         y: 256
-        width: 64
-        height: 64
+        width: 43
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81edad127acd289468f6c0012eea314d
+      spriteID: e30abb21abe6f624989d1e0093f73b90
       vertices: []
       indices: 
       edges: []
@@ -465,18 +465,18 @@ TextureImporter:
       name: LukaBattle_14
       rect:
         serializedVersion: 2
-        x: 320
+        x: 339
         y: 256
-        width: 64
-        height: 64
+        width: 41
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4eb5eda085bf20343b2c912ae124678e
+      spriteID: 3404bab87b28f094080f77dc3d43fc51
       vertices: []
       indices: 
       edges: []
@@ -485,18 +485,18 @@ TextureImporter:
       name: LukaBattle_15
       rect:
         serializedVersion: 2
-        x: 384
+        x: 405
         y: 256
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ede090fcbb4c8439f298dbdceff177
+      spriteID: 40ae6666046ee7b4cac97448605d1019
       vertices: []
       indices: 
       edges: []
@@ -505,18 +505,18 @@ TextureImporter:
       name: LukaBattle_16
       rect:
         serializedVersion: 2
-        x: 448
+        x: 469
         y: 256
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4b32767e7f4fb498a39a41061ed935
+      spriteID: af1c1cdf125e6b044ae1ea55e4844149
       vertices: []
       indices: 
       edges: []
@@ -525,18 +525,18 @@ TextureImporter:
       name: LukaBattle_17
       rect:
         serializedVersion: 2
-        x: 512
+        x: 533
         y: 256
-        width: 64
-        height: 64
+        width: 40
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17f14c476779a61439f9c112ace25233
+      spriteID: 84044fde9e9a43e47b4c80b83cdabce4
       vertices: []
       indices: 
       edges: []
@@ -545,18 +545,18 @@ TextureImporter:
       name: LukaBattle_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 192
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d128b51be480249b6cc73779e0a342
+      spriteID: 280dd45ed923a8f4eb32a93e028e4b66
       vertices: []
       indices: 
       edges: []
@@ -565,18 +565,18 @@ TextureImporter:
       name: LukaBattle_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 192
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c33826f485d17641adeaec0fa3d9fa4
+      spriteID: a085c2105b9078e488c9b2622654d169
       vertices: []
       indices: 
       edges: []
@@ -585,18 +585,18 @@ TextureImporter:
       name: LukaBattle_20
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 192
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235dd6eb791eb0549bf9ae6e09f015c8
+      spriteID: a9a68adf601143e46b7561bad1eccc55
       vertices: []
       indices: 
       edges: []
@@ -605,18 +605,18 @@ TextureImporter:
       name: LukaBattle_21
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 192
-        width: 64
-        height: 64
+        width: 41
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6544017241c6e204da634b1516a975f6
+      spriteID: 9c410b95dce8fb649aee6dd110c7771f
       vertices: []
       indices: 
       edges: []
@@ -625,18 +625,18 @@ TextureImporter:
       name: LukaBattle_22
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 192
-        width: 64
-        height: 64
+        width: 41
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb6de813ccfc104d8308c88c0770b95
+      spriteID: 05b12b53ef0985c43af082575a487e5f
       vertices: []
       indices: 
       edges: []
@@ -645,18 +645,18 @@ TextureImporter:
       name: LukaBattle_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 339
         y: 192
-        width: 64
-        height: 64
+        width: 41
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80b3bcf7feeb92945a00dc6ef3a37d00
+      spriteID: 2c624e07695c59a43823d7c62e34df21
       vertices: []
       indices: 
       edges: []
@@ -665,18 +665,18 @@ TextureImporter:
       name: LukaBattle_24
       rect:
         serializedVersion: 2
-        x: 384
+        x: 402
         y: 192
-        width: 64
-        height: 64
+        width: 42
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c419a9a8a61d504d9d366816c6b94d7
+      spriteID: 83eb69df49a9fc1419c0c687f7ae9418
       vertices: []
       indices: 
       edges: []
@@ -685,18 +685,18 @@ TextureImporter:
       name: LukaBattle_25
       rect:
         serializedVersion: 2
-        x: 448
+        x: 466
         y: 192
-        width: 64
-        height: 64
+        width: 42
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a6e2179cb3a20a4aad47047496ecb3b
+      spriteID: b75d08bf05ea2b249bef5d7beecdcb04
       vertices: []
       indices: 
       edges: []
@@ -705,18 +705,18 @@ TextureImporter:
       name: LukaBattle_26
       rect:
         serializedVersion: 2
-        x: 512
+        x: 530
         y: 192
-        width: 64
-        height: 64
+        width: 42
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1385ff319ef94e438ef10a9f4be1e3c
+      spriteID: 9da538d3697e1e34a9450dfdfc9872bd
       vertices: []
       indices: 
       edges: []
@@ -725,18 +725,18 @@ TextureImporter:
       name: LukaBattle_27
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d84aa767f1d3b4792ae64a9b19e1bc
+      spriteID: 4bd02de7746a6a241835ab847c89cd50
       vertices: []
       indices: 
       edges: []
@@ -745,18 +745,18 @@ TextureImporter:
       name: LukaBattle_28
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e30ac2c90195a74e93c955b5cbeef3a
+      spriteID: 0c6b5caa55572fb428bfe8154200c6fe
       vertices: []
       indices: 
       edges: []
@@ -765,18 +765,18 @@ TextureImporter:
       name: LukaBattle_29
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45309d361ecea2840beaa4bd63c977b6
+      spriteID: 6be54d60c068aea4c8acbbe0725372f3
       vertices: []
       indices: 
       edges: []
@@ -785,18 +785,18 @@ TextureImporter:
       name: LukaBattle_30
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 128
-        width: 64
-        height: 64
+        width: 43
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 982a282844c62554e994bba6f8432188
+      spriteID: cebe0f796b021da4081f1370712ef983
       vertices: []
       indices: 
       edges: []
@@ -805,18 +805,18 @@ TextureImporter:
       name: LukaBattle_31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 128
-        width: 64
-        height: 64
+        width: 43
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e418478e3a53ce49a50a5d7153e573b
+      spriteID: f7f79b9d1b2df124f8d02d0a79945c96
       vertices: []
       indices: 
       edges: []
@@ -825,18 +825,18 @@ TextureImporter:
       name: LukaBattle_32
       rect:
         serializedVersion: 2
-        x: 320
+        x: 341
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d705d3bb537778418791d08f4e0c5e1
+      spriteID: 32244bdcb55002b4eb06feae622ca3fc
       vertices: []
       indices: 
       edges: []
@@ -845,18 +845,18 @@ TextureImporter:
       name: LukaBattle_33
       rect:
         serializedVersion: 2
-        x: 384
+        x: 402
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9f1063aff0ef8499970ef5bdba8405
+      spriteID: dbb7b8d28058658468b6101f8afe8be6
       vertices: []
       indices: 
       edges: []
@@ -865,18 +865,18 @@ TextureImporter:
       name: LukaBattle_34
       rect:
         serializedVersion: 2
-        x: 448
+        x: 466
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde5e6ab8d531ca40af576aeaebe6d02
+      spriteID: fbe6edca524aefa429873274e969784e
       vertices: []
       indices: 
       edges: []
@@ -885,18 +885,18 @@ TextureImporter:
       name: LukaBattle_35
       rect:
         serializedVersion: 2
-        x: 512
+        x: 530
         y: 128
-        width: 64
-        height: 64
+        width: 41
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b94b33f70aa0f04fb130736ca049ea3
+      spriteID: 1c1e3f6a6d3047b4abb8b5484817bbf3
       vertices: []
       indices: 
       edges: []
@@ -905,18 +905,18 @@ TextureImporter:
       name: LukaBattle_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 64
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b8b475624bc3147b421d056afdf6ae
+      spriteID: 1a95234011b66a844a6908ba45bc8bc4
       vertices: []
       indices: 
       edges: []
@@ -925,18 +925,18 @@ TextureImporter:
       name: LukaBattle_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 64
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 292df4e1bf46e124bbd97cfa72448d27
+      spriteID: 453722a6e9cb7fe47af161e511d4f754
       vertices: []
       indices: 
       edges: []
@@ -945,18 +945,18 @@ TextureImporter:
       name: LukaBattle_38
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 64
-        width: 64
-        height: 64
+        width: 41
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c269fc33f7486d44b0fce2066c5cd16
+      spriteID: 2ca0f3a6d7492fa4bb2cc71e58272661
       vertices: []
       indices: 
       edges: []
@@ -965,18 +965,18 @@ TextureImporter:
       name: LukaBattle_39
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 64
-        width: 64
-        height: 64
+        width: 44
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47fa19f65dd9f3b49965442eb4b146ea
+      spriteID: be51a029d68acec4bba9669a59d6d18b
       vertices: []
       indices: 
       edges: []
@@ -985,18 +985,18 @@ TextureImporter:
       name: LukaBattle_40
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 64
-        width: 64
-        height: 64
+        width: 44
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f204e06ec933944af5c268156fb69a
+      spriteID: 1ae00756c8e538b42b261032b14130f5
       vertices: []
       indices: 
       edges: []
@@ -1005,18 +1005,18 @@ TextureImporter:
       name: LukaBattle_41
       rect:
         serializedVersion: 2
-        x: 320
+        x: 338
         y: 64
-        width: 64
-        height: 64
+        width: 41
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55390c944f4acf0409d07b38b26bd30f
+      spriteID: 3aa3a1af0724cfd4bb37bdbad2ef2d74
       vertices: []
       indices: 
       edges: []
@@ -1025,18 +1025,18 @@ TextureImporter:
       name: LukaBattle_42
       rect:
         serializedVersion: 2
-        x: 384
+        x: 397
         y: 64
-        width: 64
-        height: 64
+        width: 43
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b97b3b296b8cd044e81eaa7434cc51af
+      spriteID: 63494dde9e10ee949a7fafca386e8555
       vertices: []
       indices: 
       edges: []
@@ -1045,18 +1045,18 @@ TextureImporter:
       name: LukaBattle_43
       rect:
         serializedVersion: 2
-        x: 448
+        x: 461
         y: 64
-        width: 64
-        height: 64
+        width: 43
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3498a1382617cc340a8db03656405bca
+      spriteID: b9a43583b78873d4a9c162e6918cf159
       vertices: []
       indices: 
       edges: []
@@ -1065,18 +1065,18 @@ TextureImporter:
       name: LukaBattle_44
       rect:
         serializedVersion: 2
-        x: 512
+        x: 525
         y: 64
-        width: 64
-        height: 64
+        width: 43
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a68937de2a3c5249b755e96ee55f021
+      spriteID: 9ca3fb4183e7a2043a7b8380ffd4ed9f
       vertices: []
       indices: 
       edges: []
@@ -1085,18 +1085,18 @@ TextureImporter:
       name: LukaBattle_45
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 64
-        height: 64
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8772f1491c169a45b9dd5278d7acc09
+      spriteID: 356349d8fc6466f43b1c8b45353e5356
       vertices: []
       indices: 
       edges: []
@@ -1105,18 +1105,18 @@ TextureImporter:
       name: LukaBattle_46
       rect:
         serializedVersion: 2
-        x: 64
+        x: 73
         y: 0
-        width: 64
-        height: 64
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e84f9669ac348e46b534ef4bf479d3c
+      spriteID: 3e6679ebfb261234fa96d33d9bcece71
       vertices: []
       indices: 
       edges: []
@@ -1125,18 +1125,18 @@ TextureImporter:
       name: LukaBattle_47
       rect:
         serializedVersion: 2
-        x: 128
+        x: 137
         y: 0
-        width: 64
-        height: 64
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34ffd03b4a656e3488912b0ee2acdbee
+      spriteID: 3812ac4765fdaa644a23b8b1d8a8233d
       vertices: []
       indices: 
       edges: []
@@ -1145,18 +1145,18 @@ TextureImporter:
       name: LukaBattle_48
       rect:
         serializedVersion: 2
-        x: 192
+        x: 207
         y: 0
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f935d3ad64681694ab6ef9734ce1f4b0
+      spriteID: ed533f732f08efe43bb984267790347b
       vertices: []
       indices: 
       edges: []
@@ -1165,18 +1165,18 @@ TextureImporter:
       name: LukaBattle_49
       rect:
         serializedVersion: 2
-        x: 256
+        x: 271
         y: 0
-        width: 64
-        height: 64
+        width: 46
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57bf7e469177fb94cbb12e20e3ba8208
+      spriteID: 36a66e9ec9d87ab4cb1f7e8c14a0d266
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1185,18 @@ TextureImporter:
       name: LukaBattle_50
       rect:
         serializedVersion: 2
-        x: 320
+        x: 338
         y: 0
-        width: 64
-        height: 64
+        width: 41
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efeb780b2cb24b64684efcef33ad4bba
+      spriteID: 4b33be7d34d68d54faf903352ebe971e
       vertices: []
       indices: 
       edges: []
@@ -1205,18 +1205,18 @@ TextureImporter:
       name: LukaBattle_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 396
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9158e4199e9ad9f4db7da8460d1a11b7
+      spriteID: 5e21d7b7d5377f0498bb3c1f9da5ef8a
       vertices: []
       indices: 
       edges: []
@@ -1225,18 +1225,18 @@ TextureImporter:
       name: LukaBattle_52
       rect:
         serializedVersion: 2
-        x: 448
+        x: 460
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b0b4076c90a9e42abdcc4257d5ee4b
+      spriteID: 962d9dc294c087246bf3a5053ed27505
       vertices: []
       indices: 
       edges: []
@@ -1245,18 +1245,18 @@ TextureImporter:
       name: LukaBattle_53
       rect:
         serializedVersion: 2
-        x: 512
+        x: 524
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a546ce2f43e8449bbb1b364430734a
+      spriteID: fe57575e522c0b140903fdeb82a8bcd4
       vertices: []
       indices: 
       edges: []

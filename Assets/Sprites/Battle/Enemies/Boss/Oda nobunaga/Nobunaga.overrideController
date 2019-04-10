@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Nobunaga
+  m_Controller: {fileID: 9100000, guid: 9deff3dfaa6f6294989f65a634cd356f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 58f66a0d36207844589ac6c7445bd0d0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 633949f713bcdff43bcad439d00bfac3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fd25058781ac6f84bb4bb6cd2d1a3299, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fbaefd02b54bd2c44a67d1245baca219, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b9dc3cb728fb2b4fb2e4da83c67c20c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ed715e31753e734789bb0ad4f787a41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b22762dfcc1fb234b983dbcefe2d5fef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 39f1d1a8f211679448cd986a6a6464e3, type: 2}

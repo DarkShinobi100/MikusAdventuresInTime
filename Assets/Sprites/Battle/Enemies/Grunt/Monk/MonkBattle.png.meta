@@ -185,18 +185,18 @@ TextureImporter:
       name: MonkBattle_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 15
         y: 320
-        width: 34
+        width: 43
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67399d5a8c16f54ea027b742cc5c40c
+      spriteID: 41b1580163f54534db7dd56658ca35d4
       vertices: []
       indices: 
       edges: []
@@ -205,18 +205,18 @@ TextureImporter:
       name: MonkBattle_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 79
         y: 320
-        width: 32
-        height: 58
+        width: 43
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c43f8d83ef191343a4d2db03130355a
+      spriteID: 8fc6ac39eaf74444296a8c53f45f8b51
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: MonkBattle_2
       rect:
         serializedVersion: 2
-        x: 144
+        x: 143
         y: 320
-        width: 32
-        height: 57
+        width: 43
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39acb8c9a3d2f29419f592441cbfef17
+      spriteID: ca56e49daab9f9d43a07ee57e656bcac
       vertices: []
       indices: 
       edges: []
@@ -245,18 +245,18 @@ TextureImporter:
       name: MonkBattle_3
       rect:
         serializedVersion: 2
-        x: 209
+        x: 214
         y: 320
-        width: 32
-        height: 59
+        width: 50
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91e776ad361cdcc4384f59626b525f61
+      spriteID: 9882cb2c1bd7ded4aaace040f06232c9
       vertices: []
       indices: 
       edges: []
@@ -265,18 +265,18 @@ TextureImporter:
       name: MonkBattle_4
       rect:
         serializedVersion: 2
-        x: 257
+        x: 278
         y: 320
         width: 50
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f177cd8ac0c14624280d88b67e6e54c0
+      spriteID: 98a1f929679766b45bf77a7c7fa54cbf
       vertices: []
       indices: 
       edges: []
@@ -285,18 +285,18 @@ TextureImporter:
       name: MonkBattle_5
       rect:
         serializedVersion: 2
-        x: 321
+        x: 344
         y: 320
-        width: 50
-        height: 57
+        width: 32
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1cd519d1fb0d30469af9950684805d9
+      spriteID: 5f0c4caa11312154fa737db8cc359349
       vertices: []
       indices: 
       edges: []
@@ -305,18 +305,18 @@ TextureImporter:
       name: MonkBattle_6
       rect:
         serializedVersion: 2
-        x: 399
+        x: 409
         y: 320
-        width: 43
-        height: 59
+        width: 32
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92d10524aff330f4c8037c6f7c355d3f
+      spriteID: 9b274dbfaf2c04448982c6e26a7fda78
       vertices: []
       indices: 
       edges: []
@@ -325,18 +325,18 @@ TextureImporter:
       name: MonkBattle_7
       rect:
         serializedVersion: 2
-        x: 463
+        x: 473
         y: 320
-        width: 43
-        height: 59
+        width: 32
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dce3ab3cd672db141bfdc2659a0b3b18
+      spriteID: 0db6caf6403fef346ac06002801a5148
       vertices: []
       indices: 
       edges: []
@@ -345,18 +345,18 @@ TextureImporter:
       name: MonkBattle_8
       rect:
         serializedVersion: 2
-        x: 527
+        x: 535
         y: 320
-        width: 43
+        width: 34
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc83519f64d28df419cd93c74925380c
+      spriteID: 11b85bc12454791439764a8c9df90b10
       vertices: []
       indices: 
       edges: []
@@ -365,18 +365,18 @@ TextureImporter:
       name: MonkBattle_9
       rect:
         serializedVersion: 2
-        x: 13
-        y: 256
-        width: 34
-        height: 57
+        x: 20
+        y: 258
+        width: 46
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5bd4be12aafa1540984a0a0af7a7e77
+      spriteID: d1760c525bd08714099a7c2487319e38
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
       name: MonkBattle_10
       rect:
         serializedVersion: 2
-        x: 77
-        y: 256
-        width: 34
-        height: 57
+        x: 84
+        y: 257
+        width: 46
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a1cd0af360cce4c9798957f0e842b1
+      spriteID: 9b8d1591fe6d0424fbaaec7a1efabe07
       vertices: []
       indices: 
       edges: []
@@ -405,18 +405,18 @@ TextureImporter:
       name: MonkBattle_11
       rect:
         serializedVersion: 2
-        x: 141
+        x: 151
         y: 256
-        width: 34
-        height: 57
+        width: 36
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6bc0967b42e75e4a8f270906d6e5676
+      spriteID: 300ee9a70a36fe149b393f3438cb4ce1
       vertices: []
       indices: 
       edges: []
@@ -425,18 +425,18 @@ TextureImporter:
       name: MonkBattle_12
       rect:
         serializedVersion: 2
-        x: 208
+        x: 214
         y: 256
-        width: 35
-        height: 58
+        width: 43
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2260936089dfa224ca4d1ba9a47481cc
+      spriteID: a620486ddac9ef54d9094f6425fa1e78
       vertices: []
       indices: 
       edges: []
@@ -445,18 +445,18 @@ TextureImporter:
       name: MonkBattle_13
       rect:
         serializedVersion: 2
-        x: 264
+        x: 278
         y: 256
         width: 43
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2703f5ba4305c3f4e9c8068210e8ea4b
+      spriteID: a60bc556c858c17499b2ccdddee3ab3f
       vertices: []
       indices: 
       edges: []
@@ -465,18 +465,18 @@ TextureImporter:
       name: MonkBattle_14
       rect:
         serializedVersion: 2
-        x: 328
+        x: 342
         y: 256
-        width: 43
-        height: 57
+        width: 35
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f1dc38de8af5b42b2d84fa6155188f
+      spriteID: c5f6d319829fcdb45a6256a40aac23f9
       vertices: []
       indices: 
       edges: []
@@ -485,18 +485,18 @@ TextureImporter:
       name: MonkBattle_15
       rect:
         serializedVersion: 2
-        x: 398
+        x: 410
         y: 256
-        width: 36
-        height: 58
+        width: 34
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34be2f1c3a7168945a2c20d8ba392584
+      spriteID: 0b6c2c7091796724a9e9fafb171bcb84
       vertices: []
       indices: 
       edges: []
@@ -505,18 +505,18 @@ TextureImporter:
       name: MonkBattle_16
       rect:
         serializedVersion: 2
-        x: 455
-        y: 257
-        width: 46
-        height: 58
+        x: 474
+        y: 256
+        width: 34
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bb66a5c75168234f8998a98d22d32b6
+      spriteID: e675bc85866ebdf4ead0ec5b415b76e6
       vertices: []
       indices: 
       edges: []
@@ -525,18 +525,18 @@ TextureImporter:
       name: MonkBattle_17
       rect:
         serializedVersion: 2
-        x: 519
-        y: 258
-        width: 46
-        height: 58
+        x: 538
+        y: 256
+        width: 34
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b29bd2ec4a8ce284bab01d36ccbe99ac
+      spriteID: cb9ec22b1a5dc3545a1c2a9de8c755b0
       vertices: []
       indices: 
       edges: []
@@ -545,18 +545,18 @@ TextureImporter:
       name: MonkBattle_18
       rect:
         serializedVersion: 2
-        x: 11
+        x: 27
         y: 192
-        width: 41
-        height: 59
+        width: 34
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bf62ff3e6f23f242a213f85294dc166
+      spriteID: e3339bab4c9bdde4faf9f45a8f7becb9
       vertices: []
       indices: 
       edges: []
@@ -565,18 +565,18 @@ TextureImporter:
       name: MonkBattle_19
       rect:
         serializedVersion: 2
-        x: 75
+        x: 91
         y: 192
-        width: 41
-        height: 59
+        width: 34
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13463d6a5fb8a944aa781a193060ca41
+      spriteID: c3bf2c18e5f6a3e498ad5d141fe0cde0
       vertices: []
       indices: 
       edges: []
@@ -585,18 +585,18 @@ TextureImporter:
       name: MonkBattle_20
       rect:
         serializedVersion: 2
-        x: 139
+        x: 155
         y: 192
-        width: 41
-        height: 59
+        width: 34
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd59874c1a1277a4e9c309f84e663670
+      spriteID: ec59f72fc1c4cd24d8ba2e18c35a2de2
       vertices: []
       indices: 
       edges: []
@@ -605,18 +605,18 @@ TextureImporter:
       name: MonkBattle_21
       rect:
         serializedVersion: 2
-        x: 203
+        x: 215
         y: 192
         width: 38
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c59a99378d3ca44fafb59a818941110
+      spriteID: 84ede78a22f647c4a955a405edc43672
       vertices: []
       indices: 
       edges: []
@@ -625,18 +625,18 @@ TextureImporter:
       name: MonkBattle_22
       rect:
         serializedVersion: 2
-        x: 268
+        x: 279
         y: 192
         width: 38
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 958b14e043f30b94b82d65616c291664
+      spriteID: 8ae82466b51895f4b9b7a5f405b6febb
       vertices: []
       indices: 
       edges: []
@@ -645,18 +645,18 @@ TextureImporter:
       name: MonkBattle_23
       rect:
         serializedVersion: 2
-        x: 332
+        x: 344
         y: 192
         width: 38
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adc9ac341b2af1649b09033d684b0c99
+      spriteID: 7a461cbf4c9b177439bac9e174f52c2c
       vertices: []
       indices: 
       edges: []
@@ -665,18 +665,18 @@ TextureImporter:
       name: MonkBattle_24
       rect:
         serializedVersion: 2
-        x: 396
+        x: 405
         y: 192
-        width: 34
-        height: 55
+        width: 41
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b67ca5d8b4289745beca7cfc8e4bd1c
+      spriteID: 842385a679e1e2e4aa455e6171890b6f
       vertices: []
       indices: 
       edges: []
@@ -685,18 +685,18 @@ TextureImporter:
       name: MonkBattle_25
       rect:
         serializedVersion: 2
-        x: 460
+        x: 469
         y: 192
-        width: 34
-        height: 55
+        width: 41
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be9f22cb6ebda4d45ba4ef26b9729ffe
+      spriteID: ffb951174ab37e44181824e521841ef5
       vertices: []
       indices: 
       edges: []
@@ -705,18 +705,18 @@ TextureImporter:
       name: MonkBattle_26
       rect:
         serializedVersion: 2
-        x: 524
+        x: 533
         y: 192
-        width: 34
-        height: 55
+        width: 40
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d9e05ba7443b44f935b423a8498bf0
+      spriteID: 1de3fe53626f6aa4fb91e7b7ab2f2b7a
       vertices: []
       indices: 
       edges: []
@@ -725,18 +725,18 @@ TextureImporter:
       name: MonkBattle_27
       rect:
         serializedVersion: 2
-        x: 13
+        x: 27
         y: 128
-        width: 39
-        height: 57
+        width: 34
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b61a781cd2e7342ad75f14285f84de
+      spriteID: 8bdf1180ab2d62a41b33e5a7293e95f2
       vertices: []
       indices: 
       edges: []
@@ -745,18 +745,18 @@ TextureImporter:
       name: MonkBattle_28
       rect:
         serializedVersion: 2
-        x: 77
+        x: 91
         y: 128
-        width: 39
-        height: 57
+        width: 34
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c79f3c8c3705f3e4b927b39dc59861e4
+      spriteID: 49181920362917a41b8b6e22f23e4a10
       vertices: []
       indices: 
       edges: []
@@ -765,18 +765,18 @@ TextureImporter:
       name: MonkBattle_29
       rect:
         serializedVersion: 2
-        x: 141
+        x: 155
         y: 128
-        width: 39
-        height: 57
+        width: 34
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34a5cc057081e049926f65df133f909
+      spriteID: ef0f2cca4ff23004aa6df49131e7df1d
       vertices: []
       indices: 
       edges: []
@@ -785,18 +785,18 @@ TextureImporter:
       name: MonkBattle_30
       rect:
         serializedVersion: 2
-        x: 202
+        x: 212
         y: 128
-        width: 39
-        height: 57
+        width: 41
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1a919e8fa5604f4b98e0ca0b6a0a5c9
+      spriteID: d95e642e14293114d8ec2c41ff1333f7
       vertices: []
       indices: 
       edges: []
@@ -805,18 +805,18 @@ TextureImporter:
       name: MonkBattle_31
       rect:
         serializedVersion: 2
-        x: 268
+        x: 276
         y: 128
         width: 41
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1134fcf4ba7a57498fb937cc666f200
+      spriteID: db2dbc46c0f8dc148b9064f68c88d032
       vertices: []
       indices: 
       edges: []
@@ -825,18 +825,18 @@ TextureImporter:
       name: MonkBattle_32
       rect:
         serializedVersion: 2
-        x: 332
+        x: 344
         y: 128
-        width: 41
-        height: 59
+        width: 39
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23bd3415e74706748b4510520f4cc25c
+      spriteID: a64b7c43e48a77c4c9b14593eb537867
       vertices: []
       indices: 
       edges: []
@@ -845,18 +845,18 @@ TextureImporter:
       name: MonkBattle_33
       rect:
         serializedVersion: 2
-        x: 396
+        x: 405
         y: 128
-        width: 34
-        height: 55
+        width: 39
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f964d21a86794478e2f4a994d396ec
+      spriteID: 7dc7bf2ccbdfc0b4a82d6e5c7a3fa83c
       vertices: []
       indices: 
       edges: []
@@ -865,18 +865,18 @@ TextureImporter:
       name: MonkBattle_34
       rect:
         serializedVersion: 2
-        x: 460
+        x: 469
         y: 128
-        width: 34
-        height: 55
+        width: 39
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe51556259727554b94be213abb393cd
+      spriteID: 37c1f6a376ded7d429f796b4883074c1
       vertices: []
       indices: 
       edges: []
@@ -885,18 +885,18 @@ TextureImporter:
       name: MonkBattle_35
       rect:
         serializedVersion: 2
-        x: 524
+        x: 533
         y: 128
-        width: 34
-        height: 55
+        width: 39
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcf610196e04d6e469e34fda44893889
+      spriteID: e3dca172dac2eb54da9395a647907add
       vertices: []
       indices: 
       edges: []
@@ -905,18 +905,18 @@ TextureImporter:
       name: MonkBattle_36
       rect:
         serializedVersion: 2
-        x: 20
+        x: 27
         y: 64
         width: 34
-        height: 56
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39905cff33bd4b146af8df7f74200a1e
+      spriteID: 13909ec0be04a5f4187aa017e6de5d4b
       vertices: []
       indices: 
       edges: []
@@ -925,18 +925,18 @@ TextureImporter:
       name: MonkBattle_37
       rect:
         serializedVersion: 2
-        x: 84
+        x: 91
         y: 64
         width: 34
-        height: 56
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60bfee35716cdce44ba67da90c05248a
+      spriteID: 01569401adedc7e4fa05055f5035f503
       vertices: []
       indices: 
       edges: []
@@ -945,18 +945,18 @@ TextureImporter:
       name: MonkBattle_38
       rect:
         serializedVersion: 2
-        x: 148
+        x: 155
         y: 64
         width: 34
-        height: 56
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76fcf99dc84f5ce43bc840e28aace1a1
+      spriteID: 6fb609b46f8a81e4293766534b08ef9b
       vertices: []
       indices: 
       edges: []
@@ -967,16 +967,16 @@ TextureImporter:
         serializedVersion: 2
         x: 209
         y: 64
-        width: 32
+        width: 40
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64fd7b261fdeee14ab53b3875bce5f16
+      spriteID: d883dd96e0e9c5e43b34735f4bc68222
       vertices: []
       indices: 
       edges: []
@@ -985,18 +985,18 @@ TextureImporter:
       name: MonkBattle_40
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 64
         width: 40
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 485dac74b76e00d438cae3f7a67dab17
+      spriteID: 5a173f510de7ae04795ea7c5fe91c322
       vertices: []
       indices: 
       edges: []
@@ -1005,18 +1005,18 @@ TextureImporter:
       name: MonkBattle_41
       rect:
         serializedVersion: 2
-        x: 336
+        x: 344
         y: 64
-        width: 40
+        width: 32
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c428ae57452a614e8fcaa5ebe33f893
+      spriteID: 34923660507e88c4b95eff7f004179a6
       vertices: []
       indices: 
       edges: []
@@ -1025,18 +1025,18 @@ TextureImporter:
       name: MonkBattle_42
       rect:
         serializedVersion: 2
-        x: 396
+        x: 403
         y: 64
         width: 34
-        height: 55
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32fbfa72a2f3a342a09860261dcbdd9
+      spriteID: 609a556370f8d264aaf4a3a8b90384e8
       vertices: []
       indices: 
       edges: []
@@ -1045,18 +1045,18 @@ TextureImporter:
       name: MonkBattle_43
       rect:
         serializedVersion: 2
-        x: 460
+        x: 467
         y: 64
         width: 34
-        height: 55
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e88fc479aa1a35d409ed6f238314d4f9
+      spriteID: 04b3951fb6afab1458a69000c63c436e
       vertices: []
       indices: 
       edges: []
@@ -1065,18 +1065,18 @@ TextureImporter:
       name: MonkBattle_44
       rect:
         serializedVersion: 2
-        x: 524
+        x: 531
         y: 64
         width: 34
-        height: 55
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11e08ac442cc6464a8931c05da0ee0ff
+      spriteID: 80fe5608202910b408f848e0b45d7a1c
       vertices: []
       indices: 
       edges: []
@@ -1087,16 +1087,16 @@ TextureImporter:
         serializedVersion: 2
         x: 12
         y: 0
-        width: 46
-        height: 59
+        width: 61
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c065cb4a41255a24389c6c41ec1449ba
+      spriteID: d1bfd29b5b7d8eb429eafee5ba0970fc
       vertices: []
       indices: 
       edges: []
@@ -1107,16 +1107,16 @@ TextureImporter:
         serializedVersion: 2
         x: 76
         y: 0
-        width: 46
-        height: 59
+        width: 61
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06652c0ba99c68248a2acd7c7abce012
+      spriteID: c68b7a6535e34aa41ab2799a4fb44e1b
       vertices: []
       indices: 
       edges: []
@@ -1127,16 +1127,16 @@ TextureImporter:
         serializedVersion: 2
         x: 140
         y: 0
-        width: 46
-        height: 59
+        width: 61
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd5cb808ee0298b44bf8bfbe0820d912
+      spriteID: 3f114c3bf08cbbc4fa7e3e8c4d9bfef8
       vertices: []
       indices: 
       edges: []
@@ -1145,18 +1145,18 @@ TextureImporter:
       name: MonkBattle_48
       rect:
         serializedVersion: 2
-        x: 209
+        x: 210
         y: 0
-        width: 34
-        height: 59
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e93f93120a7732e4587ea3a89d065f87
+      spriteID: 5e475aedb6236ba42aba79a4e7a43521
       vertices: []
       indices: 
       edges: []
@@ -1165,18 +1165,18 @@ TextureImporter:
       name: MonkBattle_49
       rect:
         serializedVersion: 2
-        x: 265
+        x: 274
         y: 0
         width: 46
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db124f648eadc4f419ebc551be6307f6
+      spriteID: e9aab9da3ada8744dae97b3ee5ffb0d8
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1185,18 @@ TextureImporter:
       name: MonkBattle_50
       rect:
         serializedVersion: 2
-        x: 329
+        x: 342
         y: 0
-        width: 46
-        height: 60
+        width: 34
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd910b1da72debe4bbad8607418ead7f
+      spriteID: 441049aa0d5159c4bb5018e0a318dd4c
       vertices: []
       indices: 
       edges: []
@@ -1205,18 +1205,18 @@ TextureImporter:
       name: MonkBattle_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 399
         y: 0
-        width: 61
-        height: 35
+        width: 46
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a3a40e986bb70d49ba04a1c1a7dabc7
+      spriteID: 023cc76eea9dea745b3a01a7fd21e444
       vertices: []
       indices: 
       edges: []
@@ -1225,18 +1225,18 @@ TextureImporter:
       name: MonkBattle_52
       rect:
         serializedVersion: 2
-        x: 448
+        x: 463
         y: 0
-        width: 61
-        height: 35
+        width: 46
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea1bd0b6c3b3dc742850e9a450f1bfc1
+      spriteID: 5ff18f8c150d57b4b8e07d468ef1df64
       vertices: []
       indices: 
       edges: []
@@ -1245,18 +1245,18 @@ TextureImporter:
       name: MonkBattle_53
       rect:
         serializedVersion: 2
-        x: 512
+        x: 527
         y: 0
-        width: 61
-        height: 35
+        width: 46
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6105bc69bdc5ec4db8ed5d63a782ddd
+      spriteID: f5dcd21d2a659694a9a464e08c0e3aa0
       vertices: []
       indices: 
       edges: []

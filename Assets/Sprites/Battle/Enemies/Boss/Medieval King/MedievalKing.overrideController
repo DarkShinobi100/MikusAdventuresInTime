@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MedievalKing
+  m_Controller: {fileID: 9100000, guid: a155395b575be8b4cade7ebcca8258c8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e34f53e17850b454c8e89623af8abd12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0f5221d75fbe09c42ba1350b7f35ec0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 396b23bc65ecbff499191c5e404176aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7ff1775179d8b4043a891fa2de4cacc4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: da34683d536ee114aade1863435ad3f8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 28e5834c67862b640bf9d2e5d250d306, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 15d340378853c204797f63fcdc71042c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8539392a8ab73e845a0e6757e44faa38, type: 2}

@@ -185,18 +185,18 @@ TextureImporter:
       name: MikuBattle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 320
-        width: 64
-        height: 64
+        width: 47
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aefb99ee38bbef4f80c4e16bc6eed56
+      spriteID: 0f7074e7c336c464e8e27a17daa33b81
       vertices: []
       indices: 
       edges: []
@@ -205,18 +205,18 @@ TextureImporter:
       name: MikuBattle_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 75
         y: 320
-        width: 64
-        height: 64
+        width: 47
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c06619c3e7edc1544ae738053cdc6578
+      spriteID: 755deec8b9fd6ae4d8bf6fd020efe59d
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: MikuBattle_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 139
         y: 320
-        width: 64
-        height: 64
+        width: 47
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367867e9775784044ad60b57278969a0
+      spriteID: 22f728b8a10ecac4688f25c3e7364e94
       vertices: []
       indices: 
       edges: []
@@ -245,18 +245,18 @@ TextureImporter:
       name: MikuBattle_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 210
         y: 320
-        width: 64
-        height: 64
+        width: 52
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72de3f820d765b4459587bfc679dca9d
+      spriteID: 85538345f13c521439eea249ab64a1bf
       vertices: []
       indices: 
       edges: []
@@ -265,18 +265,18 @@ TextureImporter:
       name: MikuBattle_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 274
         y: 320
-        width: 64
-        height: 64
+        width: 52
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e0a279750ed4e4ea9936a93b9d3f60
+      spriteID: 8ef1b5b7595ed324684b1e36d2f23267
       vertices: []
       indices: 
       edges: []
@@ -285,18 +285,18 @@ TextureImporter:
       name: MikuBattle_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 333
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff907bb583ec5b4ca4caaf1a1bb846e
+      spriteID: 2eff45e7e42e5954d9589755df263612
       vertices: []
       indices: 
       edges: []
@@ -305,18 +305,18 @@ TextureImporter:
       name: MikuBattle_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 397
         y: 320
-        width: 64
-        height: 64
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44f1158f60d61e84da08ef1fc38b961b
+      spriteID: b347af8199c179c4a8fbc53a6f34b760
       vertices: []
       indices: 
       edges: []
@@ -325,18 +325,18 @@ TextureImporter:
       name: MikuBattle_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 462
         y: 320
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e34dca95f003f499fbc732a00a17c6
+      spriteID: 452036911b537e94aa67c9acec25ac88
       vertices: []
       indices: 
       edges: []
@@ -345,18 +345,18 @@ TextureImporter:
       name: MikuBattle_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 527
         y: 320
-        width: 64
-        height: 64
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 245fb66355d9c3b4782fd577fb6df272
+      spriteID: dfe3d5afc68d15844b1619d4a8074dc3
       vertices: []
       indices: 
       edges: []
@@ -365,18 +365,18 @@ TextureImporter:
       name: MikuBattle_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
+        x: 15
+        y: 258
+        width: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ac17f76245a3ca418f3417140301c30
+      spriteID: 29bdbb658a7ebd642b5ff449b94f2fc3
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
       name: MikuBattle_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
+        x: 79
+        y: 257
+        width: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 642a49de586db4c44a5b1e8f3e6c2ba1
+      spriteID: a2adc82d1c7939643ab9973f06a46674
       vertices: []
       indices: 
       edges: []
@@ -405,18 +405,18 @@ TextureImporter:
       name: MikuBattle_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 142
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b095b2ebb0db625449ab3906d358e2a5
+      spriteID: 57a584a52c99ab84cb43de6cb2e32e04
       vertices: []
       indices: 
       edges: []
@@ -425,18 +425,18 @@ TextureImporter:
       name: MikuBattle_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d26def8d87fa4c42b1f23ae08aa2e21
+      spriteID: 5828b8af7af25cc4ca15ee09d05ee9b8
       vertices: []
       indices: 
       edges: []
@@ -445,18 +445,18 @@ TextureImporter:
       name: MikuBattle_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b45af8164f6d7e841b6798eba2326275
+      spriteID: f8322ddbf46abb144a62be904504fdfb
       vertices: []
       indices: 
       edges: []
@@ -465,18 +465,18 @@ TextureImporter:
       name: MikuBattle_14
       rect:
         serializedVersion: 2
-        x: 320
+        x: 334
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed31d1fa1471279459667c1be8503570
+      spriteID: fdefada539e972b49a439649555545ac
       vertices: []
       indices: 
       edges: []
@@ -485,18 +485,18 @@ TextureImporter:
       name: MikuBattle_15
       rect:
         serializedVersion: 2
-        x: 384
+        x: 399
         y: 256
-        width: 64
-        height: 64
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dddf620dc270db43b90fd51d12e93bd
+      spriteID: d3a3fefa80944dd4aa72581c3c24005f
       vertices: []
       indices: 
       edges: []
@@ -505,18 +505,18 @@ TextureImporter:
       name: MikuBattle_16
       rect:
         serializedVersion: 2
-        x: 448
+        x: 463
         y: 256
-        width: 64
-        height: 64
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ff12d15e99cb54f8f63d442638f48e
+      spriteID: c11b8504fbcaff54ab7eefbe24e29b80
       vertices: []
       indices: 
       edges: []
@@ -525,18 +525,18 @@ TextureImporter:
       name: MikuBattle_17
       rect:
         serializedVersion: 2
-        x: 512
+        x: 527
         y: 256
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d50fe8dfc25e8447bde705b5a9ca342
+      spriteID: c25e022b114e39a4aaffcd96ce34c768
       vertices: []
       indices: 
       edges: []
@@ -545,18 +545,18 @@ TextureImporter:
       name: MikuBattle_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 15
         y: 192
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e935308ea1e07414e9988cb6885aa4d8
+      spriteID: e0d5c507e59c4314b97a998779b4ac95
       vertices: []
       indices: 
       edges: []
@@ -565,18 +565,18 @@ TextureImporter:
       name: MikuBattle_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 79
         y: 192
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05440f10174d2045bb5e2fb6d5ff651
+      spriteID: 55e4bb4d367637e4fab78aeec9562194
       vertices: []
       indices: 
       edges: []
@@ -585,18 +585,18 @@ TextureImporter:
       name: MikuBattle_20
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 192
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c341d3922577e840b30451fc78fe0d5
+      spriteID: b8ecf7f8dd6066144b6ec2a4a32b53d5
       vertices: []
       indices: 
       edges: []
@@ -605,18 +605,18 @@ TextureImporter:
       name: MikuBattle_21
       rect:
         serializedVersion: 2
-        x: 192
+        x: 205
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb85abffa8f7e924788171dc6dff6d87
+      spriteID: d53b0e66b1573eb44b2cbf9c495b08b2
       vertices: []
       indices: 
       edges: []
@@ -625,18 +625,18 @@ TextureImporter:
       name: MikuBattle_22
       rect:
         serializedVersion: 2
-        x: 256
+        x: 269
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3943d64434cac254184dae21c4faec77
+      spriteID: 7a92bb874cb8de842acb01921b2fa719
       vertices: []
       indices: 
       edges: []
@@ -645,18 +645,18 @@ TextureImporter:
       name: MikuBattle_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 334
         y: 192
-        width: 64
-        height: 64
+        width: 46
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b2775e4468ea841bec3092ec77ab61
+      spriteID: b309612adf043bf44ae1a886e8d70af0
       vertices: []
       indices: 
       edges: []
@@ -665,18 +665,18 @@ TextureImporter:
       name: MikuBattle_24
       rect:
         serializedVersion: 2
-        x: 384
+        x: 399
         y: 192
-        width: 64
-        height: 64
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997d82c9c5a4679459b064cc416c8bf5
+      spriteID: 5f92ce44d4b59014f8f57013f99e4283
       vertices: []
       indices: 
       edges: []
@@ -685,18 +685,18 @@ TextureImporter:
       name: MikuBattle_25
       rect:
         serializedVersion: 2
-        x: 448
+        x: 463
         y: 192
-        width: 64
-        height: 64
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3391a4bba92779847b261c6e87a6486a
+      spriteID: e66901a4be0b37646a87f7ca4a32c33b
       vertices: []
       indices: 
       edges: []
@@ -705,18 +705,18 @@ TextureImporter:
       name: MikuBattle_26
       rect:
         serializedVersion: 2
-        x: 512
+        x: 527
         y: 192
-        width: 64
-        height: 64
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1358231007f178343930b73c1c71a95d
+      spriteID: 1578c7b9d748f864fb08dd91764db3ad
       vertices: []
       indices: 
       edges: []
@@ -725,18 +725,18 @@ TextureImporter:
       name: MikuBattle_27
       rect:
         serializedVersion: 2
-        x: 0
+        x: 15
         y: 128
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca194accfa441748be8b8fe6d23e629
+      spriteID: 24db73d975b3c704791790d7d6eb420d
       vertices: []
       indices: 
       edges: []
@@ -745,18 +745,18 @@ TextureImporter:
       name: MikuBattle_28
       rect:
         serializedVersion: 2
-        x: 64
+        x: 79
         y: 128
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35cabfd4462c6af4990a3e24ce018472
+      spriteID: 94ef6dd4cf4993a4a8032817e5f7996b
       vertices: []
       indices: 
       edges: []
@@ -765,18 +765,18 @@ TextureImporter:
       name: MikuBattle_29
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 128
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a9ffe5468c7f2468db2486554c567d
+      spriteID: fc437df038d2c224ba09dd7b53d8ed15
       vertices: []
       indices: 
       edges: []
@@ -785,18 +785,18 @@ TextureImporter:
       name: MikuBattle_30
       rect:
         serializedVersion: 2
-        x: 192
+        x: 204
         y: 128
-        width: 64
-        height: 64
+        width: 50
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d880d5f426c8db844a0036f6adff9196
+      spriteID: 8255cf7309324d34c864156505568920
       vertices: []
       indices: 
       edges: []
@@ -805,18 +805,18 @@ TextureImporter:
       name: MikuBattle_31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 268
         y: 128
-        width: 64
-        height: 64
+        width: 50
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4cbdf99b28407c40a3c8d644f11c5ea
+      spriteID: 15be63eef3a12ea4ea199d4a8c2f8bdb
       vertices: []
       indices: 
       edges: []
@@ -825,18 +825,18 @@ TextureImporter:
       name: MikuBattle_32
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665ab1b191838ed4e98a8f7521290c6f
+      spriteID: ff214386aa4dd6c44a065e99d4d786f2
       vertices: []
       indices: 
       edges: []
@@ -845,18 +845,18 @@ TextureImporter:
       name: MikuBattle_33
       rect:
         serializedVersion: 2
-        x: 384
+        x: 397
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361dd6a2b59af4d40a3ee01e5932dbd2
+      spriteID: 6e7283fec5657dc41a04955b2870bc5b
       vertices: []
       indices: 
       edges: []
@@ -865,18 +865,18 @@ TextureImporter:
       name: MikuBattle_34
       rect:
         serializedVersion: 2
-        x: 448
+        x: 461
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00096d4e751c5944bbb98e0e057b6eaa
+      spriteID: a44ae27297ad60547bdd20fdc67252e1
       vertices: []
       indices: 
       edges: []
@@ -885,18 +885,18 @@ TextureImporter:
       name: MikuBattle_35
       rect:
         serializedVersion: 2
-        x: 512
+        x: 525
         y: 128
-        width: 64
-        height: 64
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a553b0035be167a42ad9597490ab2655
+      spriteID: 98be3e5f68dd8394e810a2e264ba4e56
       vertices: []
       indices: 
       edges: []
@@ -905,18 +905,18 @@ TextureImporter:
       name: MikuBattle_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 15
         y: 64
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9c165f11538d9840be892a2c46b7c84
+      spriteID: c6167e37fc94f334b8f04a16bd57cd97
       vertices: []
       indices: 
       edges: []
@@ -925,18 +925,18 @@ TextureImporter:
       name: MikuBattle_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 79
         y: 64
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 468d970435b42e740b6875e6324181aa
+      spriteID: 444085f6e42c3134eb2a138957964b4b
       vertices: []
       indices: 
       edges: []
@@ -945,18 +945,18 @@ TextureImporter:
       name: MikuBattle_38
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 64
-        width: 64
-        height: 64
+        width: 45
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8cea35011953544db98f99016c8c124
+      spriteID: 437a0decb7a17d84798521441c3cc9bd
       vertices: []
       indices: 
       edges: []
@@ -965,18 +965,18 @@ TextureImporter:
       name: MikuBattle_39
       rect:
         serializedVersion: 2
-        x: 192
+        x: 204
         y: 64
-        width: 64
-        height: 64
+        width: 51
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62df690ac79419429b98b0fd0d2b02e
+      spriteID: ac9d6f445731a2c4aa27717dd15ed44e
       vertices: []
       indices: 
       edges: []
@@ -985,18 +985,18 @@ TextureImporter:
       name: MikuBattle_40
       rect:
         serializedVersion: 2
-        x: 256
+        x: 268
         y: 64
-        width: 64
-        height: 64
+        width: 51
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad5fdef53ca99d34b88bae5fefe30ffb
+      spriteID: 42e4b25fa66e3bf4887b3263386e2e08
       vertices: []
       indices: 
       edges: []
@@ -1005,18 +1005,18 @@ TextureImporter:
       name: MikuBattle_41
       rect:
         serializedVersion: 2
-        x: 320
+        x: 333
         y: 64
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cd99e22b9ffc3c4e9676eecda9a7b6f
+      spriteID: 2481135ddbac8ce419cca2ee04243743
       vertices: []
       indices: 
       edges: []
@@ -1025,18 +1025,18 @@ TextureImporter:
       name: MikuBattle_42
       rect:
         serializedVersion: 2
-        x: 384
+        x: 391
         y: 64
-        width: 64
-        height: 64
+        width: 50
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7942cb6dbd12b642ae98764f8db2309
+      spriteID: 9cbd765d3d9d6ad439c1e0ebc20d3921
       vertices: []
       indices: 
       edges: []
@@ -1045,18 +1045,18 @@ TextureImporter:
       name: MikuBattle_43
       rect:
         serializedVersion: 2
-        x: 448
+        x: 455
         y: 64
-        width: 64
-        height: 64
+        width: 50
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8f955f772ac00445bd4025067fa45af
+      spriteID: 114399788281b0d409652ea73140d52b
       vertices: []
       indices: 
       edges: []
@@ -1065,18 +1065,18 @@ TextureImporter:
       name: MikuBattle_44
       rect:
         serializedVersion: 2
-        x: 512
+        x: 519
         y: 64
-        width: 64
-        height: 64
+        width: 50
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67c58c86b4e7b849843b3d852324a28
+      spriteID: 78b05ad8b8c96a848914ee0512353b9e
       vertices: []
       indices: 
       edges: []
@@ -1085,18 +1085,18 @@ TextureImporter:
       name: MikuBattle_45
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 0
-        width: 64
-        height: 64
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f00d26e24520e43ae33e8efbfbe45c
+      spriteID: 77e72d5eeb113f54cbfd9c6ec5f3aa3b
       vertices: []
       indices: 
       edges: []
@@ -1105,18 +1105,18 @@ TextureImporter:
       name: MikuBattle_46
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 0
-        width: 64
-        height: 64
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 226a4d24689c021498cd216f89580938
+      spriteID: b1a0acf909125274f86cec4c5e91c350
       vertices: []
       indices: 
       edges: []
@@ -1125,18 +1125,18 @@ TextureImporter:
       name: MikuBattle_47
       rect:
         serializedVersion: 2
-        x: 128
+        x: 138
         y: 0
-        width: 64
-        height: 64
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d6f1606e84be1e43b648102b5acb283
+      spriteID: d9a85de1275ff284993c69ada49d5ba4
       vertices: []
       indices: 
       edges: []
@@ -1145,18 +1145,18 @@ TextureImporter:
       name: MikuBattle_48
       rect:
         serializedVersion: 2
-        x: 192
+        x: 204
         y: 0
-        width: 64
-        height: 64
+        width: 50
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e22000b9fad80d54b8217c7bbd57abac
+      spriteID: 7bc48203e420b8844a8ee23be64d2189
       vertices: []
       indices: 
       edges: []
@@ -1165,18 +1165,18 @@ TextureImporter:
       name: MikuBattle_49
       rect:
         serializedVersion: 2
-        x: 256
+        x: 268
         y: 0
-        width: 64
-        height: 64
+        width: 50
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32a8bd1fbc24162458f417f940575ed0
+      spriteID: db2370bb751d5ac4199e6418d39e9b86
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1185,18 @@ TextureImporter:
       name: MikuBattle_50
       rect:
         serializedVersion: 2
-        x: 320
+        x: 333
         y: 0
-        width: 64
-        height: 64
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b815e722352f6e45adf82909d5e5a4c
+      spriteID: 314d63b8db807e24091a19ccd3dea9a8
       vertices: []
       indices: 
       edges: []
@@ -1205,18 +1205,18 @@ TextureImporter:
       name: MikuBattle_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 397
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ee747b27e8415840b2554ce1cb1f6da
+      spriteID: 18b7bab7a247c9841b717ecb2f3067f4
       vertices: []
       indices: 
       edges: []
@@ -1225,18 +1225,18 @@ TextureImporter:
       name: MikuBattle_52
       rect:
         serializedVersion: 2
-        x: 448
+        x: 461
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 452e1caec3a7b81498fb024c1d12bf1f
+      spriteID: 55cd1a8c965e4404c973aa322469eede
       vertices: []
       indices: 
       edges: []
@@ -1245,18 +1245,18 @@ TextureImporter:
       name: MikuBattle_53
       rect:
         serializedVersion: 2
-        x: 512
+        x: 525
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b62242f7cd241154a806138447c87a80
+      spriteID: 2d8276b0346e2fc409f8e3ef41d1ce1b
       vertices: []
       indices: 
       edges: []

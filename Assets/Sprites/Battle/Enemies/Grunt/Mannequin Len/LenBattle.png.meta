@@ -185,18 +185,18 @@ TextureImporter:
       name: LenBattle_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 10
         y: 320
-        width: 45
+        width: 46
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb81b710b3f17b45b57be699fe37944
+      spriteID: da7762c0e6594784f937eb8e9d09aa91
       vertices: []
       indices: 
       edges: []
@@ -205,18 +205,18 @@ TextureImporter:
       name: LenBattle_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 74
         y: 320
-        width: 45
-        height: 61
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 080f5b6baf2022c4081c25414bf72f47
+      spriteID: 04bd2e1c2678af3488151721155cfbfe
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: LenBattle_2
       rect:
         serializedVersion: 2
-        x: 139
+        x: 138
         y: 320
-        width: 45
-        height: 60
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29ad9c993d64f14498703ec37acf9a59
+      spriteID: 13fa186ee96665348b5ba9375b93a91d
       vertices: []
       indices: 
       edges: []
@@ -245,18 +245,18 @@ TextureImporter:
       name: LenBattle_3
       rect:
         serializedVersion: 2
-        x: 204
+        x: 210
         y: 320
-        width: 45
-        height: 62
+        width: 52
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51732f52049999d458abc6f80c4b9ea2
+      spriteID: f7e4d168e57a8384ca99a2ca443178ae
       vertices: []
       indices: 
       edges: []
@@ -265,18 +265,18 @@ TextureImporter:
       name: LenBattle_4
       rect:
         serializedVersion: 2
-        x: 257
+        x: 274
         y: 320
         width: 52
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eaf8d43c69c0844592fe9d0785d273d
+      spriteID: 06244944883695c4db476ac56c4c427a
       vertices: []
       indices: 
       edges: []
@@ -285,18 +285,18 @@ TextureImporter:
       name: LenBattle_5
       rect:
         serializedVersion: 2
-        x: 321
+        x: 334
         y: 320
-        width: 52
-        height: 61
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d3bd50279e35384faae7f6e3a4f689f
+      spriteID: 81cac0c623d1ac4498175c835aa70c89
       vertices: []
       indices: 
       edges: []
@@ -307,16 +307,16 @@ TextureImporter:
         serializedVersion: 2
         x: 399
         y: 320
-        width: 46
-        height: 62
+        width: 45
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3890d7e4ece58e140b71b6a08e576ef5
+      spriteID: 88b6e27785e2577429a4f5aaf8c75fff
       vertices: []
       indices: 
       edges: []
@@ -327,16 +327,16 @@ TextureImporter:
         serializedVersion: 2
         x: 463
         y: 320
-        width: 46
-        height: 62
+        width: 45
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a176ea6835878ee4995837e6cb787fdc
+      spriteID: 45c53a57a899f5846b6c15568062195b
       vertices: []
       indices: 
       edges: []
@@ -347,16 +347,16 @@ TextureImporter:
         serializedVersion: 2
         x: 527
         y: 320
-        width: 46
+        width: 45
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb11f48004bae74787dd5caf9bd6d99
+      spriteID: 7a611128c2af1df48a6bc547b1e89f06
       vertices: []
       indices: 
       edges: []
@@ -365,18 +365,18 @@ TextureImporter:
       name: LenBattle_9
       rect:
         serializedVersion: 2
-        x: 9
-        y: 256
-        width: 45
-        height: 61
+        x: 17
+        y: 258
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbadef382a7c9b244b1e778085cb8777
+      spriteID: 2e3ec26d41e9c86468fa5590d017ab48
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
       name: LenBattle_10
       rect:
         serializedVersion: 2
-        x: 73
-        y: 256
-        width: 45
+        x: 81
+        y: 257
+        width: 47
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37c83a51dde2d524ea26f87fe7f94dfc
+      spriteID: 5a7d182b8c40a9c4bbc6dc5ba7a4b804
       vertices: []
       indices: 
       edges: []
@@ -405,18 +405,18 @@ TextureImporter:
       name: LenBattle_11
       rect:
         serializedVersion: 2
-        x: 137
+        x: 143
         y: 256
         width: 45
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e4eb3735bbcd6c44bdd20b809d6bc9c
+      spriteID: 601d524fbc57a6640b8fb413af13606c
       vertices: []
       indices: 
       edges: []
@@ -425,18 +425,18 @@ TextureImporter:
       name: LenBattle_12
       rect:
         serializedVersion: 2
-        x: 203
+        x: 209
         y: 256
-        width: 45
-        height: 61
+        width: 46
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 548bf5142699c5b4db5e5b2fa58b07ed
+      spriteID: 840eaed2d3f719b419b7b635e27bcc77
       vertices: []
       indices: 
       edges: []
@@ -445,18 +445,18 @@ TextureImporter:
       name: LenBattle_13
       rect:
         serializedVersion: 2
-        x: 264
+        x: 273
         y: 256
         width: 46
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 754f6be5bcdfa4a4ebddab10fa3b0aea
+      spriteID: b89fcc6471f6e44439d8d9af357d68fb
       vertices: []
       indices: 
       edges: []
@@ -465,18 +465,18 @@ TextureImporter:
       name: LenBattle_14
       rect:
         serializedVersion: 2
-        x: 328
+        x: 335
         y: 256
-        width: 46
-        height: 60
+        width: 45
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a64c3f7db8e64e4e9d73bcffc346eea
+      spriteID: c267db4fb452fef49a3cc4b3f2343033
       vertices: []
       indices: 
       edges: []
@@ -485,18 +485,18 @@ TextureImporter:
       name: LenBattle_15
       rect:
         serializedVersion: 2
-        x: 395
+        x: 401
         y: 256
         width: 45
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e086522ef047fa14e84fd403fd8397c8
+      spriteID: 62f339290f7d35848bc49305f9b0b46e
       vertices: []
       indices: 
       edges: []
@@ -505,18 +505,18 @@ TextureImporter:
       name: LenBattle_16
       rect:
         serializedVersion: 2
-        x: 455
-        y: 257
-        width: 47
+        x: 465
+        y: 256
+        width: 45
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0fba8efeba5d1a4ea8db952dfe47af4
+      spriteID: 2a02efd50a65a224086be35148826c75
       vertices: []
       indices: 
       edges: []
@@ -525,18 +525,18 @@ TextureImporter:
       name: LenBattle_17
       rect:
         serializedVersion: 2
-        x: 519
-        y: 258
-        width: 47
-        height: 60
+        x: 529
+        y: 256
+        width: 44
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d7e722e77ec09945a32cb9281457704
+      spriteID: 2f16b367417e35c4aa91f69b16ca505e
       vertices: []
       indices: 
       edges: []
@@ -545,18 +545,18 @@ TextureImporter:
       name: LenBattle_18
       rect:
         serializedVersion: 2
-        x: 11
+        x: 20
         y: 192
-        width: 45
-        height: 62
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edce59f498df52547a97d6169cdf5b9a
+      spriteID: ec0267a7fa76cd243b135910f24d02ea
       vertices: []
       indices: 
       edges: []
@@ -565,18 +565,18 @@ TextureImporter:
       name: LenBattle_19
       rect:
         serializedVersion: 2
-        x: 75
+        x: 84
         y: 192
-        width: 45
-        height: 62
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f4c0259d1e6d5d4993cb5900c300792
+      spriteID: 85542fb3a4f9c534fa599eaf16aa6450
       vertices: []
       indices: 
       edges: []
@@ -585,18 +585,18 @@ TextureImporter:
       name: LenBattle_20
       rect:
         serializedVersion: 2
-        x: 139
+        x: 148
         y: 192
-        width: 45
-        height: 62
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1b67a8f9bf5f4043a5a23ab68e27b02
+      spriteID: b87fb7be243d4e1498db8be551ddc252
       vertices: []
       indices: 
       edges: []
@@ -605,18 +605,18 @@ TextureImporter:
       name: LenBattle_21
       rect:
         serializedVersion: 2
-        x: 203
+        x: 205
         y: 192
-        width: 45
+        width: 46
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b41f85b0750d145a06a5e74645b2aa
+      spriteID: 8c7437bfa6899d845a6c2bbfdaa0ab59
       vertices: []
       indices: 
       edges: []
@@ -625,18 +625,18 @@ TextureImporter:
       name: LenBattle_22
       rect:
         serializedVersion: 2
-        x: 268
+        x: 269
         y: 192
         width: 46
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d4724904cecdb40b14150f85542a2d
+      spriteID: b78fe244436a3d84aa3af8f05579979a
       vertices: []
       indices: 
       edges: []
@@ -645,18 +645,18 @@ TextureImporter:
       name: LenBattle_23
       rect:
         serializedVersion: 2
-        x: 332
+        x: 335
         y: 192
-        width: 46
+        width: 45
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8721aa764c916fb48a4061e6a814537d
+      spriteID: a37f391768cfa3143807669eeb85dcd9
       vertices: []
       indices: 
       edges: []
@@ -665,18 +665,18 @@ TextureImporter:
       name: LenBattle_24
       rect:
         serializedVersion: 2
-        x: 393
+        x: 399
         y: 192
-        width: 42
-        height: 58
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf2a95e73f068c44e883342b4f41f000
+      spriteID: 65570d2341e4e2644affcbcf97f323fd
       vertices: []
       indices: 
       edges: []
@@ -685,18 +685,18 @@ TextureImporter:
       name: LenBattle_25
       rect:
         serializedVersion: 2
-        x: 457
+        x: 463
         y: 192
-        width: 42
-        height: 58
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632214b45fc39604fa2c20884c98ef73
+      spriteID: 045cd8420b8bd324e970e19295c932e5
       vertices: []
       indices: 
       edges: []
@@ -705,18 +705,18 @@ TextureImporter:
       name: LenBattle_26
       rect:
         serializedVersion: 2
-        x: 521
+        x: 527
         y: 192
-        width: 42
-        height: 58
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b068b58585ad644f9c2f3b9c4c175e3
+      spriteID: 7866e6870b7061f41ae01ddeca58cd3e
       vertices: []
       indices: 
       edges: []
@@ -725,18 +725,18 @@ TextureImporter:
       name: LenBattle_27
       rect:
         serializedVersion: 2
-        x: 12
+        x: 20
         y: 128
-        width: 45
-        height: 61
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5173b65e95abcca409272ec71700d88c
+      spriteID: 54c4675cf352af04081e3f2fb49ce3e3
       vertices: []
       indices: 
       edges: []
@@ -745,18 +745,18 @@ TextureImporter:
       name: LenBattle_28
       rect:
         serializedVersion: 2
-        x: 76
+        x: 84
         y: 128
-        width: 45
-        height: 61
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c992ae00a0848a468b9a6c826164a43
+      spriteID: 204680693ca46704987ab7819d566051
       vertices: []
       indices: 
       edges: []
@@ -765,18 +765,18 @@ TextureImporter:
       name: LenBattle_29
       rect:
         serializedVersion: 2
-        x: 140
+        x: 148
         y: 128
-        width: 45
-        height: 61
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88e74aa6df7b79f47a4c2c6f85d3413c
+      spriteID: 1384870c6b4e5684cba4d1237b5e853d
       vertices: []
       indices: 
       edges: []
@@ -785,18 +785,18 @@ TextureImporter:
       name: LenBattle_30
       rect:
         serializedVersion: 2
-        x: 201
+        x: 206
         y: 128
-        width: 45
-        height: 61
+        width: 47
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 519c91a677272e44fbbfff2b33fb38ec
+      spriteID: d5448f43ed3ba3246b04e0f77dc8b07d
       vertices: []
       indices: 
       edges: []
@@ -805,18 +805,18 @@ TextureImporter:
       name: LenBattle_31
       rect:
         serializedVersion: 2
-        x: 266
+        x: 270
         y: 128
         width: 47
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18330d43bed57564b9a02a9059b64530
+      spriteID: 89af239d858632344a369509e37424bb
       vertices: []
       indices: 
       edges: []
@@ -825,18 +825,18 @@ TextureImporter:
       name: LenBattle_32
       rect:
         serializedVersion: 2
-        x: 330
+        x: 337
         y: 128
-        width: 47
-        height: 62
+        width: 45
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91154c5afc21ba04c95d38d032758595
+      spriteID: e54aff5b7593c7b449753db783c20be6
       vertices: []
       indices: 
       edges: []
@@ -845,18 +845,18 @@ TextureImporter:
       name: LenBattle_33
       rect:
         serializedVersion: 2
-        x: 393
+        x: 398
         y: 128
-        width: 42
-        height: 58
+        width: 45
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9d6c878d3ea994e937824719c414cc
+      spriteID: 28150102a02976142a43c1b59ee6bca6
       vertices: []
       indices: 
       edges: []
@@ -865,18 +865,18 @@ TextureImporter:
       name: LenBattle_34
       rect:
         serializedVersion: 2
-        x: 457
+        x: 462
         y: 128
-        width: 42
-        height: 58
+        width: 45
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a92373348d331004da741bb0c357d773
+      spriteID: 3c07039f4bb115c49a636aefb5398226
       vertices: []
       indices: 
       edges: []
@@ -885,18 +885,18 @@ TextureImporter:
       name: LenBattle_35
       rect:
         serializedVersion: 2
-        x: 521
+        x: 526
         y: 128
-        width: 42
-        height: 58
+        width: 45
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4b08d0fcce2c79498837c2e9aa7a7a2
+      spriteID: 0fee39dc2524e5c4aa02acb107740f3b
       vertices: []
       indices: 
       edges: []
@@ -905,18 +905,18 @@ TextureImporter:
       name: LenBattle_36
       rect:
         serializedVersion: 2
-        x: 15
+        x: 20
         y: 64
-        width: 47
-        height: 60
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d7c827a37395ec468138d58fa3f2dbd
+      spriteID: fac08d24593b6ab4893f08798d559988
       vertices: []
       indices: 
       edges: []
@@ -925,18 +925,18 @@ TextureImporter:
       name: LenBattle_37
       rect:
         serializedVersion: 2
-        x: 79
+        x: 84
         y: 64
-        width: 47
-        height: 60
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6405c7a983c4cc045b0f5a1b9bf083db
+      spriteID: e03e8260ae822024293ba50aa7ddf1ea
       vertices: []
       indices: 
       edges: []
@@ -945,18 +945,18 @@ TextureImporter:
       name: LenBattle_38
       rect:
         serializedVersion: 2
-        x: 143
+        x: 148
         y: 64
-        width: 47
-        height: 60
+        width: 42
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea610b6a1605f8540815b4477f6b642a
+      spriteID: fc92ae72559f4f840b26d0bf3e4be3bc
       vertices: []
       indices: 
       edges: []
@@ -965,18 +965,18 @@ TextureImporter:
       name: LenBattle_39
       rect:
         serializedVersion: 2
-        x: 204
+        x: 207
         y: 64
         width: 45
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1fbd476aa13fbc41a3d46733e31330a
+      spriteID: 3c346cfa3dd1e7a4d9917b5d723489f6
       vertices: []
       indices: 
       edges: []
@@ -985,18 +985,18 @@ TextureImporter:
       name: LenBattle_40
       rect:
         serializedVersion: 2
-        x: 267
+        x: 271
         y: 64
         width: 45
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a414b5d1fdce1d4092348b0995f563a
+      spriteID: 10b53ce52fde726488e37abf5fb87b55
       vertices: []
       indices: 
       edges: []
@@ -1005,18 +1005,18 @@ TextureImporter:
       name: LenBattle_41
       rect:
         serializedVersion: 2
-        x: 331
+        x: 334
         y: 64
         width: 45
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce874c37627bb13478de29714a791373
+      spriteID: e1fddc4b05ca31e40ae7ddf5e49aaa37
       vertices: []
       indices: 
       edges: []
@@ -1027,16 +1027,16 @@ TextureImporter:
         serializedVersion: 2
         x: 393
         y: 64
-        width: 42
-        height: 58
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c167aa2b5b2494d438901750d81d977a
+      spriteID: fb0f275a0aabbce40b0ceb39baaf7fc2
       vertices: []
       indices: 
       edges: []
@@ -1047,16 +1047,16 @@ TextureImporter:
         serializedVersion: 2
         x: 457
         y: 64
-        width: 42
-        height: 58
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31ee14fc01940f14eb25562c9fde5e50
+      spriteID: c1c9a6aa6e1421a4c859c534f3dc8731
       vertices: []
       indices: 
       edges: []
@@ -1067,16 +1067,16 @@ TextureImporter:
         serializedVersion: 2
         x: 521
         y: 64
-        width: 42
-        height: 58
+        width: 47
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a993aab05f4d0604c8609b9137134f83
+      spriteID: 4957f0dfa5e4dfc47866711cdc6f26cf
       vertices: []
       indices: 
       edges: []
@@ -1085,18 +1085,18 @@ TextureImporter:
       name: LenBattle_45
       rect:
         serializedVersion: 2
-        x: 12
+        x: 10
         y: 0
-        width: 46
-        height: 62
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eb63fea8a538ce47a6da76a96a69d33
+      spriteID: ba19226377ccfc94d8bcea14b93e20f3
       vertices: []
       indices: 
       edges: []
@@ -1105,18 +1105,18 @@ TextureImporter:
       name: LenBattle_46
       rect:
         serializedVersion: 2
-        x: 76
+        x: 74
         y: 0
-        width: 46
-        height: 62
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5de5b430fb8a7f64daf811f52701cc47
+      spriteID: 9273548e6fa581d469d0d8ff4ca32595
       vertices: []
       indices: 
       edges: []
@@ -1125,18 +1125,18 @@ TextureImporter:
       name: LenBattle_47
       rect:
         serializedVersion: 2
-        x: 140
+        x: 138
         y: 0
-        width: 46
-        height: 62
+        width: 61
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774072e3c75ada640a577097a446c475
+      spriteID: b48f9f3df8ecc9449b59ca1a3faa91a6
       vertices: []
       indices: 
       edges: []
@@ -1145,18 +1145,18 @@ TextureImporter:
       name: LenBattle_48
       rect:
         serializedVersion: 2
-        x: 204
+        x: 208
         y: 0
-        width: 45
-        height: 62
+        width: 46
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c61db66ec09e07489bf86be98ec52e8
+      spriteID: ed20327137275bb4e807ad70b3ebccea
       vertices: []
       indices: 
       edges: []
@@ -1165,18 +1165,18 @@ TextureImporter:
       name: LenBattle_49
       rect:
         serializedVersion: 2
-        x: 265
+        x: 272
         y: 0
         width: 46
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b801d2c1b622a048aeb13a1e9e8a084
+      spriteID: 00ed2facc28309449b6bad34df7c5bd2
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1185,18 @@ TextureImporter:
       name: LenBattle_50
       rect:
         serializedVersion: 2
-        x: 329
+        x: 334
         y: 0
-        width: 46
-        height: 63
+        width: 45
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00e9159e9bbb714791d40eb7ceef478
+      spriteID: 364a8b2872be59548875327fb83b6073
       vertices: []
       indices: 
       edges: []
@@ -1205,18 +1205,18 @@ TextureImporter:
       name: LenBattle_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 397
         y: 0
-        width: 61
-        height: 38
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34e360231ef32647a59639b4fc9703e
+      spriteID: 5d5d2475cc5730444b9b4d3d16e1da50
       vertices: []
       indices: 
       edges: []
@@ -1225,18 +1225,18 @@ TextureImporter:
       name: LenBattle_52
       rect:
         serializedVersion: 2
-        x: 448
+        x: 461
         y: 0
-        width: 61
-        height: 38
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0dc5e014345564e8661ec00f4d405e
+      spriteID: 2aa7fa4071548354abf17c67e0ff1390
       vertices: []
       indices: 
       edges: []
@@ -1245,18 +1245,18 @@ TextureImporter:
       name: LenBattle_53
       rect:
         serializedVersion: 2
-        x: 512
+        x: 525
         y: 0
-        width: 61
-        height: 38
+        width: 46
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70e897c88e26794897a07de88021ec8
+      spriteID: 71bed714e81530045a57b9432e7d7ac8
       vertices: []
       indices: 
       edges: []
