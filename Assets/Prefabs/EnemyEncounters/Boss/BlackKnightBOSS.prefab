@@ -121,7 +121,7 @@ Animator:
   m_GameObject: {fileID: 1554317894624552}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a155395b575be8b4cade7ebcca8258c8, type: 2}
+  m_Controller: {fileID: 22100000, guid: 47b39ca62066f0343a85864d24767483, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -139,7 +139,7 @@ Animator:
   m_GameObject: {fileID: 1066343671933344}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a155395b575be8b4cade7ebcca8258c8, type: 2}
+  m_Controller: {fileID: 22100000, guid: 47b39ca62066f0343a85864d24767483, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -163,9 +163,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: -60}
-  health: 200
+  health: 500
   mana: 10
-  maxHealth: 200
+  maxHealth: 500
   maxMana: 50
   attack: 20
   magic: 5
@@ -235,9 +235,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 200
+  health: 500
   mana: 10
-  maxHealth: 200
+  maxHealth: 500
   maxMana: 50
   attack: 20
   magic: 5
@@ -286,9 +286,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 200
+  health: 500
   mana: 10
-  maxHealth: 200
+  maxHealth: 500
   maxMana: 50
   attack: 20
   magic: 5
@@ -337,9 +337,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: 95}
-  health: 200
+  health: 500
   mana: 10
-  maxHealth: 200
+  maxHealth: 500
   maxMana: 50
   attack: 20
   magic: 5

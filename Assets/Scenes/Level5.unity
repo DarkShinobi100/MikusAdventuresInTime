@@ -288,6 +288,10 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114156988052580546, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
     - {fileID: 65710796663379772, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
@@ -396,6 +400,10 @@ Prefab:
     - target: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
       propertyPath: m_Name
       value: SnakeSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
@@ -564,6 +572,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224144327821683544, guid: 727f5bee6656107498538e055b53eb83,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727f5bee6656107498538e055b53eb83, type: 2}
   m_IsPrefabAsset: 0
@@ -640,7 +653,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!65 &1968560732
@@ -845,8 +858,12 @@ Prefab:
         type: 2}
       propertyPath: enemyEncounterPrefab
       value: 
-      objectReference: {fileID: 1639510785818274, guid: 18ab4ff4f1b404445a66964069ca3d84,
+      objectReference: {fileID: 1788788737418506, guid: e473408e7e82b51458000fd225d71372,
         type: 2}
+    - target: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
   m_IsPrefabAsset: 0

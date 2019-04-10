@@ -120,7 +120,7 @@ public class UnitStatFunctions : UnitStats, IComparable
             attack = attack * (1.05f * playerLevel);
             magic = magic * (1.05f * playerLevel);
             defense = defense * (1.05f * playerLevel);
-            speed = speed * (1.05f * playerLevel);
+         //   speed = speed * (1.05f * playerLevel);
         }
     }
 
