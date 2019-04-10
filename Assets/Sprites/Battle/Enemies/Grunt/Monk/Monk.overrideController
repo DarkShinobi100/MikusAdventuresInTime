@@ -6,5 +6,13 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Monk
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 9deff3dfaa6f6294989f65a634cd356f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 58f66a0d36207844589ac6c7445bd0d0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 70463b0571d36a34ab762721999d8400, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fd25058781ac6f84bb4bb6cd2d1a3299, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 27a7f00d6edc72e4e8a1d3a83bc36339, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b9dc3cb728fb2b4fb2e4da83c67c20c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c621d39c29b941841b70464b5f8f0499, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b22762dfcc1fb234b983dbcefe2d5fef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 667f5a55a6c22484ab3acb1e978aa85e, type: 2}

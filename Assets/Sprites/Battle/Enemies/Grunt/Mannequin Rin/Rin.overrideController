@@ -6,5 +6,13 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Rin
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 9deff3dfaa6f6294989f65a634cd356f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 58f66a0d36207844589ac6c7445bd0d0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9d2ff35e26e84e14dab614d379903a0d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fd25058781ac6f84bb4bb6cd2d1a3299, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 96df62a92124b6e4a8e831eac20438e4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b9dc3cb728fb2b4fb2e4da83c67c20c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6cd7baceddc87a4408fa9848b758c5e7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b22762dfcc1fb234b983dbcefe2d5fef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2f5013e17f242e44fa09dd80dcac71ac, type: 2}

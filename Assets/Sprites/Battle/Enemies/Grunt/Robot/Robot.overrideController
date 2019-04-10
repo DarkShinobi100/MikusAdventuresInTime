@@ -6,5 +6,13 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Robot
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: a155395b575be8b4cade7ebcca8258c8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e34f53e17850b454c8e89623af8abd12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f1976efebaa11ee438d93133468222b9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 396b23bc65ecbff499191c5e404176aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cf3cb80480b795d49abf2b2417ab43ea, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 15d340378853c204797f63fcdc71042c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6ccf08e99b8122419c701ace3589ea2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: da34683d536ee114aade1863435ad3f8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8fb9dcfdbb2eb12438742cb48ef00620, type: 2}
