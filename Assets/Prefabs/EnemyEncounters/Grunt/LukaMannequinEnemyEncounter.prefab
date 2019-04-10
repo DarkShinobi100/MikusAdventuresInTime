@@ -257,7 +257,7 @@ MonoBehaviour:
   menuItemSprite: {fileID: 21300000, guid: 8344ce0ecaba72049950553237accd0f, type: 3}
   initialPosition: {x: -550, y: -360}
   itemDimensions: {x: 160, y: 160}
-  killEnemyScript: {fileID: 0}
+  killEnemyScript: {fileID: 114461459841954510}
 --- !u!114 &114569661679516482
 MonoBehaviour:
   m_ObjectHideFlags: 1
