@@ -3514,7 +3514,7 @@ Prefab:
         type: 2}
       propertyPath: enemyEncounterPrefab
       value: 
-      objectReference: {fileID: 1084765014767576, guid: ab22e466eb7ac47469f04de3c9043f61,
+      objectReference: {fileID: 1610279429468866, guid: 7b5961f97a2b2e5448b727c4976e3fe2,
         type: 2}
     - target: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
       propertyPath: m_TagString
