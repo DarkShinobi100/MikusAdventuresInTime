@@ -6,13 +6,13 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BlackKnight
-  m_Controller: {fileID: 9100000, guid: 3e13a98d38521a04c96fe393f7dc258f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7e779ba6a207f3840b5b017ce1f34a06, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: f5f04fba0d32fcf409cbe325e5cf273c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c0c31fb63ca71b6409bdc78bbe08c1bf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 128961a092eb73646aa0dfebbdee91c8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fd9551787d7e5c44b9f7496daf184873, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e34f53e17850b454c8e89623af8abd12, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 17821067cc9c88c458e557bb653aa4af, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e34f53e17850b454c8e89623af8abd12, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: aa75184c5e03a3441897fba7d575f5fa, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: da34683d536ee114aade1863435ad3f8, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 3853274f15bc82a46ad278b0c376f6de, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 15d340378853c204797f63fcdc71042c, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: a360c483e76b99d4d9896178f33b154c, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: e34f53e17850b454c8e89623af8abd12, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 772cbf6f095706546af7ef8d05209b43, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: e34f53e17850b454c8e89623af8abd12, type: 2}
