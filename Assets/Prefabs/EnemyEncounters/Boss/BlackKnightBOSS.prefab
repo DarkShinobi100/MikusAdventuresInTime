@@ -163,9 +163,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: -60}
-  health: 500
+  health: 100
   mana: 10
-  maxHealth: 500
+  maxHealth: 100
   maxMana: 50
   attack: 20
   magic: 5
@@ -235,14 +235,14 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 500
-  mana: 10
-  maxHealth: 500
-  maxMana: 50
-  attack: 20
-  magic: 5
-  defense: 5
-  speed: 10
+  health: 0
+  mana: 0
+  maxHealth: 0
+  maxMana: 0
+  attack: 0
+  magic: 0
+  defense: 0
+  speed: 0
   nextActTurn: 0
   playerLevel: 0
   EXPToNextLevel: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8d81eb60666f14fa51f8fc3b5e7919, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  experience: 500
+  experience: 100
 --- !u!114 &114508274206631046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -286,9 +286,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: 0, y: 0}
-  health: 500
+  health: 100
   mana: 10
-  maxHealth: 500
+  maxHealth: 100
   maxMana: 50
   attack: 20
   magic: 5
@@ -337,9 +337,9 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -460, y: 95}
-  health: 500
+  health: 100
   mana: 10
-  maxHealth: 500
+  maxHealth: 100
   maxMana: 50
   attack: 20
   magic: 5

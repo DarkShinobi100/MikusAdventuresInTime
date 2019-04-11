@@ -858,7 +858,7 @@ Prefab:
         type: 2}
       propertyPath: enemyEncounterPrefab
       value: 
-      objectReference: {fileID: 1788788737418506, guid: e473408e7e82b51458000fd225d71372,
+      objectReference: {fileID: 1355189599046074, guid: e552b9d4960871d4db85dd0bdb334baa,
         type: 2}
     - target: {fileID: 1000013348627062, guid: fdfb3abcd7207af44b0aeb7bbd335b2b, type: 2}
       propertyPath: m_TagString
