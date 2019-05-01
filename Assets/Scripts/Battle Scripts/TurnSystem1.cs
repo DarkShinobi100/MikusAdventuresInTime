@@ -85,7 +85,9 @@ public class TurnSystem1 : MonoBehaviour
             if (gameOverMenu != null)
             {
                 //TODO: play GameOver SFX
+                actionsMenu.SetActive(false);
                 gameOverMenu.SetActive(true);
+
             }
 
         }
