@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MonkWalkAnimator
+  m_Controller: {fileID: 9100000, guid: 8bcfeaf48df8a794cb87e6cf4b609078, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 101719f2e7bfd934eb2ed683db3092bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7b47d7264ba223b4f9f6e45bd2925206, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b310d87d4bb8acf40adfe2599eb1c152, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 69cf86c129ab0bd479674cb9ff2c69b3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bf0e52a81b489594a9a6d51c9621eccc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a7a6652d9c3d71549a37687c1b0f29d9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0ddd285c09146a34a9c7902deff64505, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ddd02a2e3c7b18345b60461800699cfb, type: 2}

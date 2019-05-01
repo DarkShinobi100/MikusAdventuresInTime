@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RobotWalkAnimator
+  m_Controller: {fileID: 9100000, guid: 8bcfeaf48df8a794cb87e6cf4b609078, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 101719f2e7bfd934eb2ed683db3092bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ba7ed209336ddd349968e45d92d598fa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b310d87d4bb8acf40adfe2599eb1c152, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 791d785a663b1a24fb0725024cdeab41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bf0e52a81b489594a9a6d51c9621eccc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6cdcc10745942aa4286c108437de5810, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0ddd285c09146a34a9c7902deff64505, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3d03928071280cf4a898be9ddea0c466, type: 2}

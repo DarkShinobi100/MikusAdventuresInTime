@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FairyWalkAnimatior
+  m_Controller: {fileID: 9100000, guid: 8bcfeaf48df8a794cb87e6cf4b609078, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 101719f2e7bfd934eb2ed683db3092bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1442b33dfd7821a40a68c211900812d2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b310d87d4bb8acf40adfe2599eb1c152, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 34e331eead718a748bf3e39a54366569, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bf0e52a81b489594a9a6d51c9621eccc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2c271a4a346e30b4d9ce0e0298a7becd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0ddd285c09146a34a9c7902deff64505, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9a02018a7a7f4a342ad5a043d6f2c4db, type: 2}

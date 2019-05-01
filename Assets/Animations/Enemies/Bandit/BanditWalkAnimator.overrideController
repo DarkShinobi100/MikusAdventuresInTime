@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BanditWalkAnimator
+  m_Controller: {fileID: 9100000, guid: 8bcfeaf48df8a794cb87e6cf4b609078, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 101719f2e7bfd934eb2ed683db3092bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c7878251bf54aa345b8364fcb1be27e3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b310d87d4bb8acf40adfe2599eb1c152, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c985cf8303ae9414faf8924d9a499d1c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bf0e52a81b489594a9a6d51c9621eccc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 77efbd40522195d4b804db5275e46455, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0ddd285c09146a34a9c7902deff64505, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 18e6848c65f8d5b45a52353b4ea8fcaa, type: 2}
