@@ -35,7 +35,8 @@ public class Heal : MonoBehaviour
         GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
         currentPlayer.GetComponent<PlayerUnitAction>().updateHUD();
 
-
+        //next turn
+        turnSystem.GetComponent<TurnSystem1>().IncreaseTurn();
         GameObject.Find("TurnSystem").GetComponent<TurnSystem1>().nextTurn();
     }
 

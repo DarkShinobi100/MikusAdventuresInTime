@@ -8,7 +8,7 @@ public class TurnSystem1 : MonoBehaviour
 
     private List<UnitStats> unitsStats;
 
-    private GameObject playerParty, CurrentPlayer;
+    private GameObject playerParty;
 
     public GameObject enemyEncounter;
 
@@ -19,7 +19,12 @@ public class TurnSystem1 : MonoBehaviour
     [SerializeField]
     private AudioSource BGM;
 
-    void Start()
+    [SerializeField]
+    private GameObject[] Units = new GameObject[4];
+    [SerializeField]
+    private int turnNumber = 0;
+
+    private void Start()
     {
         //make a clone of player party in this scene
         this.playerParty = GameObject.Find("PlayerParty");
@@ -29,38 +34,24 @@ public class TurnSystem1 : MonoBehaviour
         //create a list of ACTIVE player units
         GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
 
-        //use the new list to get the player stats
-        unitsStats = new List<UnitStats>();
-        foreach (GameObject playerUnit in playerUnits)
-        {
-            UnitStats currentUnitStats = playerUnit.GetComponent<UnitStatFunctions>();
-            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
-            unitsStats.Add(currentUnitStats);
-        }
+        //find enemies
         GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
-        foreach (GameObject enemyUnit in enemyUnits)
-        {
-            //update enemy stats before battle starts
-            enemyUnit.GetComponent<UnitStatFunctions>().updateStats();
-            UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions>();
-            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
-            unitsStats.Add(currentUnitStats);
-        }
 
-        //sets active scene to the currently overlayed level
-        //   SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
+         Units[0] = playerUnits[0]; //Miku
+         Units[1] = enemyUnits[0]; //1st enemy
+         Units[2] = playerUnits[1]; //Miku's friend
+         Units[3] = enemyUnits[1]; //1st enemy
 
-        unitsStats.Sort();
-
-        this.actionsMenu.SetActive(false);
-        this.enemyUnitsMenu.SetActive(false);
-        this.gameOverMenu.SetActive(false);
+            this.actionsMenu.SetActive(false);
+            this.enemyUnitsMenu.SetActive(false);
+            this.gameOverMenu.SetActive(false);
 
         this.nextTurn();
-    }
 
+    }
     public void nextTurn()
     {
+        //check for win requirements
         GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
         if (remainingEnemyUnits.Length == 0)
         {
@@ -77,6 +68,7 @@ public class TurnSystem1 : MonoBehaviour
 
         }
 
+        //check for lose requirements
         GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
         if (remainingPlayerUnits.Length == 0)
         {
@@ -87,51 +79,176 @@ public class TurnSystem1 : MonoBehaviour
                 //TODO: play GameOver SFX
                 actionsMenu.SetActive(false);
                 gameOverMenu.SetActive(true);
-
             }
-
         }
 
-        UnitStats currentUnitStats = unitsStats[0];
-        unitsStats.Remove(currentUnitStats);
-
-        //if the current unit has stats and isn't dead
-        if (currentUnitStats != null && !currentUnitStats.GetComponent<UnitStatFunctions>().isDead())
-        {
-            GameObject currentUnit = currentUnitStats.gameObject;
-            //set the current unit Here
-            CurrentPlayer = currentUnit;
-
-            currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(currentUnitStats.nextActTurn);
-            unitsStats.Add(currentUnitStats);
-            unitsStats.Sort();
-
-            if (currentUnit.tag == "PlayerUnit")
+        //check whose turn
+        if (turnNumber % 2 == 0)
+        {//player turn
+             if (Units[turnNumber].GetComponent<UnitStatFunctions>().isDead() == false )
             {
+                //player isn't dead
                 //regen Mana + 5% each player turn
-                currentUnit.GetComponent<UnitStats>().mana += (currentUnit.GetComponent<UnitStats>().maxMana / 100) * 5;
-                currentUnit.GetComponent<UnitStatFunctions>().mana += (currentUnit.GetComponent<UnitStatFunctions>().maxMana / 100) * 5;
-                if (currentUnit.GetComponent<UnitStats>().mana > currentUnit.GetComponent<UnitStats>().maxMana)
+                Units[turnNumber].GetComponent<UnitStats>().mana += (Units[turnNumber].GetComponent<UnitStats>().maxMana / 100) * 5;
+                Units[turnNumber].GetComponent<UnitStatFunctions>().mana += (Units[turnNumber].GetComponent<UnitStatFunctions>().maxMana / 100) * 5;
+                if (Units[turnNumber].GetComponent<UnitStats>().mana > Units[turnNumber].GetComponent<UnitStats>().maxMana)
                 {
-                    currentUnit.GetComponent<UnitStats>().mana = currentUnit.GetComponent<UnitStats>().maxMana;
+                    Units[turnNumber].GetComponent<UnitStats>().mana = Units[turnNumber].GetComponent<UnitStats>().maxMana;
                 }
-                if (currentUnit.GetComponent<UnitStatFunctions>().mana > currentUnit.GetComponent<UnitStatFunctions>().maxMana)
+                if (Units[turnNumber].GetComponent<UnitStatFunctions>().mana > Units[turnNumber].GetComponent<UnitStatFunctions>().maxMana)
                 {
-                    currentUnit.GetComponent<UnitStatFunctions>().mana = currentUnit.GetComponent<UnitStatFunctions>().maxMana;
+                    Units[turnNumber].GetComponent<UnitStatFunctions>().mana = Units[turnNumber].GetComponent<UnitStatFunctions>().maxMana;
                 }
 
-                this.playerParty.GetComponent<SelectUnit>().selectCurrentUnit(currentUnit.gameObject);
+                this.playerParty.GetComponent<SelectUnit>().selectCurrentUnit(Units[turnNumber].gameObject);
             }
             else
             {
-                currentUnit.GetComponent<EnemyUnitAction>().act();
+                IncreaseTurn();
             }
         }
         else
-        {
-            this.nextTurn();
+        {//enemy turn
+            if (Units[turnNumber] != null)
+            {//check if enemy is dead or deleted
+                Units[turnNumber].GetComponent<EnemyUnitAction>().act();
+                //wait until animation ends somehow
+            }
+            else
+            {
+                IncreaseTurn();
+                nextTurn();
+            }
         }
     }
+
+    public void IncreaseTurn()
+    {        //if out of array loop around again
+        if (turnNumber < 3)
+        {
+            turnNumber++;
+        }
+        else
+        {
+            turnNumber = 0;
+        }
+        
+    }
+
+
+    //void Start()
+    //{
+    //    //make a clone of player party in this scene
+    //    this.playerParty = GameObject.Find("PlayerParty");
+
+    //    StartParty();
+
+    //    //create a list of ACTIVE player units
+    //    GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+
+    //    //use the new list to get the player stats
+    //    unitsStats = new List<UnitStats>();
+    //    foreach (GameObject playerUnit in playerUnits)
+    //    {
+    //        UnitStats currentUnitStats = playerUnit.GetComponent<UnitStatFunctions>();
+    //        currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
+    //        unitsStats.Add(currentUnitStats);
+    //    }
+    //    GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+    //    foreach (GameObject enemyUnit in enemyUnits)
+    //    {
+    //        //update enemy stats before battle starts
+    //        enemyUnit.GetComponent<UnitStatFunctions>().updateStats();
+    //        UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStatFunctions>();
+    //        currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(0);
+    //        unitsStats.Add(currentUnitStats);
+    //    }
+
+    //    //sets active scene to the currently overlayed level
+    //    //   SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle1"));
+
+    //    unitsStats.Sort();
+
+    //    this.actionsMenu.SetActive(false);
+    //    this.enemyUnitsMenu.SetActive(false);
+    //    this.gameOverMenu.SetActive(false);
+
+    //    this.nextTurn();
+    //}
+
+    //public void nextTurn()
+    //{
+    //    GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
+    //    if (remainingEnemyUnits.Length == 0)
+    //    {
+    //        this.enemyEncounter.GetComponent<CollectReward>().collectReward();
+    //        //no enemies left
+    //        //unload current level
+    //        BGM.Stop();
+
+    //        //Re-enable the disabled/unconscious party members
+    //        revivePlayers();
+    //        controlPlayers();
+    //        GameManager1 gameManager = FindObjectOfType<GameManager1>();
+    //        gameManager.UpdateLevelScene();
+
+    //    }
+
+    //    GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+    //    if (remainingPlayerUnits.Length == 0)
+    //    {
+
+    //        // game Over
+    //        if (gameOverMenu != null)
+    //        {
+    //            //TODO: play GameOver SFX
+    //            actionsMenu.SetActive(false);
+    //            gameOverMenu.SetActive(true);
+
+    //        }
+
+    //    }
+
+    //    UnitStats currentUnitStats = unitsStats[0];
+    //    unitsStats.Remove(currentUnitStats);
+
+    //    //if the current unit has stats and isn't dead
+    //    if (currentUnitStats != null && !currentUnitStats.GetComponent<UnitStatFunctions>().isDead())
+    //    {
+    //        GameObject currentUnit = currentUnitStats.gameObject;
+    //        //set the current unit Here
+    //        CurrentPlayer = currentUnit;
+
+    //        currentUnitStats.GetComponent<UnitStatFunctions>().calculateNextActTurn(currentUnitStats.nextActTurn);
+    //        unitsStats.Add(currentUnitStats);
+    //        unitsStats.Sort();
+
+    //        if (currentUnit.tag == "PlayerUnit")
+    //        {
+    //            //regen Mana + 5% each player turn
+    //            currentUnit.GetComponent<UnitStats>().mana += (currentUnit.GetComponent<UnitStats>().maxMana / 100) * 5;
+    //            currentUnit.GetComponent<UnitStatFunctions>().mana += (currentUnit.GetComponent<UnitStatFunctions>().maxMana / 100) * 5;
+    //            if (currentUnit.GetComponent<UnitStats>().mana > currentUnit.GetComponent<UnitStats>().maxMana)
+    //            {
+    //                currentUnit.GetComponent<UnitStats>().mana = currentUnit.GetComponent<UnitStats>().maxMana;
+    //            }
+    //            if (currentUnit.GetComponent<UnitStatFunctions>().mana > currentUnit.GetComponent<UnitStatFunctions>().maxMana)
+    //            {
+    //                currentUnit.GetComponent<UnitStatFunctions>().mana = currentUnit.GetComponent<UnitStatFunctions>().maxMana;
+    //            }
+
+    //            this.playerParty.GetComponent<SelectUnit>().selectCurrentUnit(currentUnit.gameObject);
+    //        }
+    //        else
+    //        {
+    //            currentUnit.GetComponent<EnemyUnitAction>().act();
+    //        }
+    //    }
+    //    else
+    //    {
+    //        this.nextTurn();
+    //    }
+    //}
 
     private void StartParty()
     {
@@ -258,6 +375,6 @@ public class TurnSystem1 : MonoBehaviour
 
     public GameObject GetCurrentPlayer()
     {
-        return CurrentPlayer;
+        return Units[turnNumber];
     }
 }
