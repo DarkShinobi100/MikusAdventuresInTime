@@ -23,11 +23,6 @@ public class DialogueManager : MonoBehaviour {
     private bool justStarted;
     private bool BossWarning;
 
-    //confirm button
-    [SerializeField]
-    private GameObject confirm;
-    private SimpleTouchArea ConfirmButton;
-
     public static DialogueManager instance;
 
     [SerializeField]
@@ -36,8 +31,6 @@ public class DialogueManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         instance = this;
-        ConfirmButton = confirm.GetComponentInChildren<SimpleTouchArea>();
-       // dialogueText.text = dialogueLines[currentLine];
 	}
 	
 	// Update is called once per frame
@@ -45,8 +38,7 @@ public class DialogueManager : MonoBehaviour {
         //is the dialogue box open in the scene?
 		if(dialogueBox.activeInHierarchy)
         {//yes it is
-            confirm.SetActive(true);
-            if(ConfirmButton.Pressed() || Input.GetButtonUp("Fire1"))
+            if(Input.GetButtonUp("Fire1"))
             {
                 if (justStarted)
                 {

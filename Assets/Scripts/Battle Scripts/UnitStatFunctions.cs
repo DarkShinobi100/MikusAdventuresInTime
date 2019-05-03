@@ -47,7 +47,7 @@ public class UnitStatFunctions : UnitStats, IComparable
 
     public int CompareTo(object otherStats)
     {
-        return nextActTurn.CompareTo(((UnitStats)otherStats).nextActTurn);
+        return nextActTurn.CompareTo(((UnitStatFunctions)otherStats).nextActTurn);
     }
 
     public bool isDead()
