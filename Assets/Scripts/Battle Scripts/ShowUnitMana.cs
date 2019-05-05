@@ -4,7 +4,7 @@ using System.Collections;
 public class ShowUnitMana : ShowUnitStat {
 
 	override protected float newStatValue() {
-        float scaleAmount = (unit.GetComponent<UnitStats>().mana / unit.GetComponent<UnitStats>().maxMana) * 100;
+        float scaleAmount = (unit.GetComponent<UnitStatFunctions>().mana / unit.GetComponent<UnitStatFunctions>().maxMana) * 100;
         return scaleAmount;
     }
 }
