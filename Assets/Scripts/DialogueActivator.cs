@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour {
 
@@ -26,15 +24,17 @@ public class DialogueActivator : MonoBehaviour {
 		if(playerNearby && Input.GetButtonDown("Fire1") && !DialogueManager.instance.dialogueBox.activeInHierarchy) //is the player nearby? and the button is pressed and we haven't already turned on the dialogue box
          {
             //send this persons lines to the dialogue manager
-            player.GetComponent<PlayerMovement>().ReactivateAllButtons();
+            player.GetComponent<PlayerMovement>().DeactivateAllButtons();
+            player.GetComponent<PlayerMovement>().SetCanMove(false); //stop the player moving
             DialogueManager.instance.ShowDialogue(lines,isPerson);
             DialogueManager.instance.SetBossWarning(BossWarning);
             DialogueManager.instance.SetTargetNPC(this.gameObject);
         }
 
-        if (playerNearby && BossWarning) //is the player nearby? and this is a boss warning
+        if (playerNearby && BossWarning && !DialogueManager.instance.dialogueBox.activeInHierarchy) //is the player nearby? and this is a boss warning
         {
-            player.GetComponent<PlayerMovement>().ReactivateAllButtons();
+            player.GetComponent<PlayerMovement>().DeactivateAllButtons();
+            player.GetComponent<PlayerMovement>().SetCanMove(false); //stop the player moving
 
             //send this persons lines to the dialogue manager
             DialogueManager.instance.ShowDialogue(lines, isPerson);

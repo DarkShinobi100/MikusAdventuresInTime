@@ -122,6 +122,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             Horizontal = 0;
             Vertical = 0;
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
             DeactivateAllButtons();
         }
 #else
@@ -197,6 +198,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             Horizontal = 0;
             Vertical = 0;
+         gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
             DeactivateAllButtons();
         }
 
@@ -221,6 +223,9 @@ public class PlayerMovement : MonoBehaviour {
         //stop movement
         newVelocityX = 0f;
         newVelocityY = 0f;
+
+        animator.SetInteger("DirectionX", 0);
+        animator.SetInteger("DirectionY", 0);
 
         //turn off the buttons
         Up.SetActive(false);

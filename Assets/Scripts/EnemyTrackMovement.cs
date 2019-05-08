@@ -51,6 +51,19 @@ public class EnemyTrackMovement : MonoBehaviour {
         {
             //if player not nearby, go home
             enemy.transform.position = Vector3.MoveTowards(enemy.transform.position, orignalPosition, Time.deltaTime * moveSpeed);
+
+            float distanceX = enemy.transform.position.x - orignalPosition.x;
+            if (distanceX < 0.01f)
+            {
+                //walk right
+                animator.SetInteger("DirectionX", -1);
+            }
+            else
+            {
+                //walk left
+                animator.SetInteger("DirectionX", 1);
+            }
+
             if (Vector3.Distance(transform.position, player.transform.position) < .001f)
             {
                 Debug.Log("stand guard");

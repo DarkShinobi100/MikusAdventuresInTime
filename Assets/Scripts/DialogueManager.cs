@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour {
         {//yes it is
             if(Input.GetButtonUp("Fire1"))
             {
-                if (justStarted)
+                if (!justStarted)
                 {
                     currentLine++;
 
