@@ -89,7 +89,7 @@ MonoBehaviour:
   - no
   - thats mean
   - I'm leaving
-  confirm: {fileID: 0}
+  player: {fileID: 0}
   BossWarning: 0
   isPerson: 1
 --- !u!212 &212784886353054066
@@ -127,7 +127,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 8805543bc8900d0479b49a864b4e70a1, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 5756641d6431a954c9aec1aaebbf2fdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
