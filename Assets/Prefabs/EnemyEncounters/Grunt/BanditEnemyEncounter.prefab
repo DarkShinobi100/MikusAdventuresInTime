@@ -36,7 +36,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4644936752251190}
   - component: {fileID: 212791796287893758}
-  - component: {fileID: 114386932180837074}
   - component: {fileID: 114553958086777890}
   - component: {fileID: 114385843882928722}
   - component: {fileID: 95214455237495248}
@@ -58,7 +57,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4963552456267342}
   - component: {fileID: 212132876672590036}
-  - component: {fileID: 114525813920022560}
   - component: {fileID: 114269980992284494}
   - component: {fileID: 114431660838975406}
   - component: {fileID: 95740999497051240}
@@ -162,15 +160,15 @@ MonoBehaviour:
   animator: {fileID: 95740999497051240}
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
-  damageTextPosition: {x: 0, y: 0}
-  health: 10
+  damageTextPosition: {x: -480, y: -60}
+  health: 15
   mana: 10
   maxHealth: 10
   maxMana: 10
   attack: 10
-  magic: 0
-  defense: 0
-  speed: 0
+  magic: 5
+  defense: 5
+  speed: 20
   nextActTurn: 0
   playerLevel: 0
   EXPToNextLevel: 0
@@ -204,32 +202,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attack: {fileID: 1000010956341920, guid: abac15af220b60947882d768c5ec8403, type: 2}
   targetsTag: PlayerUnit
---- !u!114 &114386932180837074
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1734604737443554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e11caa8d760dc714cb27ee8f63255bb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 95214455237495248}
-  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
-    type: 2}
-  damageTextPosition: {x: -480, y: 95}
-  health: 15
-  mana: 10
-  maxHealth: 10
-  maxMana: 10
-  attack: 10
-  magic: 5
-  defense: 5
-  speed: 20
-  nextActTurn: 0
-  playerLevel: 0
-  EXPToNextLevel: 0
 --- !u!114 &114431660838975406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -243,32 +215,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attack: {fileID: 1000010956341920, guid: abac15af220b60947882d768c5ec8403, type: 2}
   targetsTag: PlayerUnit
---- !u!114 &114525813920022560
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1792535548683002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e11caa8d760dc714cb27ee8f63255bb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 95740999497051240}
-  damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
-    type: 2}
-  damageTextPosition: {x: -480, y: -60}
-  health: 15
-  mana: 10
-  maxHealth: 10
-  maxMana: 10
-  attack: 10
-  magic: 5
-  defense: 5
-  speed: 20
-  nextActTurn: 0
-  playerLevel: 0
-  EXPToNextLevel: 0
 --- !u!114 &114553958086777890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -283,15 +229,15 @@ MonoBehaviour:
   animator: {fileID: 95214455237495248}
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
-  damageTextPosition: {x: 0, y: 0}
-  health: 10
+  damageTextPosition: {x: -480, y: 95}
+  health: 15
   mana: 10
   maxHealth: 10
   maxMana: 10
   attack: 10
-  magic: 0
-  defense: 0
-  speed: 0
+  magic: 5
+  defense: 5
+  speed: 20
   nextActTurn: 0
   playerLevel: 0
   EXPToNextLevel: 0
