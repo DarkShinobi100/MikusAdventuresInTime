@@ -1486,58 +1486,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 224871766800114646, guid: 727f5bee6656107498538e055b53eb83,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1912137903252294, guid: 727f5bee6656107498538e055b53eb83, type: 2}
+    - target: {fileID: 1292212926593740, guid: 727f5bee6656107498538e055b53eb83, type: 2}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224420573575949568, guid: 727f5bee6656107498538e055b53eb83,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224294561473551936, guid: 727f5bee6656107498538e055b53eb83,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224805658817331442, guid: 727f5bee6656107498538e055b53eb83,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224288476145393676, guid: 727f5bee6656107498538e055b53eb83,
-        type: 2}
-      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224144327821683544, guid: 727f5bee6656107498538e055b53eb83,
         type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022953258722162, guid: 727f5bee6656107498538e055b53eb83, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.15471035
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022953258722162, guid: 727f5bee6656107498538e055b53eb83, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.98795986
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022953258722162, guid: 727f5bee6656107498538e055b53eb83, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 17.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022953258722162, guid: 727f5bee6656107498538e055b53eb83, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 3.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 4685107091980096, guid: 727f5bee6656107498538e055b53eb83, type: 2}
-      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
