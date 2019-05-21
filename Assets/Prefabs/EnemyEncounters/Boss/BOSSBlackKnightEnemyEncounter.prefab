@@ -179,13 +179,13 @@ MonoBehaviour:
     type: 2}
   damageTextPosition: {x: -460, y: -60}
   health: 100
-  mana: 10
+  mana: 15
   maxHealth: 100
-  maxMana: 10
-  attack: 20
-  magic: 15
-  defense: 15
-  speed: 20
+  maxMana: 15
+  attack: 10
+  magic: 5
+  defense: 5
+  speed: 10
   nextActTurn: 0
   playerLevel: 0
   EXPToNextLevel: 0
@@ -255,13 +255,13 @@ MonoBehaviour:
     type: 2}
   damageTextPosition: {x: -460, y: 95}
   health: 100
-  mana: 10
+  mana: 15
   maxHealth: 100
-  maxMana: 10
-  attack: 20
-  magic: 15
-  defense: 15
-  speed: 20
+  maxMana: 15
+  attack: 10
+  magic: 5
+  defense: 5
+  speed: 10
   nextActTurn: 0
   playerLevel: 0
   EXPToNextLevel: 0

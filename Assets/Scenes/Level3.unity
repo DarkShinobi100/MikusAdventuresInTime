@@ -1230,7 +1230,7 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[5]
-      value: n-Dark
+      value: n-Fairy
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
@@ -1250,7 +1250,7 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[10]
-      value: n-Dark
+      value: n-Fairy
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
@@ -1294,7 +1294,7 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[4]
-      value: but sisn't you say they suck?
+      value: but didn't someone say they suck?
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
@@ -1319,6 +1319,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300004, guid: 9339c87a456ec0e478d6c61915d33032,
         type: 3}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[0]
+      value: n-Fairy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -9408,7 +9413,7 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[9]
-      value: n-Dark
+      value: n-Yu
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
@@ -9451,6 +9456,16 @@ Prefab:
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalScale.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[0]
+      value: n-Yu
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[4]
+      value: n-Yu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
@@ -10191,7 +10206,7 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[8]
-      value: n-Dark
+      value: n-Yu
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
@@ -10243,6 +10258,16 @@ Prefab:
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalScale.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[0]
+      value: n-Yu
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[4]
+      value: n-Yu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}

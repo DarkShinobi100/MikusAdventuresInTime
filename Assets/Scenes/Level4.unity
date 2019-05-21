@@ -1333,12 +1333,12 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[7]
-      value: why does this keep happening
+      value: why does this keep happening?
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[8]
-      value: guess, best find that portal
+      value: guess, best to find that portal
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
