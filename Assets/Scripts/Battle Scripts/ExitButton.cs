@@ -5,10 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class ExitButton : MonoBehaviour
 {
-        //if the player wants to quit the game
-       public void QuitGame()
+    private new AudioSource audio;
+
+    private void Start()
+    {
+        audio = this.gameObject.GetComponent<AudioSource>();
+    }
+    //if the player wants to quit the game
+    public void QuitGame()
         {
-            Application.Quit();
+        //play audio
+        if (audio != null)
+        {
+            audio.Play();
+        }
+        Application.Quit();
             Debug.Log("Game is exiting");
             //Just to make sure its working
         }

@@ -10,9 +10,11 @@ public class RunFromBattle : MonoBehaviour
     private bool boss;
     private GameObject[] enemyUnits;
     private GameManager1 gameManager;
+    private new AudioSource audio;
 
     private void Start()
     {
+        audio = this.gameObject.GetComponent<AudioSource>();
         boss = false; //set false as default
         enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
         gameManager = FindObjectOfType<GameManager1>();
@@ -27,6 +29,13 @@ public class RunFromBattle : MonoBehaviour
     }
     public void tryRunning()
     {
+        //play audio
+        if (audio != null)
+        {
+            audio.Play();
+        }
+
+
         float randomNumber = Random.value;
 
         //if there is a boss you cannot escape

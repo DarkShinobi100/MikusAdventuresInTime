@@ -7,11 +7,12 @@ public class Heal : MonoBehaviour
 
     [SerializeField]
     private float HP;
-
+    private new AudioSource audio;
     // Use this for initialization
     void Start()
     {
         this.gameObject.GetComponent<Button>().onClick.AddListener(() => addCallback());
+        audio = this.gameObject.GetComponent<AudioSource>();
     }
 
     private void addCallback()
@@ -30,7 +31,11 @@ public class Heal : MonoBehaviour
             currentPlayer.GetComponent<UnitStats>().health = currentPlayer.GetComponent<UnitStats>().maxHealth;
             currentPlayer.GetComponent<UnitStatFunctions>().health = currentPlayer.GetComponent<UnitStats>().maxHealth;
         }
-        //TODO: play heal SFX
+        // play heal SFX
+        if(audio != null)
+        {
+            audio.Play();
+        }
 
         GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
         currentPlayer.GetComponent<PlayerUnitAction>().updateHUD();
