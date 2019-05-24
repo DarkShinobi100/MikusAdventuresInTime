@@ -178,7 +178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -317,6 +317,21 @@ Prefab:
       propertyPath: confirmButton
       value: 
       objectReference: {fileID: 495923379}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -1741,7 +1756,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4630098554727810, guid: 37926dbb42e1d1c4abd4babbc8a83a38, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.97
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4630098554727810, guid: 37926dbb42e1d1c4abd4babbc8a83a38, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4534,7 +4549,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4644,6 +4659,21 @@ Prefab:
       propertyPath: confirmButton
       value: 
       objectReference: {fileID: 495923379}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.34
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -8667,7 +8697,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4630098554727810, guid: 37926dbb42e1d1c4abd4babbc8a83a38, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4630098554727810, guid: 37926dbb42e1d1c4abd4babbc8a83a38, type: 2}
       propertyPath: m_LocalPosition.z
