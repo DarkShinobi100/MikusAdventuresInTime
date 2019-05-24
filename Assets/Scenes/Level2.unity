@@ -6841,50 +6841,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 212339094207239686, guid: fb7f84287dc811c4685f29201ac93a37,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f6be4e42b03f0da46b2db125c206e7f3,
-        type: 3}
-    - target: {fileID: 114472675919362146, guid: fb7f84287dc811c4685f29201ac93a37,
-        type: 2}
-      propertyPath: enemyEncounterPrefab
-      value: 
-      objectReference: {fileID: 1331518224329064, guid: b059b4bc3acb3de4d9cf145178f6c3ce,
-        type: 2}
-    - target: {fileID: 95904777480814984, guid: fb7f84287dc811c4685f29201ac93a37,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 22100000, guid: efe001eedbc162b4a85671e366507d26,
-        type: 2}
-    - target: {fileID: 135231592601368900, guid: fb7f84287dc811c4685f29201ac93a37,
-        type: 2}
-      propertyPath: m_Radius
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434691060821356, guid: fb7f84287dc811c4685f29201ac93a37, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1657329336295922, guid: fb7f84287dc811c4685f29201ac93a37, type: 2}
-      propertyPath: m_Name
-      value: FairyEnemySpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 4854165271425614, guid: fb7f84287dc811c4685f29201ac93a37, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4854165271425614, guid: fb7f84287dc811c4685f29201ac93a37, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114720472025868054, guid: fb7f84287dc811c4685f29201ac93a37,
         type: 2}
       propertyPath: player
       value: 
       objectReference: {fileID: 347807818}
+    - target: {fileID: 1657329336295922, guid: fb7f84287dc811c4685f29201ac93a37, type: 2}
+      propertyPath: m_Name
+      value: FairyEnemySpawner
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb7f84287dc811c4685f29201ac93a37, type: 2}
   m_IsPrefabAsset: 0

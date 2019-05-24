@@ -11,6 +11,9 @@ public class DialogueActivator : MonoBehaviour {
     private GameObject player;
 
     [SerializeField]
+    private SimpleTouchArea confirmButton;
+
+    [SerializeField]
     private bool BossWarning = false;
     [SerializeField]
     private bool isPerson = true;
@@ -21,7 +24,7 @@ public class DialogueActivator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(playerNearby && Input.GetButtonDown("Fire1") && !DialogueManager.instance.dialogueBox.activeInHierarchy) //is the player nearby? and the button is pressed and we haven't already turned on the dialogue box
+		if(playerNearby && confirmButton.Pressed() && !DialogueManager.instance.dialogueBox.activeInHierarchy) //is the player nearby? and the button is pressed and we haven't already turned on the dialogue box
          {
             //send this persons lines to the dialogue manager
             player.GetComponent<PlayerMovement>().DeactivateAllButtons();

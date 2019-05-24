@@ -312,6 +312,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300004, guid: 5756641d6431a954c9aec1aaebbf2fdb,
         type: 3}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 495923379}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -1804,6 +1809,16 @@ Prefab:
       propertyPath: lines.Array.data[0]
       value: Go right
       objectReference: {fileID: 0}
+    - target: {fileID: 114058994557420074, guid: 37926dbb42e1d1c4abd4babbc8a83a38,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 495923379}
+    - target: {fileID: 114058994557420074, guid: 37926dbb42e1d1c4abd4babbc8a83a38,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 520315448}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37926dbb42e1d1c4abd4babbc8a83a38, type: 2}
   m_IsPrefabAsset: 0
@@ -3206,13 +3221,20 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1292212926593740, guid: 727f5bee6656107498538e055b53eb83, type: 2}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 224085029952028930, guid: 727f5bee6656107498538e055b53eb83,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -143
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727f5bee6656107498538e055b53eb83, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &495923379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114781688737504294, guid: 727f5bee6656107498538e055b53eb83,
+    type: 2}
+  m_PrefabInternal: {fileID: 495923378}
+  m_Script: {fileID: 11500000, guid: 6cff33e0ee7af7740ad54a7c44573241, type: 3}
 --- !u!1 &505358211
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,6 +3796,11 @@ Prefab:
       value: 
       objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 495923379}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -4612,6 +4639,11 @@ Prefab:
       propertyPath: lines.Array.data[4]
       value: n-Fairy
       objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 495923379}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -8703,6 +8735,16 @@ Prefab:
       propertyPath: lines.Array.data[0]
       value: Go right
       objectReference: {fileID: 0}
+    - target: {fileID: 114058994557420074, guid: 37926dbb42e1d1c4abd4babbc8a83a38,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 495923379}
+    - target: {fileID: 114058994557420074, guid: 37926dbb42e1d1c4abd4babbc8a83a38,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 520315448}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37926dbb42e1d1c4abd4babbc8a83a38, type: 2}
   m_IsPrefabAsset: 0
