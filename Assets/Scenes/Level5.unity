@@ -1379,7 +1379,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -12.383164
+      value: -11.41
       objectReference: {fileID: 0}
     - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1436,53 +1436,148 @@ Prefab:
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: where am I now?
+      value: huh?
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[2]
-      value: looks like a church
+      value: so where am I now?
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[3]
-      value: wait, this isn't what I think right
+      value: '...hmmm'
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[4]
-      value: '...'
+      value: looks like a church
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[5]
-      value: it can't be the final confrontation..
+      value: wait is that ment to be me?
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[6]
-      value: hmmm
+      value: huh!?
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[7]
-      value: but that does look like
+      value: Guess I'd best talk to Kaito
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[8]
-      value: kaito, up there so let's ask him
+      value: He'll know whats going on....
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: lines.Array.data[9]
-      value: I'm leaving
+      value: in order to split you up from your friends
       objectReference: {fileID: 0}
     - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
         type: 2}
       propertyPath: player
       value: 
       objectReference: {fileID: 1590663055}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 1590663056}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[10]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[11]
+      value: but I met them anyway?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[12]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[13]
+      value: I didn't intend for that
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[14]
+      value: but I will concede defeat
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[15]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[16]
+      value: so can we just be friends?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[17]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[18]
+      value: I'd like that
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[19]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[20]
+      value: lets go then, together
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[21]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[22]
+      value: sounds good
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[23]
+      value: so can we just be friends?
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 65243037446964706, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.84
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
   m_IsPrefabAsset: 0
@@ -2903,6 +2998,237 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &825549341
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1085599094}
+    m_Modifications:
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.size
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.383164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 33.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: BossWarning
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514133364245322, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+      propertyPath: m_Name
+      value: plot-GameWin
+      objectReference: {fileID: 0}
+    - target: {fileID: 212784886353054066, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 212784886353054066, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[0]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[1]
+      value: So why did we fight Kaito?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[2]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[3]
+      value: I just wanted your love
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[4]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[5]
+      value: huh?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[6]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[7]
+      value: but every time you got distracted
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[8]
+      value: so I had to resort to using time travel
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[9]
+      value: in order to split you up from your friends
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1590663055}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 1590663056}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[10]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[11]
+      value: but I met them anyway?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[12]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[13]
+      value: I didn't intend for that
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[14]
+      value: but I will concede defeat
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[15]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[16]
+      value: so can we just be friends?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[17]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[18]
+      value: I'd like that
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[19]
+      value: n-Miku
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[20]
+      value: lets go then, together
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[21]
+      value: n-Kaito
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[22]
+      value: sounds good
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[23]
+      value: '....'
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 65279980914592732, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[24]
+      value: n-Dark
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[25]
+      value: Hiya, suppose I should say a couple words
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[26]
+      value: hope you enjoyed your adventure
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[27]
+      value: I look forward to our next one
+      objectReference: {fileID: 0}
+    - target: {fileID: 114837194725281548, guid: 07c8e71c587afcb49897cd36c2392eeb,
+        type: 2}
+      propertyPath: lines.Array.data[28]
+      value: Thanks for playing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07c8e71c587afcb49897cd36c2392eeb, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &827864743
 Prefab:
   m_ObjectHideFlags: 0
@@ -3522,9 +3848,15 @@ Transform:
   - {fileID: 224538792}
   - {fileID: 1385579294}
   - {fileID: 680683637}
+  - {fileID: 1093632178}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1093632178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4047874181237200, guid: 07c8e71c587afcb49897cd36c2392eeb,
+    type: 2}
+  m_PrefabInternal: {fileID: 825549341}
 --- !u!1 &1117395934
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,6 +5462,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1083599749406594, guid: 727f5bee6656107498538e055b53eb83,
     type: 2}
   m_PrefabInternal: {fileID: 1590663054}
+--- !u!114 &1590663056 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114781688737504294, guid: 727f5bee6656107498538e055b53eb83,
+    type: 2}
+  m_PrefabInternal: {fileID: 1590663054}
+  m_Script: {fileID: 11500000, guid: 6cff33e0ee7af7740ad54a7c44573241, type: 3}
 --- !u!1 &1627847875
 GameObject:
   m_ObjectHideFlags: 0
@@ -6000,7 +6338,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4482202471708140, guid: d7ef71c5d21ae12439651795889b7ef9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 25.611214
+      value: 23.9
       objectReference: {fileID: 0}
     - target: {fileID: 4482202471708140, guid: d7ef71c5d21ae12439651795889b7ef9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6039,6 +6377,21 @@ Prefab:
       value: 
       objectReference: {fileID: 21300066, guid: 4df5e5e622442e140bf66fef8877c986,
         type: 3}
+    - target: {fileID: 65644050877062522, guid: d7ef71c5d21ae12439651795889b7ef9,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 65644050877062522, guid: d7ef71c5d21ae12439651795889b7ef9,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 65644050877062522, guid: d7ef71c5d21ae12439651795889b7ef9,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 3.83
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7ef71c5d21ae12439651795889b7ef9, type: 2}
   m_IsPrefabAsset: 0
