@@ -4,7 +4,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class ExitButton : MonoBehaviour
-{
+{//this script allows the game to end when the button is clicked
     private new AudioSource audio;
 
     private void Start()

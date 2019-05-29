@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameManager1 : MonoBehaviour
-{
+{ //this script handles loading to and from the battle scene and the main levels
 
     [SerializeField]
     private GameObject player, environment;
@@ -23,11 +23,11 @@ public class GameManager1 : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "Title")
-        {
+        {//if we return to the title delete yourself
             SceneManager.sceneLoaded -= OnSceneLoaded;
             Destroy(this);
         }
-        else if (scene.name == "Level1")
+        else if (scene.name == "Level1") //for all other scenes make sure you exist
         {
             for (int i = 0; i < enemy.Length; i++)
             {
@@ -129,7 +129,8 @@ public class GameManager1 : MonoBehaviour
     }
 
     public void UpdateLevelScene()
-    {
+    { //we are returning to the main level
+        //re-enable all assets on the main level
 
         if (player != null)
         {
@@ -157,7 +158,8 @@ public class GameManager1 : MonoBehaviour
     }
 
     public void UpdateBattleScene()
-    {
+    {//we are going to the battle scen
+        //disable all assets on the main level
         for (int i = 0; i < enemy.Length; i++)
         {
             if (enemy[i] != null)

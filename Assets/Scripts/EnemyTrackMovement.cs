@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyTrackMovement : MonoBehaviour {
-
+    //this script controls the AI that will follow the player
     [SerializeField]
     private float moveSpeed;
     [SerializeField]

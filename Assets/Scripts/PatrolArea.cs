@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PatrolArea : MonoBehaviour {
+    //this script will tell the AI that the player is nearby or not
     [SerializeField]
     private GameObject enemy;
     private bool playerNearby = false;

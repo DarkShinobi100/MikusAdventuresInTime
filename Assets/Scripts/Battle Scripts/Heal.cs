@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class Heal : MonoBehaviour
-{
+{//this script will heal the player when the button is clicked
 
     [SerializeField]
     private float HP;

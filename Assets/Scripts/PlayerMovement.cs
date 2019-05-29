@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
-
+    //this script will control how the player will move around the map
     [SerializeField]
 	private float speed;
     [SerializeField]
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour {
     }
     void FixedUpdate () {
 
-#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER // the build for PC's control sceheme
         if (canMove)
         {
             Horizontal = Input.GetAxis("Horizontal");
@@ -125,7 +125,7 @@ public class PlayerMovement : MonoBehaviour {
             gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
             DeactivateAllButtons();
         }
-#else
+#else //the build for androids controls scheme
         if (canMove)
         {
             Horizontal = 0;

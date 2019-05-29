@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UpdateLevelDesign : MonoBehaviour
 {
-
+    //this script will update the battle scene background image and music to match the current level
     [SerializeField]
     private GameObject[] images;
     [SerializeField]

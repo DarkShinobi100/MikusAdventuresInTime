@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBasicMovement : MonoBehaviour
-{
+{//this script will control the basic AI pathfinding
 
     [SerializeField]
     float moveSpeed;

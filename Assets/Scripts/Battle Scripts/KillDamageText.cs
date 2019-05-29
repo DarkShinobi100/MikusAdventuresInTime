@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class KillDamageText : MonoBehaviour {
-
+    //this script will display the damage that a unit has received from an attack above that unit
 	[SerializeField]
 	private float destroyTime;
 

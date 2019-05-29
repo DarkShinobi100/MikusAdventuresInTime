@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class AddButtonCallback : MonoBehaviour {
-
+    //This script checks if the gameobject it is attached to has been clicked or not
 	[SerializeField]
 	private bool physical;
     private new AudioSource audio;
@@ -21,6 +21,7 @@ public class AddButtonCallback : MonoBehaviour {
         {
             audio.Play();
         }
+        //If we have been clicked on please display the select attack menu for the player party
         playerParty.GetComponent<SelectUnit> ().selectAttack (this.physical);
 	}
 

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class StartBattle : MonoBehaviour
-{
+{//this script controls beginning the battle
 
     // Use this for initialization
     void Start()

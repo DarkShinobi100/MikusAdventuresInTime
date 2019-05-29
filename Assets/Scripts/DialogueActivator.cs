@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour {
-
+    //this script will control the dialogue system
     [SerializeField]
     private string[] lines;
 

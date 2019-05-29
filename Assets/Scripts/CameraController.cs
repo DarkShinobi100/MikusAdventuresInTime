@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour {
     [SerializeField]
     private GameObject Player;
-
+    //this script controls how the camera will track the player
     private Vector3 offset;
 
     // Use this for initialization

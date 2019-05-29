@@ -4,7 +4,7 @@ using System.Collections;
 
 public class SpawnEnemy : MonoBehaviour
 {
-
+    //this script will control spawning the enemies in the encounter into the battle scene0
     [SerializeField]
     private GameObject enemyEncounterPrefab;
     private bool playerTouch = false;
@@ -20,25 +20,25 @@ public class SpawnEnemy : MonoBehaviour
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
+    {//check which scene is being loaded
         if (scene.name == "Battle1" && playerTouch == true)
         {
             if (this.spawning)
-            {
+            {//if we are spawning enemies spawn the correct ones
                 Instantiate(enemyEncounterPrefab);
             }
             SceneManager.sceneLoaded -= OnSceneLoaded;
             Destroy(this.gameObject);
         }
         if (scene.name == "Title")
-        {
+        {//if we are loading the title delete this object
             SceneManager.sceneLoaded -= OnSceneLoaded;
             Destroy(this.gameObject);
         }
     }
 
     void OnTriggerEnter(Collider other)
-    {
+    {//if we touch the player it's time to fight
         if (other.gameObject.tag == "Player")
         {
             playerTouch = true;

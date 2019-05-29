@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class SimpleTouchArea : MonoBehaviour, IPointerDownHandler,IPointerUpHandler
-{
+{//this script will check if a button has been pressed
     private bool pressed;
 
     void Awake()

@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class TurnSystem1 : MonoBehaviour
-{
+{//this is the system for the turn based system
 
     private List<UnitStatFunctions> unitsStats;
 
@@ -138,7 +138,7 @@ public class TurnSystem1 : MonoBehaviour
 
     //}
     //---------------------------
-    //RPGMaker system-------------------
+    //RPGMaker Style system-------------------
     //-----------------------------
 
     void Start()

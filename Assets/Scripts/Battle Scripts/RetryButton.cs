@@ -4,7 +4,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class RetryButton : MonoBehaviour
-{
+{//this script allows the player to return to the title screen when clicked
     private GameObject[] enemyUnits;
     private new AudioSource audio;
     // Use this for initialization

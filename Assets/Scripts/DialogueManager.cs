@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
+    //this script will store all the dialogue that the NPC will have
     [SerializeField]
     private Text dialogueText;
     [SerializeField]

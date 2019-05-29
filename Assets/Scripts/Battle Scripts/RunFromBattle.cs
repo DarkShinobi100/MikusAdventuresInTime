@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class RunFromBattle : MonoBehaviour
-{
+{//this script allows the player to run from battle
 
     [SerializeField]
     private float runnningChance;
@@ -39,6 +39,7 @@ public class RunFromBattle : MonoBehaviour
         float randomNumber = Random.value;
 
         //if there is a boss you cannot escape
+        //check if they are able to run from battle by using a random number
         if (boss == false && randomNumber < this.runnningChance)
         {
 

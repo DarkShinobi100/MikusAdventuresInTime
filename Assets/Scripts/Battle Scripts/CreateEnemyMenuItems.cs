@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class CreateEnemyMenuItems : MonoBehaviour {
-
+    //this script will display the enemy units faces to allow the player to pick an attack target
 	[SerializeField]
 	private GameObject targetEnemyUnitPrefab;
 
@@ -25,9 +25,10 @@ public class CreateEnemyMenuItems : MonoBehaviour {
 		GameObject[] existingItems = GameObject.FindGameObjectsWithTag ("TargetEnemyUnit");
 		Vector2 nextPosition = new Vector2 (this.initialPosition.x + (existingItems.Length * this.itemDimensions.x), this.initialPosition.y);
 
+        //spawn the enemy units faces in a row below the battle map
 		GameObject targetEnemyUnit = Instantiate (this.targetEnemyUnitPrefab, enemyUnitsMenu.transform) as GameObject;
 		targetEnemyUnit.name = "Target" + this.gameObject.name;
-		targetEnemyUnit.transform.localPosition = nextPosition;
+		targetEnemyUnit.transform.localPosition = nextPosition; //move the icons along by a set amount if they are overlapping
 		targetEnemyUnit.transform.localScale = new Vector2 (0.7f, 0.7f);
 		targetEnemyUnit.GetComponent<Button> ().onClick.AddListener (() => 
 			selectEnemyTarget());
@@ -37,6 +38,7 @@ public class CreateEnemyMenuItems : MonoBehaviour {
 	}
 
 	public void selectEnemyTarget() {
+        //run the attack enemy target function once we have an attack target
 		GameObject partyData = GameObject.Find ("PlayerParty");
 		partyData.GetComponent<SelectUnit> ().attackEnemyTarget (this.gameObject);
 	}

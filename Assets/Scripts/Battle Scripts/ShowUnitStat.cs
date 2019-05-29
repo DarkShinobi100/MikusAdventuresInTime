@@ -2,7 +2,7 @@
 using System.Collections;
 
 public abstract class ShowUnitStat : MonoBehaviour {
-
+    //this script will show the units stats for the current member
 	[SerializeField]
 	protected GameObject unit;
 

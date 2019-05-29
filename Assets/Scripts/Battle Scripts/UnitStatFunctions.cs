@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 
 public class UnitStatFunctions : UnitStats, IComparable
-{
+{//This script will handle all the maths using the units stats which we learn from the parent script "UnitStats"
     public void receiveDamage(float damage)
     {
         this.health -= damage;
