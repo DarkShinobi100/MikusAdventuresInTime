@@ -12393,6 +12393,11 @@ Prefab:
       propertyPath: m_Size.z
       value: 1.33
       objectReference: {fileID: 0}
+    - target: {fileID: 114255773872718240, guid: 1e89f25cd5bebc64a8f6d1392d8145b8,
+        type: 2}
+      propertyPath: level
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e89f25cd5bebc64a8f6d1392d8145b8, type: 2}
   m_IsPrefabAsset: 0
