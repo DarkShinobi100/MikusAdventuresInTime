@@ -412,11 +412,11 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -480, y: 95}
-  health: 15
+  health: 150
   mana: 10
-  maxHealth: 10
+  maxHealth: 150
   maxMana: 10
-  attack: 10
+  attack: 25
   magic: 5
   defense: 5
   speed: 20
@@ -462,11 +462,11 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 1000010700609224, guid: 3505654a234df5f4094a2e33a6df4a1c,
     type: 2}
   damageTextPosition: {x: -480, y: -60}
-  health: 15
+  health: 150
   mana: 10
-  maxHealth: 10
+  maxHealth: 150
   maxMana: 10
-  attack: 10
+  attack: 25
   magic: 5
   defense: 5
   speed: 20

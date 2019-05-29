@@ -72,10 +72,11 @@ public class RunFromBattle : MonoBehaviour
         {
             //next turn
             GameObject turnSystem = GameObject.Find("TurnSystem");
-           // turnSystem.GetComponent<TurnSystem1>().IncreaseTurn();
+            // turnSystem.GetComponent<TurnSystem1>().IncreaseTurn();
+            GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
             turnSystem.GetComponent<TurnSystem1>().nextTurn();
 
-            GameObject.Find("PlayerParty").GetComponent<SelectUnit>().setMenus();
+            
 
         }
 
